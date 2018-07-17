@@ -1256,12 +1256,6 @@ function createAssessment(chapter, symbol, stars) {
   return assessment;
 }
 
-// The quiz object.
-var Quiz = {
-  imageIndices: [],
-  assessments: []
-};
-
 // relocate
 function paintStrokes(context, strokes, color, opaqueness, size) {
 
@@ -2477,6 +2471,16 @@ function calculateAssessmentBasicsScore(assessments) {
 
 }
 
+// TODO
+function calculateAssessmentFormScore(assessments) {
+  //
+}
+
+// TODO
+function calculateAssessmentPrecisionScore(assessments) {
+  //
+}
+
 function goButton(canvas, context) {
 
   // get the selected option
@@ -2722,6 +2726,12 @@ var Results = {
 var Assessments = {
   individualGrades: []
 }
+
+// The quiz object.
+var Quiz = {
+  imageIndices: [],
+  assessments: []
+};
 
 // The colors.
 var Colors = {
