@@ -2547,7 +2547,7 @@ function outputAssessmentMetricScores(assessments) {
 
 function outputAssessmentDetailedScores(assessments) {
   // set the HTML tags
-  var table  = "<table>";
+  var table  = "<table class='detailedtable'>";
   var table_ = "</table>";
   var tr     = "<tr>";
   var tr_    = "</tr>";

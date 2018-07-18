@@ -110,11 +110,11 @@ th {
   width: 70%;
 }
 
-.structuretable th, .overalltable th, .individualtable th {
+.structuretable th, .overalltable th {
   background-color: #555500;
   color: white;
 }
-.structuretable tr:nth-child(even), .overalltable tr:nth-child(even), .individualtable tr:nth-child(even) {
+.structuretable tr:nth-child(even), .overalltable tr:nth-child(even) {
   background-color: #FFFFAA;
 }
 
@@ -140,4 +140,17 @@ th {
 }
 .categorytable tr:nth-child(even)  {
   background-color: #9775AA;
+}
+
+.detailedtable th, .detailedtable td {
+  text-align: center;
+  /* padding: 8px; */
+}
+
+.individualtable th, .detailedtable th {
+  background-color: #13073A;
+  color: white;
+}
+.individualtable tr:nth-child(even), .detailedtable tr:nth-child(even)  {
+  background-color: #CD88AF;
 }
