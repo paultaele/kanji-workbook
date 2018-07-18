@@ -79,11 +79,25 @@ th {
 }
 
 .smalltable {
-  margin: 0 auto; /* centers on the page */
+  margin: 0 auto;
   width: 50%;
 }
 .smalltable th, .smalltable td {
   text-align: center;
+}
+
+.table2col_25_75 td:nth-child(1) {
+  width: 25%;
+}
+.table2col_25_75 td:nth-child(2) {
+  width: 75%;
+}
+
+.table2col_75_25 td:nth-child(1) {
+  width: 75%;
+}
+.table2col_75_25 td:nth-child(2) {
+  width: 25%;
 }
 
 .symboltable td:nth-child(1) {

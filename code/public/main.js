@@ -2218,7 +2218,7 @@ function outputAssessmentOverallScore(assessments) {
   var chapter = assessments[0].chapter;
 
   // set the HTML tags
-  var table  = "<table class='smalltable largetext'>";
+  var table  = "<table class='smalltable table2col_25_75 largetext'>";
   var table_ = "</table>";
   var tr     = "<tr>";
   var tr_    = "</tr>";
@@ -2334,7 +2334,7 @@ function outputAssessmentIndividualScores(assessments) {
   // #region Score Display Code
 
   // set the HTML tags
-  var table  = "<table class='smalltable largetext'>";
+  var table  = "<table class='smalltable table2col_25_75 largetext'>";
   var table_ = "</table>";
   var tr     = "<tr>";
   var tr_    = "</tr>";
@@ -2409,10 +2409,20 @@ function outputAssessmentMetricScores(assessments) {
   var temp = starCounts.map(x => Math.round((x / assessments.length)));
   starCounts = temp;
 
+  //
+  var metricStars = {};
+  for (var i = 0; i < metricNames.length; ++i) {
+    var metricName = metricNames[i];
+    var starCount = starCounts[i];
+    metricStars[metricName] = starCount;
+  }
+
   // --------------------------------------------------
 
   // set the HTML tags
-  var table  = "<table class='smalltable'>";
+  var structureTable  = "<table class='structuretable smalltable table2col_75_25 largetext'>";
+  var techniqueTable  = "<table class='techniquetable smalltable table2col_75_25 largetext'>";
+  var precisionTable  = "<table class='precisiontable smalltable table2col_75_25 largetext'>";
   var table_ = "</table>";
   var tr     = "<tr>";
   var tr_    = "</tr>";
@@ -2420,34 +2430,114 @@ function outputAssessmentMetricScores(assessments) {
   var th_    = "</th>"; 
   var td     = "<td>";
   var td_    = "</td>";
+  var br     = "<br>";
   
   //
   var output = "";
 
   //
-  output += "<span class='largetext'>" + "<strong>Metric Scores</strong>" + "</span>";
+  var assessmentType, starCount;
 
-  // start table
-  output += table;
+  //
+  let structureOutput = "<span class='largetext'>" + "<strong>Structure Scores</strong>" + "</span>";
+  {
+    // start table
+    structureOutput += structureTable;
 
-  // write table headers
-  output += tr;
-  output += th + "Metric" + th_;
-  output += th + "Score" + th_;
-  output += tr_;
+    // write table headers
+    structureOutput += tr;
+    structureOutput += th + "Metric" + th_;
+    structureOutput += th + "Score" + th_;
+    structureOutput += tr_;
 
-  // write table data
-  for (var i = 0; i < metricNames.length; ++i) {
-    var assessmentType = metricNames[i];
-    var starCount = starCounts[i];
-    output += tr;
-    output += td + assessmentType + td_;
-    output += td + getTextStars(starCount, 3) + td_;
-    output += tr_;
+    assessmentType = "strokeMatch";
+    starCount = metricStars[assessmentType];
+    structureOutput += tr;
+    structureOutput += td + assessmentType + td_;
+    structureOutput += td + getTextStars(starCount, 3) + td_;
+    structureOutput += tr_;
+
+    assessmentType = "strokeValid";
+    starCount = metricStars[assessmentType];
+    structureOutput += tr;
+    structureOutput += td + assessmentType + td_;
+    structureOutput += td + getTextStars(starCount, 3) + td_;
+    structureOutput += tr_;
+
+    assessmentType = "strokeExist";
+    starCount = metricStars[assessmentType];
+    structureOutput += tr;
+    structureOutput += td + assessmentType + td_;
+    structureOutput += td + getTextStars(starCount, 3) + td_;
+    structureOutput += tr_;
+
+    // end table
+    structureOutput += table_;
   }
+  output += structureOutput;
+  output += br;
 
-  // end table
-  output += table_;
+  let techniqueOutput = "<span class='largetext'>" + "<strong>Technique Scores</strong>" + "</span>";
+  {
+    // start table
+    techniqueOutput += techniqueTable;
+
+    // write table headers
+    techniqueOutput += tr;
+    techniqueOutput += th + "Metric" + th_;
+    techniqueOutput += th + "Score" + th_;
+    techniqueOutput += tr_;
+
+    assessmentType = "strokeOrder";
+    starCount = metricStars[assessmentType];
+    techniqueOutput += tr;
+    techniqueOutput += td + assessmentType + td_;
+    techniqueOutput += td + getTextStars(starCount, 3) + td_;
+    techniqueOutput += tr_;
+
+    assessmentType = "strokeDirection";
+    starCount = metricStars[assessmentType];
+    techniqueOutput += tr;
+    techniqueOutput += td + assessmentType + td_;
+    techniqueOutput += td + getTextStars(starCount, 3) + td_;
+    techniqueOutput += tr_;
+
+    // end table
+    techniqueOutput += table_;
+  }
+  output += techniqueOutput;
+  output += br;
+
+  let precisionOutput = "<span class='largetext'>" + "<strong>Precision Scores</strong>" + "</span>";
+  {
+    // start table
+    precisionOutput += precisionTable;
+
+    // write table headers
+    precisionOutput += tr;
+    precisionOutput += th + "Metric" + th_;
+    precisionOutput += th + "Score" + th_;
+    precisionOutput += tr_;
+
+    assessmentType = "strokeOrder";
+    starCount = metricStars[assessmentType];
+    precisionOutput += tr;
+    precisionOutput += td + assessmentType + td_;
+    precisionOutput += td + getTextStars(starCount, 3) + td_;
+    precisionOutput += tr_;
+
+    assessmentType = "strokeDirection";
+    starCount = metricStars[assessmentType];
+    precisionOutput += tr;
+    precisionOutput += td + assessmentType + td_;
+    precisionOutput += td + getTextStars(starCount, 3) + td_;
+    precisionOutput += tr_;
+
+    // end table
+    precisionOutput += table_;
+  }
+  output += precisionOutput;
+  output += br;
 
   //
   var assessmentMetricScoresArea = document.getElementById("assessmentmetricscoresarea");
