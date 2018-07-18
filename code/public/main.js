@@ -2218,7 +2218,8 @@ function outputAssessmentOverallScore(assessments) {
   var chapter = assessments[0].chapter;
 
   // set the HTML tags
-  var table  = "<table class='smalltable table2col_25_75 largetext'>";
+  var overallTable  = "<table class='overalltable smalltable table2col_25_75 largetext'>";
+  var categoryTable  = "<table class='categorytable smalltable table2col_25_75 largetext'>";
   var table_ = "</table>";
   var tr     = "<tr>";
   var tr_    = "</tr>";
@@ -2235,7 +2236,7 @@ function outputAssessmentOverallScore(assessments) {
   output += "<span class='largetext'>" + "<strong>Overall Score</strong>" + "</span>";
 
   // start table
-  output += table;
+  output += overallTable;
 
   // write table headers
   output += tr;
@@ -2257,7 +2258,7 @@ function outputAssessmentOverallScore(assessments) {
   output += "<span class='largetext'>" + "<strong>Category Scores</strong>" + "</span>";
 
   // start table
-  output += table;
+  output += categoryTable;
 
   // write table headers
   output += tr;
@@ -2334,7 +2335,7 @@ function outputAssessmentIndividualScores(assessments) {
   // #region Score Display Code
 
   // set the HTML tags
-  var table  = "<table class='smalltable table2col_25_75 largetext'>";
+  var table  = "<table class='individualtable smalltable table2col_25_75 largetext'>";
   var table_ = "</table>";
   var tr     = "<tr>";
   var tr_    = "</tr>";
@@ -2347,7 +2348,7 @@ function outputAssessmentIndividualScores(assessments) {
   var output = "";
 
   //
-  output += "<span class='largetext'>" + "<strong>Indiviual Scores</strong>" + "</span>";
+  output += "<span class='largetext'>" + "<strong>Individual Scores</strong>" + "</span>";
 
   // start table
   output += table;
@@ -2420,9 +2421,9 @@ function outputAssessmentMetricScores(assessments) {
   // --------------------------------------------------
 
   // set the HTML tags
-  var structureTable  = "<table class='structuretable smalltable table2col_75_25 largetext'>";
-  var techniqueTable  = "<table class='techniquetable smalltable table2col_75_25 largetext'>";
-  var precisionTable  = "<table class='precisiontable smalltable table2col_75_25 largetext'>";
+  var structureTable  = "<table class='structuretable smalltable table2col_50_50 largetext'>";
+  var techniqueTable  = "<table class='techniquetable smalltable table2col_50_50 largetext'>";
+  var precisionTable  = "<table class='precisiontable smalltable table2col_50_50 largetext'>";
   var table_ = "</table>";
   var tr     = "<tr>";
   var tr_    = "</tr>";

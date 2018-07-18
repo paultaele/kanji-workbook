@@ -93,11 +93,11 @@ th {
   width: 75%;
 }
 
-.table2col_75_25 td:nth-child(1) {
-  width: 75%;
+.table2col_50_50 td:nth-child(1) {
+  width: 50%;
 }
-.table2col_75_25 td:nth-child(2) {
-  width: 25%;
+.table2col_50_50 td:nth-child(2) {
+  width: 50%;
 }
 
 .symboltable td:nth-child(1) {
@@ -110,11 +110,11 @@ th {
   width: 70%;
 }
 
-.structuretable th {
+.structuretable th, .overalltable th, .individualtable th {
   background-color: #555500;
   color: white;
 }
-.structuretable tr:nth-child(even)  {
+.structuretable tr:nth-child(even), .overalltable tr:nth-child(even), .individualtable tr:nth-child(even) {
   background-color: #FFFFAA;
 }
 
@@ -132,4 +132,12 @@ th {
 }
 .precisiontable tr:nth-child(even)  {
   background-color: #887CAF;
+}
+
+.categorytable th {
+  background-color: #572A72;
+  color: white;
+}
+.categorytable tr:nth-child(even)  {
+  background-color: #9775AA;
 }
