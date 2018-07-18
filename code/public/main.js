@@ -2074,8 +2074,8 @@ function outputAssessments(assessments) {
   // output the assessment overall score
   outputAssessmentOverallScore(assessments);
 
-  // // output the assessment individual scores
-  // outputAssessmentIndividualScores(assessments);
+  // output the assessment individual scores
+  outputAssessmentIndividualScores(assessments);
 
   // output the assessment metric scores
   outputAssessmentMetricScores(assessments);
@@ -2211,7 +2211,7 @@ function outputAssessmentOverallScore(assessments) {
 
   // #endregion
 
-  // #region score display code
+  // #region Score Display Code
 
   // get the current chapter
   // alt: gettin chapter from 'chapter' global variable
@@ -2293,6 +2293,46 @@ function outputAssessmentOverallScore(assessments) {
 }
 
 function outputAssessmentIndividualScores(assessments) {
+
+  // #region Score Calculation Code
+  // initialize list of scores
+  var scores = (new Array(assessments.length)).fill(0);
+
+  // calculate the individual scores
+  for (var i = 0; i < assessments.length; ++i) {
+    // get the current assessment and its corresponding stars
+    var assessment = assessments[i];
+    var stars = assessment.stars;
+
+    // count the number of stars except for stroke exist
+    var totalStars = 0;
+    for (var j = 0; j < metricNames.length; ++j) {
+      // get the current metric name
+      var metricName = metricNames[j];
+
+      // skip stroke exist metric
+      if (metricName === "strokeExist") { continue; }
+
+      // get the metric's star count and add to count
+      var starCount = stars[metricName];
+      totalStars += starCount;
+    }
+
+    // calculate the average star count of all metrics exclusing stroke exist 
+    var averageStars = totalStars / (metricNames.length - 1);
+
+    // get the stroke exist metric stars
+    var strokeExistStars = stars["strokeExist"];
+
+    // calculate the score and add to list
+    var score = ((strokeExistStars / 3 ) * averageStars / 3) * 10;
+    scores[i] = score;
+  }
+
+  // #endregion
+
+  // #region Score Display Code
+
   // set the HTML tags
   var table  = "<table class='smalltable largetext'>";
   var table_ = "</table>";
@@ -2321,11 +2361,11 @@ function outputAssessmentIndividualScores(assessments) {
   // write table data
   for (var i = 0; i < assessments.length; ++i) {
     var symbol = assessments[i].symbol;
-    var grade = Assessments.individualScores[i];
+    var score = scores[i];
 
     output += tr;
     output += td + "<span class='chinesefont'>" + idsToSymbolsData[symbol] + "</span>" + td_;
-    output += td + getTextStars(grade, 10) + td_;
+    output += td + getTextStars(score, 10) + td_;
     output += tr_;
   }
   
@@ -2335,6 +2375,9 @@ function outputAssessmentIndividualScores(assessments) {
   //
   var assessmentIndividualScoresArea = document.getElementById("assessmentindividualscoresarea");
   assessmentIndividualScoresArea.innerHTML = output;
+
+  // #endregion
+
 }
 
 function outputAssessmentMetricScores(assessments) {
@@ -2712,11 +2755,6 @@ var Results = {
   strokeLengthResults: null,
   strokeClosenessResults: null,
   symbolSpeedResults: null,
-}
-
-// The assessments.
-var Assessments = {
-  individualScores: []
 }
 
 // The quiz object.
