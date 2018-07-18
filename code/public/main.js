@@ -1295,8 +1295,8 @@ function outputSummary(theResults) {
   var stars = theResults.stars;
 
   //
-  var basicsTable  = "<table class='basicstable symboltable'>";
-  var formTable  = "<table class='formtable symboltable'>";
+  var structureTable  = "<table class='structuretable symboltable'>";
+  var techniqueTable  = "<table class='techniquetable symboltable'>";
   var precisionTable = "<table class='precisiontable symboltable'>";
   var table_ = "</table>";
   var tr     = "<tr>";
@@ -1309,9 +1309,9 @@ function outputSummary(theResults) {
 
   var output = "";
   
-  // basics category table
-  output += "<span class='largetext'>" + "<strong>Basics</strong>" + "</span>";
-  output += basicsTable;
+  // structure category table
+  output += "<span class='largetext'>" + "<strong>Structure</strong>" + "</span>";
+  output += structureTable;
 
   output += tr;
   output += th + "" + th_;
@@ -1341,8 +1341,8 @@ function outputSummary(theResults) {
   output += br;
 
   // form category table
-  output += "<span class='largetext'>" + "<strong>Form</strong>" + "</span>";
-  output += formTable;
+  output += "<span class='largetext'>" + "<strong>Technique</strong>" + "</span>";
+  output += techniqueTable;
 
   output += tr;
   output += th + "" + th_;
@@ -2054,13 +2054,13 @@ function nextButton(canvas, context) {
 // TODO
 function displayScore(scoreDisplay) {
   //
-  document.getElementById("assessmentoverallscoresarea").style.display = "none";
+  document.getElementById("assessmentoverallscorearea").style.display = "none";
   document.getElementById("assessmentindividualscoresarea").style.display = "none";
   document.getElementById("assessmentmetricscoresarea").style.display = "none";
   document.getElementById("assessmentdetailedscoresarea").style.display = "none";
 
   //
-  if (scoreDisplay === "overall") { document.getElementById("assessmentoverallscoresarea").style.display = "inline"; }
+  if (scoreDisplay === "chapter") { document.getElementById("assessmentoverallscorearea").style.display = "inline"; }
   else if (scoreDisplay === "individual") { document.getElementById("assessmentindividualscoresarea").style.display = "inline"; }
   else if (scoreDisplay === "metric") { document.getElementById("assessmentmetricscoresarea").style.display = "inline"; }
   else if (scoreDisplay === "detailed") { document.getElementById("assessmentdetailedscoresarea").style.display = "inline"; } 
@@ -2071,11 +2071,11 @@ function outputAssessments(assessments) {
   // output the assessment title
   outputAssessmentTitle(assessments);
 
-  // output the assessment chapter score
-  outputAssessmentChapterScore(assessments);
+  // output the assessment overall score
+  outputAssessmentOverallScore(assessments);
 
-  // output the assessment individual scores
-  outputAssessmentIndividualScores(assessments);
+  // // output the assessment individual scores
+  // outputAssessmentIndividualScores(assessments);
 
   // output the assessment metric scores
   outputAssessmentMetricScores(assessments);
@@ -2101,34 +2101,113 @@ function outputAssessmentTitle(assessments) {
   assessmentTitleArea.innerHTML = output;
 }
 
-function outputAssessmentChapterScore(assessments) {
+function outputAssessmentOverallScore(assessments) {
 
-  // #region score calculation code
+  // #region Score Calculation Helper Variables
 
-  // initialize the variables
-  var individualGrades = [];
-  var sumGrades = 0;
-
-  // iterate through the lessons
-  for (var i = 0; i < assessments.length; ++i) {
-
-    // get the current assessment
-    var assessment = assessments[i];
-
-    // calculate the assessment's grade and add to list
-    var individualGrade = calculateAssessmentGrade(assessment);
-    individualGrades.push(individualGrade);
-    sumGrades += individualGrade;
+  // create metric to total stars mapping
+  var metricTotalStars = {};
+  for (var i = 0; i < metricNames.length; ++i) { 
+    var metricName = metricNames[i];
+    metricTotalStars[metricName] = 0;
   }
 
-  // used later for assessment individual scores
-  Assessments.individualGrades = individualGrades;
+  // count the number of stars per metric
+  for (var i = 0; i < assessments.length; ++i) {
+    // get the current assessment and its stars
+    var assessment = assessments[i];
+    var stars = assessment.stars;
 
-  // calculate the scores
-  var overallScore = sumGrades / individualGrades.length;
-  var basicsScore = calculateAssessmentBasicsScore(assessments);
-  // var formScore = 0;
-  // var precisionScore = 0;
+    // iterate through the metric names
+    for (var j = 0; j < metricNames.length; ++j) {
+      // get the current metric name
+      var metricName = metricNames[j];
+
+      // get the metric's star count
+      var numStars = stars[metricName];
+
+      // add the metric star count to mapping
+      metricTotalStars[metricName] += numStars;
+    }
+
+  }
+
+  // create metric to total stars mapping
+  var metricAverageStars = {};
+  for (var i = 0; i < metricNames.length; ++i) { 
+    // get metric name
+    var metricName = metricNames[i];
+
+    // get metric total and average stars
+    var totalStars = metricTotalStars[metricName];
+    var averageStars = totalStars / assessments.length;
+
+    // associate the average stars to metric
+    metricAverageStars[metricName] = averageStars;
+  }
+
+  // #endregion
+
+  // #region Overall Score Calculation
+
+  // calculate the total metric average excluding strokeExist metric
+  var totalAverageMetricStars = 0;
+  for (var i = 0; i < metricNames.length; ++i) {
+    // get the metric name
+    var metricName = metricNames[i];
+
+    // skip strokeExist
+    if (metricName === "strokeExist") { continue; }
+
+    // get the average metric star count and add to the count
+    var starCount = metricAverageStars[metricName];
+    totalAverageMetricStars += starCount;
+  }
+
+  // get the average average metric stars excluding strokeExist metric
+  var averageAverageMetricStars = totalAverageMetricStars / (metricNames.length - 1);
+  var strokeExistAverageStars = metricAverageStars["strokeExist"];
+
+  // calculate the chapter score
+  var firstRatio = strokeExistAverageStars / 3; // 0.0 <= firstRatio <= 1.0
+  var secondRatio = (strokeExistAverageStars * firstRatio) / 3; // 0.0 <= secondRatio <= 1.0
+  var chapterScore = secondRatio * 10;
+
+  // #endregion
+
+  // #region Structure Score Calculation
+
+  var strokeMatchAverageStars = metricAverageStars["strokeMatch"];
+  var strokeValidAverageStars = metricAverageStars["strokeValid"];
+  var strokeExistAverageStars = metricAverageStars["strokeExist"];
+
+  var structreScoreMean = (strokeValidAverageStars + strokeExistAverageStars) / 2;
+  var structureScore = (strokeMatchAverageStars / 3) * structreScoreMean;
+
+  // #endregion
+
+  // #region Technique Score Calculation
+
+  var strokeOrderAverageStars = metricAverageStars["strokeOrder"];
+  var strokeDirectionAverageStars = metricAverageStars["strokeDirection"];
+
+  var techniqueScoreMean = (strokeOrderAverageStars + strokeDirectionAverageStars) / 2;
+  var techniqueScore = (strokeMatchAverageStars / 3) * techniqueScoreMean;
+
+  // #endregion
+
+  // #region Technique Score Calculation
+
+  var strokeEditAverageStars = metricAverageStars["strokeEdit"];
+  var strokeSpeedAverageStars = metricAverageStars["strokeSpeed"];
+  var strokeLengthAverageStars = metricAverageStars["strokeLength"];
+  var strokeClosenessAverageStars = metricAverageStars["strokeCloseness"];
+  var symbolSpeedAverageStars = metricAverageStars["symbolSpeed"];
+
+  var precisionScoreMean
+    = (strokeEditAverageStars + strokeSpeedAverageStars + strokeLengthAverageStars
+      + strokeClosenessAverageStars + symbolSpeedAverageStars) / 5;
+  var precisionScore = (strokeMatchAverageStars / 3) * precisionScoreMean;
 
   // #endregion
 
@@ -2166,8 +2245,8 @@ function outputAssessmentChapterScore(assessments) {
 
   // write table data
   output += tr;
-  output += td + "Overall" + td_;
-  output += td + getTextStars(overallScore, 10) + td_;
+  output += td + "Chapter" + td_;
+  output += td + getTextStars(chapterScore, 10) + td_;
   output += tr_;
 
   // end table
@@ -2187,30 +2266,30 @@ function outputAssessmentChapterScore(assessments) {
   output += tr_;
 
   output += tr;
-  output += td + "Basics" + td_;
-  // output += td + "TODO" + td_;
-  output += td + getTextStars(basicsScore, 3) + td_;
+  output += td + "Structure" + td_;
+  output += td + getTextStars(structureScore, 3) + td_;
   output += tr_;
 
   output += tr;
-  output += td + "Form" + td_;
-  output += td + "TODO" + td_;
+  output += td + "Technique" + td_;
+  output += td + getTextStars(techniqueScore, 3) + td_;
   output += tr_;
 
   output += tr;
   output += td + "Precision" + td_;
-  output += td + "TODO" + td_;
+  output += td + getTextStars(precisionScore, 3) + td_;
   output += tr_;
   
   
   // end table
   output += table_;
 
+  // display output onto area
+  var assessmentOverallScoresArea = document.getElementById("assessmentoverallscorearea");
+  assessmentOverallScoresArea.innerHTML = output;
+
   // #endregion
 
-  // display output onto area
-  var assessmentOverallScoresArea = document.getElementById("assessmentoverallscoresarea");
-  assessmentOverallScoresArea.innerHTML = output;
 }
 
 function outputAssessmentIndividualScores(assessments) {
@@ -2242,7 +2321,7 @@ function outputAssessmentIndividualScores(assessments) {
   // write table data
   for (var i = 0; i < assessments.length; ++i) {
     var symbol = assessments[i].symbol;
-    var grade = Assessments.individualGrades[i];
+    var grade = Assessments.individualScores[i];
 
     output += tr;
     output += td + "<span class='chinesefont'>" + idsToSymbolsData[symbol] + "</span>" + td_;
@@ -2260,10 +2339,10 @@ function outputAssessmentIndividualScores(assessments) {
 
 function outputAssessmentMetricScores(assessments) {
 
-  // assessmentTypes
+  // metricNames
 
   // iterate through the assessments
-  var starCounts = new Array(assessmentTypes.length);
+  var starCounts = new Array(metricNames.length);
   starCounts.fill(0);
   for (var i = 0; i < assessments.length; ++i) {
     // get the current assessment and its stars
@@ -2271,9 +2350,9 @@ function outputAssessmentMetricScores(assessments) {
     var stars = assessment.stars;
 
     // iterate through the assessment types
-    for (var j = 0; j < assessmentTypes.length; ++j) {
+    for (var j = 0; j < metricNames.length; ++j) {
       // get the current assessment type
-      var assessmentType = assessmentTypes[j];
+      var assessmentType = metricNames[j];
       
       // get the number of stars for the assessment's assessment type (i.e., metric) 
       var numStars = stars[assessmentType];
@@ -2315,8 +2394,8 @@ function outputAssessmentMetricScores(assessments) {
   output += tr_;
 
   // write table data
-  for (var i = 0; i < assessmentTypes.length; ++i) {
-    var assessmentType = assessmentTypes[i];
+  for (var i = 0; i < metricNames.length; ++i) {
+    var assessmentType = metricNames[i];
     var starCount = starCounts[i];
     output += tr;
     output += td + assessmentType + td_;
@@ -2362,9 +2441,9 @@ function outputAssessmentDetailedScores(assessments) {
   output += tr_;
 
   //
-  for (var i = 0; i < assessmentTypes.length; ++i) {
+  for (var i = 0; i < metricNames.length; ++i) {
     // get current assessment type
-    var assessmentType = assessmentTypes[i];
+    var assessmentType = metricNames[i];
 
     //
     output += tr;
@@ -2392,93 +2471,6 @@ function outputAssessmentDetailedScores(assessments) {
   //
   var assessmentDetailedScoresArea = document.getElementById("assessmentdetailedscoresarea");
   assessmentDetailedScoresArea.innerHTML = output;
-}
-
-function calculateAssessmentGrade(assessment) {
-
-  // get the assessment's stars information
-  var stars = assessment.stars;
-    
-  // iterate through the metrics
-  var numStars = 0;
-  for (var i = 0; i < assessmentTypes.length; ++i) {
-    // get the current assessment type
-    var assessmentType = assessmentTypes[i];
-
-    // skip the stroke-exist assessment type
-    if (assessmentType === "strokeExist") { continue; }
-
-    // get the metric's number of stars and add to running count
-    numStars += stars[assessmentType];
-  }
-
-  // calculate the first ratio
-  var maxStars = 3;
-  var numMetrics = assessmentTypes.length - 1; // need to subtract one since one metric used elsewhere
-  var totalStars = maxStars * numMetrics;
-  var firstRatio = numStars / totalStars;
-
-  // -----
-  var strokeExistStars = stars["strokeExist"];
-  var secondRatio = strokeExistStars / maxStars;
-
-  // -----
-  var maxGrade = 10;
-  var ratio = firstRatio * secondRatio;
-  var grade = maxGrade * ratio;
-
-  return grade;
-}
-
-function calculateAssessmentBasicsScore(assessments) {
-
-  // strokeMatch
-  // strokeValid
-  // strokeExist
-  var metrics = ["strokeMatch", "strokeValid", "strokeExist"];
-  var starCounts = [0, 0, 0];
-
-  // iterate through the assessments
-  for (var i = 0; i < assessments.length; ++i) {
-    
-    // get the assessment and its stars information
-    var assessment = assessments[i];
-    var stars = assessment.stars;
-
-    // iterate through the metrics
-    for (var j = 0; j < metrics.length; ++j) {
-      // get the current metric
-      var metric = metrics[j];
-
-      // get the corresponding star count
-      var starCount = stars[metric];
-
-      // add the star count to the running total
-      starCounts[j] += starCount;
-    }
-  }
-
-  // set the max stars count
-  var maxStars = 3 * assessments.length; // based on 3-star scales
-
-  // get the star averages
-  var starAverages = starCounts.map(x => x / maxStars);
-
-  // basicScore = strokeExist * mean(strokeMatch, strokeValid)
-  var basicsScore = starAverages[2] * ((starAverages[0] + starAverages[1]) / 2);
-
-  return basicsScore;
-
-}
-
-// TODO
-function calculateAssessmentFormScore(assessments) {
-  //
-}
-
-// TODO
-function calculateAssessmentPrecisionScore(assessments) {
-  //
 }
 
 function goButton(canvas, context) {
@@ -2520,7 +2512,7 @@ function returnButton(canvas, context) {
   setInteractionMode(InteractionEnum.select);
 
   //
-  document.getElementById("assessmentoverallscoresarea").style.display = "inline";
+  document.getElementById("assessmentoverallscorearea").style.display = "inline";
   document.getElementById("assessmentindividualscoresarea").style.display = "none";
   document.getElementById("assessmentmetricscoresarea").style.display = "none";
   document.getElementById("assessmentdetailedscoresarea").style.display = "none";
@@ -2724,7 +2716,7 @@ var Results = {
 
 // The assessments.
 var Assessments = {
-  individualGrades: []
+  individualScores: []
 }
 
 // The quiz object.
@@ -2746,8 +2738,8 @@ var Colors = {
   red: "255,0,0",
 };
 
-// set the assessment types
-var assessmentTypes = [
+// set the metric names
+var metricNames = [
   "strokeMatch", 
   "strokeValid", 
   "strokeExist", 

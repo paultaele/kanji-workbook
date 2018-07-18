@@ -60,7 +60,7 @@ a {
   text-decoration: none;
 }
 
-table, .basicstable {
+table {
   font-size: 20px;
   border-collapse: collapse;
   margin: 0 auto;
@@ -96,19 +96,19 @@ th {
   width: 70%;
 }
 
-.basicstable th {
+.structuretable th {
   background-color: #555500;
   color: white;
 }
-.basicstable tr:nth-child(even)  {
+.structuretable tr:nth-child(even)  {
   background-color: #FFFFAA;
 }
 
-.formtable th {
+.techniquetable th {
   background-color: #440027;
   color: white;
 }
-.formtable tr:nth-child(even)  {
+.techniquetable tr:nth-child(even)  {
   background-color: #CD88AF;
 }
 
