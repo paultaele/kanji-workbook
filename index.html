@@ -1,125 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>Kanji Workbook</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
 
-<!-- head -->
-<head>
-  <meta charset="UTF-8">
-  <title>Kanji Workbook</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <script type="text/javascript" src="main.js"></script>
-</head>
+  <body>
 
-<!-- body -->
-<body onload="init()" background="bg.gif">
-  
-  <!-- options area -->
-  <div id="optionsarea">
+    <br><br><br>
 
-    <!-- chapter selection  -->
-    <select id="chapterselect" class="elementlook">
-      <option value="XX">--- Select chapter ---</option>
-      <option value="00">Chapter 00</option>
-      <option value="03">Chapter 03</option>
-      <option value="04">Chapter 04</option>
-      <option value="05">Chapter 05</option>
-      <option value="06">Chapter 06</option>
-      <option value="07">Chapter 07</option>
-      <option value="08">Chapter 08</option>
-      <option value="09">Chapter 09</option>
-      <option value="10">Chapter 10</option>
-      <option value="11">Chapter 11</option>
-      <option value="12">Chapter 12</option>
-    </select>
+    <h1>Kanji Workbook</h1>
 
-    <!-- go button -->
-    <input type="submit" id="goButton" class="elementlook" value="Go" onclick="goButton(canvas, context);">
+    <form id="login_form">
 
-    <!-- interaction mode inputs -->
-    <input type="radio" id="practiceInput" name="interactionMode" value="practice" checked>
-    <label for="practiceInput">Practice</label>
+        <!-- username input -->
+        <label for="username_input"><span>Username:</span></label>
+        <input type="text" id="username_input" name="username_input" required>
 
-    <input type="radio" id="quizInput" name="interactionMode" value="quiz">
-    <label for="quizInput">Quiz</label>
+        <br><br>
+      
+        <!-- password input -->
+        <label for="password_input"><span>Password:</span></label>
+        <input type="password" id="password_input" name="password_input" required>
 
-  </div>
+        <br><br>
 
-  <!-- grade area -->
-  <div id="scoresarea" hidden>
+        <!-- submit button -->
+        <input type="submit" id="submit_button"
+          name="submit_button" value="Log In" formaction="loginAction.php" formmethod="get">
+          
+      </form>
 
-    <!-- return button -->
-    <input type="submit" id="returnButton" class="elementlook" value="Return" onclick="returnButton(canvas, context);">
-
-    <div>
-      <a href="#" onclick="displayScore('chapter');">Overall Score</a> |
-      <a href="#" onclick="displayScore('individual');">Individual Scores</a> |
-      <a href="#" onclick="displayScore('metric');">Metric Scores</a> |
-      <a href="#" onclick="displayScore('detailed');">Detailed Scores</a>
-    </div>
-
-    <!-- assessment title area -->
-    <div id="assessmenttitlearea"></div> 
-
-    <!-- assessment overall score area -->
-    <div id="assessmentoverallscorearea"></div>
-
-    <!-- assessment individual scores area -->
-    <div id="assessmentindividualscoresarea" hidden></div>
-
-    <!-- assessment metric scores area -->
-    <div id="assessmentmetricscoresarea" hidden></div>
-
-    <!-- assessment full scores area -->
-    <div id="assessmentdetailedscoresarea" hidden></div>
-
-  </div>
-
-  <!-- workbook and output area -->
-  <div id="workbookarea" class="content" style="display: none;">
-
-    <!-- workbook area -->
-    <div id="writingarea">
-
-      <!-- transition buttons -->
-      <div id="transitionbuttons">
-        <input type="submit" id="backButton" class="elementlook" value="Back" onclick="backButton(canvas, context);">
-        <input type="submit" id="nextButton" class="elementlook" value="Next" onclick="nextButton(canvas, context);">
-      </div>
-
-      <!-- writing canvas -->
-      <canvas id="canvas" class="canvaslook">
-        <!-- -->
-      </canvas>
-
-      <!-- editing buttons -->
-      <div id="editingbuttons">
-        <input type="submit" id="clearButton" class="elementlook" value="Clear" onclick="clearButton(canvas, context);">
-        <input type="submit" id="undoButton" class="elementlook" value="Undo" onclick="undoButton(canvas, context);">
-        <input type="submit" id="assessButton" class="elementlook" value="Assess" onclick="assessButton(canvas, context);">
-      </div>
-
-      <!-- demonstration buttons -->
-      <div>
-        <input type="submit" id="demoButton" class="elementlook" value="Demo" onclick="demoButton(canvas, context);">
-        <input type="submit" id="stepsButton" class="elementlook" value="Steps" onclick="stepsButton(canvas, context);">
-      </div>
-
-    </div>
-
-    <!-- output area -->
-    <div id="feedbackarea">
-
-      <!-- feedback button -->
-      <input type="submit" id="feedbackButton" class="elementlook" value="Details" onclick="feedbackButton();" disabled>
-
-      <!-- feedback space -->
-      <div id="outputarea"></div>
-
-    </div>
-
-  </div>
-
-
-
-
-</body>
+  </body>
 </html>

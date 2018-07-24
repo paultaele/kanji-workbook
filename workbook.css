@@ -154,3 +154,16 @@ th {
 .individualtable tr:nth-child(even), .detailedtable tr:nth-child(even)  {
   background-color: #CD88AF;
 }
+
+#menu_options {
+  text-align: right;
+  border-bottom: 5px solid black;
+}
+
+#menu_options input[type="submit"] {
+  background: transparent;
+  border: none;
+  font-size: 1em;
+  padding: 5px;
+  font-weight: bold;
+}
