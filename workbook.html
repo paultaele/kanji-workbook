@@ -13,12 +13,20 @@
 <body onload="init()" background="bg_grey.gif">
 
   <!-- menu area -->
-  <div id="menu_options">
-    <form>
+  <div id="header_content">
+
+    <!-- header message -->
+    <span id="header_message">
+      Hello
+    </span>
+      
+    <!-- menu options-->
+    <form id="header_options">
       <input type="submit" value="Scores" disabled>
       <span>|</span>
       <input type="submit" value="Sign Out" formaction="logoutAction.php" formmethod="get">
     </form>
+
   </div>
   
   <!-- options area -->
@@ -126,9 +134,6 @@
     </div>
 
   </div>
-
-
-
 
 </body>
 </html>

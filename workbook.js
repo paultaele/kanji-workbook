@@ -45,6 +45,14 @@ function checkLogin() {
 
   // case: "username" is empty => go back to login page
   if (username_text === "") { window.location.href = loginPage; }
+
+  // set header message
+  var headerMessage = document.getElementById("header_message");
+  headerMessage.innerHTML = "こんにちは, <strong>" + username_text + "</strong>";
+}
+
+function displayHeader() {
+
 }
 
 function reset() {
@@ -2079,7 +2087,6 @@ function nextButton(canvas, context) {
   // #endregion
 }
 
-// TODO
 function displayScore(scoreDisplay) {
   //
   document.getElementById("assessmentoverallscorearea").style.display = "none";

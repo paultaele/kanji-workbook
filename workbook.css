@@ -155,12 +155,24 @@ th {
   background-color: #CD88AF;
 }
 
-#menu_options {
-  text-align: right;
+#header_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
   border-bottom: 5px solid black;
 }
 
-#menu_options input[type="submit"] {
+#header_message {
+  text-align: left;
+  display: inline-block;
+}
+
+#header_options {
+  text-align: right;
+  display: inline-block;
+}
+
+#header_options input[type="submit"] {
   background: transparent;
   border: none;
   font-size: 1em;
