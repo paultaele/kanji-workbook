@@ -60,11 +60,21 @@
 
   </div>
 
-  <!-- grade area -->
+  <!-- scores area -->
   <div id="scoresarea" hidden>
 
-    <!-- return button -->
-    <input type="submit" id="returnButton" class="elementlook" value="Return" onclick="returnButton(canvas, context);">
+    <form>
+      <div id="hidden_scores_state_area" hidden>
+        <!-- scores state area (hidden) -->
+        <textarea id="hidden_scores_state_input" name="hidden_scores_state_input" cols="50" rows="10"></textarea>
+        <br><br>
+      </div>
+
+      <!-- return button -->
+      <input type="submit" id="return_button" class="elementlook" value="Return" 
+        formaction="submitScores.php" formmethod="POST"
+      >
+    </form>
 
     <div>
       <a href="#" onclick="displayScore('chapter');">Overall Score</a> |

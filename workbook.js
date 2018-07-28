@@ -2103,6 +2103,9 @@ function displayScore(scoreDisplay) {
 
 function outputAssessments(assessments) {
 
+  // reset scores 
+  setScoresState(false);
+
   // output the assessment title
   outputAssessmentTitle(assessments);
 
@@ -2118,6 +2121,27 @@ function outputAssessments(assessments) {
   // output the assessment detailed scores
   outputAssessmentDetailedScores(assessments);
 
+  // update scores
+  setScoresState(true);
+}
+
+function setScoresState(flag) {
+  // case: flag is false => reset scores and quit
+  if (!flag) {
+    // reset score state values
+    for (var key in ScoresState) {
+      if (ScoresState.hasOwnProperty(key)) {
+        ScoresState[key] = null;
+      }
+    }
+
+    return;
+  }
+
+  // store scores in hidden form
+  var output = JSON.stringify(ScoresState);
+  var hiddenScoresStateInput = document.getElementById("hidden_scores_state_input");
+  hiddenScoresStateInput.value = output;
 }
 
 function outputAssessmentTitle(assessments) {
@@ -2323,6 +2347,9 @@ function outputAssessmentOverallScore(assessments) {
   // display output onto area
   var assessmentOverallScoresArea = document.getElementById("assessmentoverallscorearea");
   assessmentOverallScoresArea.innerHTML = output;
+
+  // save scores state
+  ScoresState["ch" + chapter] = chapterScore;
 
   // #endregion
 
@@ -2939,6 +2966,20 @@ var InteractionEnum = {
   practice: "practiceInput",
   quiz: "quizInput",
   select: "selectInput"
+};
+
+var ScoresState = {
+  ch00: null,
+  ch03: null,
+  ch04: null,
+  ch05: null,
+  ch06: null,
+  ch07: null,
+  ch08: null,
+  ch09: null,
+  ch10: null,
+  ch11: null,
+  ch12: null
 };
 
 // The canvas and its context.
