@@ -7,32 +7,38 @@ include 'db.php';
 $username_key = "username";
 $username_value = $_COOKIE[$username_key];
 
-// get the form's username and password
-$scores_state_string = trim($_REQUEST['hidden_scores_state_input']);
-$scores_state = json_decode($scores_state_string);
+// retrieve and decode the scores state input
+$scores_state_input = trim($_REQUEST['scores_state_input']);
+$scores_state = json_decode($scores_state_input);
 
-// // get the update query string
-// $output = "";
-// foreach($scores_state as $key => $value)  {
-//   echo $key . "=" . $value . "<br>";
-// }
-
-// query database
-// TODO: expand beyond just "ch00"
-$temp_key = "ch00";
-$temp_value = round($scores_state->$temp_key);
+// set database table
 $database_table = "scores";
 
-// query the update request
-$query = "UPDATE $database_table
-  SET $temp_key = $temp_value 
-  WHERE $username_key='$username_value'
-";
-$results = $mysqli->query($query);
-if (!$results) { echo "ERROR: Could not perform query." . mysql_error() . "<br>"; }
+// iterate through the scores
+foreach($scores_state as $metric => $score)  {
+  // case: score is null -> skip
+  if ($score === null) { continue; }
+  
+  // get prior score
+  $query = "SELECT $metric FROM $database_table
+    WHERE $username_key='$username_value'
+  ";
+  $results = $mysqli->query($query);
+  if (!$results) { echo "ERROR: Could not perform query." . mysql_error() . "<br>"; }
+  $prior_scores = $results->fetch_assoc();
+  $prior_score = $prior_scores[$metric];
 
+  // case: current score <= prior score -> skip
+  if ($score <= $prior_score) { continue; }
 
-
+  // update to new score
+  $query = "UPDATE $database_table
+    SET $metric = $score
+    WHERE $username_key='$username_value'
+  ";
+  $results = $mysqli->query($query);
+  if (!$results) { echo "ERROR: Could not perform query." . mysql_error() . "<br>"; }
+}
 
 // close connection
 $mysqli->close();

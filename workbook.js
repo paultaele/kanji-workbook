@@ -2138,10 +2138,13 @@ function setScoresState(flag) {
     return;
   }
 
+  // debug
+  console.log(ScoresState);
+
   // store scores in hidden form
   var output = JSON.stringify(ScoresState);
-  var hiddenScoresStateInput = document.getElementById("hidden_scores_state_input");
-  hiddenScoresStateInput.value = output;
+  var scoresStateInput = document.getElementById("scores_state_input");
+  scoresStateInput.value = output;
 }
 
 function outputAssessmentTitle(assessments) {
@@ -2582,14 +2585,35 @@ function outputAssessmentMetricScores(assessments) {
     precisionOutput += th + "Score" + th_;
     precisionOutput += tr_;
 
-    assessmentType = "strokeOrder";
+    assessmentType = "strokeEdit";
     starCount = metricStars[assessmentType];
     precisionOutput += tr;
     precisionOutput += td + assessmentType + td_;
     precisionOutput += td + getTextStars(starCount, 3) + td_;
     precisionOutput += tr_;
 
-    assessmentType = "strokeDirection";
+    assessmentType = "strokeSpeed";
+    starCount = metricStars[assessmentType];
+    precisionOutput += tr;
+    precisionOutput += td + assessmentType + td_;
+    precisionOutput += td + getTextStars(starCount, 3) + td_;
+    precisionOutput += tr_;
+
+    assessmentType = "strokeLength";
+    starCount = metricStars[assessmentType];
+    precisionOutput += tr;
+    precisionOutput += td + assessmentType + td_;
+    precisionOutput += td + getTextStars(starCount, 3) + td_;
+    precisionOutput += tr_;
+
+    assessmentType = "strokeCloseness";
+    starCount = metricStars[assessmentType];
+    precisionOutput += tr;
+    precisionOutput += td + assessmentType + td_;
+    precisionOutput += td + getTextStars(starCount, 3) + td_;
+    precisionOutput += tr_;
+
+    assessmentType = "symbolSpeed";
     starCount = metricStars[assessmentType];
     precisionOutput += tr;
     precisionOutput += td + assessmentType + td_;
