@@ -33,14 +33,9 @@
     <input type="submit" id="return_button" name="return_button" class="element_look"
       onclick="returnButton();" value="Return">
 
-    <div id="score_display_area" name="score_display_area">
-      
-      <?php include 'scoresState.php';?>
+    <?php include 'scoresLookup.php';?>
 
-      <span>Scores</span>
-
-
-    </div>
+    <div id="scores_display_area" name="scores_display_area"></div>
 
   </div>
   

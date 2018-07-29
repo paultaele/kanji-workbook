@@ -2,9 +2,21 @@ function init() {
   // check login
   checkLogin();
 
-  // debug
-  // var testElement = document.getElementById("test_element");
-  // console.log(testElement.innerHTML);
+  // get scores state object
+  var scoresStateInput = document.getElementById("scores_state_input");
+  var scoresStateJson = scoresStateInput.innerHTML;
+  var scoresState = JSON.parse(scoresStateJson);
+  
+  // create output
+  var output = "";
+  output += "ch00: " + scoresState["ch00"] + "<br>";
+  output += "ch03: " + scoresState["ch03"] + "<br>";
+  output += "ch04: " + scoresState["ch04"] + "<br>";
+  output += "ch05: " + scoresState["ch05"] + "<br>";
+
+  // output scores
+  var scoresDisplayArea = document.getElementById("scores_display_area");
+  scoresDisplayArea.innerHTML = output;
 }
 
 function checkLogin() {

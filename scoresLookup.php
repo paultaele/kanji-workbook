@@ -18,8 +18,8 @@ $query = "SELECT *
 $results = $mysqli->query($query);
 if (!$results) { echo "ERROR: Could not perform query." . mysql_error() . "<br>"; }
 
-//
-$record = $results->fetch_assoc();
+// get the scores
+$scores = $results->fetch_assoc();
 
 // --------------------------------------------------
 
@@ -28,11 +28,12 @@ $record = $results->fetch_assoc();
 // 3. Store contents into hidden form.
 
 // debug
-$dummy = $temp["ch00"];
+$json_data = json_encode($scores);
 
 // --------------------------------------------------
 
 // test
-echo "<div><textarea id='test_element' cols='50' rows='10'>$dummy</textarea><br></div>";
+$hidden = "hidden";
+echo "<div $hidden><textarea id='scores_state_input' cols='50' rows='10'>$json_data</textarea><br></div>";
 
 ?>
