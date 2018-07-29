@@ -20,7 +20,8 @@ foreach($scores_state as $metric => $score)  {
   if ($score === null) { continue; }
   
   // get prior score
-  $query = "SELECT $metric FROM $database_table
+  $query = "SELECT $metric
+    FROM $database_table
     WHERE $username_key='$username_value'
   ";
   $results = $mysqli->query($query);
@@ -43,9 +44,10 @@ foreach($scores_state as $metric => $score)  {
 // close connection
 $mysqli->close();
 
-// TODO: show scores.php
+// // display scores
+// include "scores.php";
 
-// // redirect to calling page
-// header('Location:workbook.html');
+// // redirect to scores page
+header('Location:scores.php');
 
 ?>

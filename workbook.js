@@ -2726,18 +2726,6 @@ function goButton(canvas, context) {
   setInteractionMode(interactionMode);
 }
 
-// TODO
-function returnButton(canvas, context) {
-  // set select interaction mode
-  setInteractionMode(InteractionEnum.select);
-
-  //
-  document.getElementById("assessmentoverallscorearea").style.display = "inline";
-  document.getElementById("assessmentindividualscoresarea").style.display = "none";
-  document.getElementById("assessmentmetricscoresarea").style.display = "none";
-  document.getElementById("assessmentdetailedscoresarea").style.display = "none";
-}
-
 function lockInterface(state) {
 
   var elements = document.querySelectorAll("input[type=submit]");
