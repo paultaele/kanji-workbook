@@ -13,7 +13,7 @@
 <body onload="init();" background="bg_grey.gif">
 
   <!-- header area -->
-  <div id="header_content">
+  <div id="header_area" class="centere">
 
     <!-- header message -->
     <span id="header_message"></span>
@@ -36,8 +36,18 @@
     <?php include 'scoresLookup.php';?>
 
     <div id="scores_display_area" name="scores_display_area"></div>
-
   </div>
-  
+
+  <!-- reset scores area -->
+  <div id="reset_scores_area">
+    <br><br>
+    
+    <form>
+      Reset scores?
+      <input type="checkbox" name="reset_checkbox" value="yes">
+      <input type="submit" name="reset_button" value="OK" formaction="scoresReset.php" formmethod="post">
+    </form>
+  </div>
+
 </body>
 </html>

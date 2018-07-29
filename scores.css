@@ -3,10 +3,9 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-#header_content {
+#header_area {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
   border-bottom: 5px solid black;
 }
 #header_message {
@@ -25,7 +24,43 @@ body {
   font-weight: bold;
 }
 
+.centered {
+  margin: 0 auto;
+}
+
 .element_look {
   padding: 10px;
   margin: 10px 20px 10px 20px;
+}
+
+.largetext {
+  font-size: 30px;
+}
+
+table {
+  font-size: 20px;
+  border-collapse: collapse;
+  margin: 0 auto;
+  width: 100%;
+}
+tr:nth-child(even){
+  background-color: lightgray;
+}
+th {
+  background-color: black;
+  color: white;
+}
+
+.smalltable {
+  width: 50%;
+}
+.smalltable th, .smalltable td {
+  text-align: center;
+}
+
+.table2col_25_75 td:nth-child(1) {
+  width: 25%;
+}
+.table2col_25_75 td:nth-child(2) {
+  width: 75%;
 }
