@@ -1,5 +1,8 @@
 <?php
 
+// disable caching
+include "nocache.php";
+
 // create connection
 include 'db.php';
 

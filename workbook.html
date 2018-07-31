@@ -6,11 +6,14 @@
   <meta charset="UTF-8">
   <title>Kanji Workbook</title>
   <script type="text/javascript" src="workbook.js"></script>
-  <link rel="stylesheet" type="text/css" href="workbook.css">  
+  <link rel="stylesheet" type="text/css" href="workbook.css">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 </head>
 
 <!-- body -->
-<body onload="init();" background="bg_grey.gif">
+<body onload="init();">
 
   <!-- menu area -->
   <div id="header_content">
@@ -56,6 +59,11 @@
     <input type="radio" id="quizInput" name="interactionMode" value="quiz">
     <label for="quizInput">Quiz</label>
 
+  </div>
+
+  <!-- TODO: progress area -->
+  <div id="progress_area" hidden>
+    <span>Progress Area</span>
   </div>
 
   <!-- scores area -->

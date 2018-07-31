@@ -1,3 +1,4 @@
+<?php include "nocache.php" ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,11 +7,14 @@
   <meta charset="UTF-8">
   <title>Kanji Workbook</title>
   <script type="text/javascript" src="scores.js"></script>
-  <link rel="stylesheet" type="text/css" href="scores.css">  
+  <link rel="stylesheet" type="text/css" href="scores.css">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
 </head>
 
 <!-- body -->
-<body onload="init();" background="bg_grey.gif">
+<body onload="init();">
 
   <!-- header area -->
   <div id="header_area" class="centere">

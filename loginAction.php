@@ -1,5 +1,10 @@
 <?php
 
+// disable caching
+include "nocache.php";
+
+ob_start();
+
 // get the form's username and password
 $login_username = trim($_REQUEST['username_input']);
 $login_password = trim($_REQUEST['password_input']);
@@ -31,6 +36,9 @@ while ($entry) {
   $entry = mysqli_fetch_assoc($result);
 }
 
+// close connection
+$mysqli->close();
+
 // password matched
 if ($login_success) {
   // debug
@@ -40,17 +48,16 @@ if ($login_success) {
   $cookie_name = "username";
   $cookie_value = $login_username;
   $cookie_time = time() + 3600;
-  setcookie($cookie_name, $cookie_value, $cookie_time, "/", "localhost", 0); // 86400 = 1 day
+  setcookie($cookie_name, $cookie_value, $cookie_time, "/"); // 86400 = 1 day
 
-  // close connection
-  $mysqli->close();
-
+  echo "Going to workbook.html" . "<br>";
+  $temp = $_COOKIE["username"];
+  echo "cookie: " . $temp . "<br>";
   header('Location:workbook.html');
 }
 
 // case: password not matched 
 else {
-
   // debug
   echo "<p>login fail!</p>";
 
@@ -58,11 +65,12 @@ else {
   $cookie_name = "username";
   $cookie_value = "";
   $cookie_time = time() - 3600;
-  setcookie($cookie_name, $cookie_value, $cookie_time, "/", "localhost", 0); // 86400 = 1 day
+  unset($_COOKIE["username"]);
+  setcookie($cookie_name, $cookie_value, $cookie_time, "/"); // 86400 = 1 day
 
-  // close connection
-  $mysqli->close();
-
+  echo "Going back to index.html" . "<br>";
+  $temp = $_COOKIE["username"];
+  echo "cookie: " . $temp . "<br>";
   header('Location:index.html');
 }
 

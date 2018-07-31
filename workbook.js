@@ -4,6 +4,10 @@
 
 function init() {
 
+  // set background
+  document.body.style.backgroundImage = Backgrounds.practiceImage;
+  document.body.style.backgroundColor = Backgrounds.practiceColor;
+
   // check for valid login
   checkLogin();
 
@@ -24,10 +28,14 @@ function init() {
 
 function checkLogin() {
 
+  // set login page
   var loginPage = "index.html";
 
   // get cookie
   var cookie = document.cookie;
+  
+  // debug
+  console.log("cookie: " + cookie);
 
   // tokenize the cookie
   var tokens = cookie.split(/[\s;=]+/);
@@ -2719,8 +2727,16 @@ function goButton(canvas, context) {
   // get and set interaction mode
   var practiceInput = document.getElementById("practiceInput");
   var quizInput = document.getElementById("quizInput");
-  if (practiceInput.checked) { interactionMode = InteractionEnum.practice; }
-  else if (quizInput.checked) { interactionMode = InteractionEnum.quiz; }
+  if (practiceInput.checked) {
+    interactionMode = InteractionEnum.practice;
+    document.body.style.backgroundImage = Backgrounds.practiceImage;
+    document.body.style.backgroundColor = Backgrounds.practiceColor;
+  }
+  else if (quizInput.checked) {
+    interactionMode = InteractionEnum.quiz;
+    document.body.style.backgroundImage = Backgrounds.quizImage;
+    document.body.style.backgroundColor = Backgrounds.quizColor;
+  }
 
   // set interface mode
   setInteractionMode(interactionMode);
@@ -3050,6 +3066,14 @@ var idsToSymbolsDataFile = "data/ids_to_symbols.json";
 
 // The interface mode.
 var interactionMode;
+
+// The background images.
+var Backgrounds = {
+  practiceImage: "url(bg_tan.jpg)",
+  practiceColor: "#F6F0E8",
+  quizImage: "url(bg_grey.jpg)",
+  quizColor: "#E5E5E5"
+};
 
 // #endregion
 

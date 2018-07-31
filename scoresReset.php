@@ -1,4 +1,8 @@
 <?php
+
+// disable caching
+include "nocache.php";
+
 if  (isset($_POST['reset_checkbox']) && $_POST['reset_checkbox'] === 'yes') { /*do nothing*/ }
 else { header('Location:scores.php'); }
 
