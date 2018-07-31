@@ -17,7 +17,7 @@
 <body onload="init();">
 
   <!-- header area -->
-  <div id="header_area" class="centere">
+  <div id="header_area" class="center">
 
     <!-- header message -->
     <span id="header_message"></span>

@@ -2722,21 +2722,11 @@ function goButton(canvas, context) {
   reset();
   clearAction(canvas, context);
 
-
-
   // get and set interaction mode
   var practiceInput = document.getElementById("practiceInput");
   var quizInput = document.getElementById("quizInput");
-  if (practiceInput.checked) {
-    interactionMode = InteractionEnum.practice;
-    document.body.style.backgroundImage = Backgrounds.practiceImage;
-    document.body.style.backgroundColor = Backgrounds.practiceColor;
-  }
-  else if (quizInput.checked) {
-    interactionMode = InteractionEnum.quiz;
-    document.body.style.backgroundImage = Backgrounds.quizImage;
-    document.body.style.backgroundColor = Backgrounds.quizColor;
-  }
+  if (practiceInput.checked) { interactionMode = InteractionEnum.practice; }
+  else if (quizInput.checked) { interactionMode = InteractionEnum.quiz; }
 
   // set interface mode
   setInteractionMode(interactionMode);
@@ -2781,6 +2771,10 @@ function setInteractionMode(mode) {
   // practice interaction mode
   if (mode === InteractionEnum.practice) {
 
+    // set background
+    document.body.style.backgroundImage = Backgrounds.practiceImage;
+    document.body.style.backgroundColor = Backgrounds.practiceColor;
+
     // reveal workspace area
     var workbookArea = document.getElementById("workbookarea")
     workbookArea.style.display = "grid";
@@ -2810,6 +2804,10 @@ function setInteractionMode(mode) {
   // quiz interaction mode
   else if (mode === InteractionEnum.quiz) {
 
+    // set background
+    document.body.style.backgroundImage = Backgrounds.quizImage;
+    document.body.style.backgroundColor = Backgrounds.quizColor;
+
     // hide the following buttons: back, demo, steps
     var buttonIds = ["backButton", "demoButton", "stepsButton"];
     var button;
@@ -2823,7 +2821,7 @@ function setInteractionMode(mode) {
     button = document.getElementById("nextButton");
     button.disabled = true;
 
-    // hide the options area
+    // hide options area
     var optionsArea = document.getElementById("optionsarea");
     optionsArea.style.display = "none";
 
@@ -2834,6 +2832,13 @@ function setInteractionMode(mode) {
     .sort((a, b) => a.sort - b.sort)
     .map((a) => a.value)
     Quiz.imageIndices = imageIndices;
+
+    // show quiz header area
+    var quizHeaderArea = document.getElementById("quiz_header_area");
+    quizHeaderArea.style.display = "inline";
+    
+    // show quiz header content
+    quizHeaderArea.innerHTML = "<span>Chapter " + chapter + " Quiz</span>";
     
     // reset assessments
     Quiz.assessments = [];
@@ -2841,23 +2846,6 @@ function setInteractionMode(mode) {
     // load next random image
     var theIndex = imageIndices[imageIndex];
     loadCanvasImage(canvas, context, imagesData[theIndex].path, true);
-  }
-
-  // select interaction mode
-  else if (mode === InteractionEnum.select) {
-    
-    // hide grade area
-    var scoresArea = document.getElementById("scoresarea");
-    scoresArea.style.display = "none";
-
-    // check practice input and uncheck quiz input
-    document.getElementById("practiceInput").checked = true;
-    document.getElementById("quizInput").checked = false;
-
-    // reveal the options area
-    var optionsArea = document.getElementById("optionsarea");
-    optionsArea.style.display = "inline";
-
   }
 
 }
@@ -2992,8 +2980,7 @@ var Anim = {
 // The interaction enumerations.
 var InteractionEnum = {
   practice: "practiceInput",
-  quiz: "quizInput",
-  select: "selectInput"
+  quiz: "quizInput"
 };
 
 var ScoresState = {
