@@ -310,11 +310,6 @@ th {
   border-bottom: 5px solid black;
 }
 
-/* #quiz_header_area {
-  margin: 0 auto;
-  border-bottom: 5px solid black;
-} */
-
 #header_message {
   text-align: left;
   display: inline-block;
@@ -331,4 +326,17 @@ th {
   font-size: 1em;
   padding: 5px;
   font-weight: bold;
+}
+
+#quiz_header_area {
+  margin: 10px;
+  font-size: 1.75em;
+}
+
+#quiz_header_title {
+  font-weight: bold;
+}
+
+#quiz_header_progress {
+  font-weight: normal;
 }

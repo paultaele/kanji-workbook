@@ -1283,7 +1283,6 @@ function assessButton() {
     var symbol = modelsData[theIndex].shapes[0].interpretation;
     var assessment = createAssessment(chapter, symbol, stars);
     Quiz.assessments.push(assessment);
-
   }
 
 }
@@ -2039,6 +2038,11 @@ function nextButton(canvas, context) {
     // disable next button
     document.getElementById("nextButton").disabled = true;
 
+    // update quiz header progress
+    // note: use "+ 2" since image index not yet updated until later in function
+    var quizHeaderProgress = document.getElementById("quiz_header_progress");
+    quizHeaderProgress.innerHTML = "(" + (imageIndex + 2) + " / " + imagesData.length + ")";
+
     // reached the last image => display final results
     if (imageIndex >= imagesData.length - 1) {
 
@@ -2047,6 +2051,10 @@ function nextButton(canvas, context) {
       workbookArea.style.display = "none";
       var scoresArea = document.getElementById("scoresarea");
       scoresArea.style.display = "inline";
+
+      // update quiz header progress
+      var quizHeaderProgress = document.getElementById("quiz_header_progress");
+      quizHeaderProgress.innerHTML = "Complete";
 
       // sort in ascending order and output assessments
       var assessments = Quiz.assessments;
@@ -2835,10 +2843,15 @@ function setInteractionMode(mode) {
 
     // show quiz header area
     var quizHeaderArea = document.getElementById("quiz_header_area");
-    quizHeaderArea.style.display = "inline";
+    quizHeaderArea.style.display = "block";
     
-    // show quiz header content
-    quizHeaderArea.innerHTML = "<span>Chapter " + chapter + " Quiz</span>";
+    // show quiz header title
+    var quizHeaderTitle = document.getElementById("quiz_header_title");
+    quizHeaderTitle.innerHTML = "Chapter " + chapter + " Quiz";
+
+    // set quiz header progress
+    var quizHeaderProgress = document.getElementById("quiz_header_progress");
+    quizHeaderProgress.innerHTML = "(" + "1" + " / " + imageIndices.length + ")";
     
     // reset assessments
     Quiz.assessments = [];
@@ -3056,9 +3069,9 @@ var interactionMode;
 
 // The background images.
 var Backgrounds = {
-  practiceImage: "url(bg_tan.jpg)",
+  practiceImage: "url(bg_lightwhite.jpg)",
   practiceColor: "#F6F0E8",
-  quizImage: "url(bg_grey.jpg)",
+  quizImage: "url(bg_lightgrey.jpg)",
   quizColor: "#E5E5E5"
 };
 

@@ -214,9 +214,9 @@ function outputScoresState(scoresState) {
 
 // The background images.
 var Backgrounds = {
-  practiceImage: "url(bg_tan.jpg)",
+  practiceImage: "url(bg_lightwhite.jpg)",
   practiceColor: "#F6F0E8",
-  quizImage: "url(bg_grey.jpg)",
+  quizImage: "url(bg_lightgrey.jpg)",
   quizColor: "#E5E5E5"
 };
 
