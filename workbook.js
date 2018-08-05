@@ -2043,8 +2043,6 @@ function nextButton(canvas, context) {
     var quizHeaderProgress = document.getElementById("quiz_header_progress");
     quizHeaderProgress.innerHTML = "(" + (imageIndex + 2) + " / " + imagesData.length + ")";
 
-    
-
     // reached the last image => display final results
     if (imageIndex >= imagesData.length - 1) {
 
@@ -2092,6 +2090,10 @@ function nextButton(canvas, context) {
   // load the next canvas image
   var theIndex = interactionMode === InteractionEnum.quiz ? Quiz.imageIndices[imageIndex] : imageIndex;
   loadCanvasImage(canvas, context, imagesData[theIndex].path, true);
+
+  // clear the output area
+  var outputArea = document.getElementById("outputarea");
+  outputArea.innerHTML = "";
 
   // enable the back button
   document.getElementById("backButton").disabled = false;
@@ -2153,9 +2155,6 @@ function setScoresState(flag) {
 
     return;
   }
-
-  // debug
-  console.log(ScoresState);
 
   // store scores in hidden form
   var output = JSON.stringify(ScoresState);

@@ -208,6 +208,7 @@ th {
 #quiz_header_area {
   margin: 10px;
   font-size: 1.75em;
+  font-family: Consolas, monaco, monospace;
 }
 
 #quiz_header_title {
