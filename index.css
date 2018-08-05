@@ -3,7 +3,7 @@ body {
   text-align: center;
   height: 100%;
   vertical-align: middle;
-  background-image: url("bg_matcha.jpg");
+  background-image: url("assets/bg_matcha.jpg");
   /* background-repeat: repeat-y; */
   background-size: 100%;
 }

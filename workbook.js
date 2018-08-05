@@ -2043,6 +2043,8 @@ function nextButton(canvas, context) {
     var quizHeaderProgress = document.getElementById("quiz_header_progress");
     quizHeaderProgress.innerHTML = "(" + (imageIndex + 2) + " / " + imagesData.length + ")";
 
+    
+
     // reached the last image => display final results
     if (imageIndex >= imagesData.length - 1) {
 
@@ -2052,9 +2054,9 @@ function nextButton(canvas, context) {
       var scoresArea = document.getElementById("scoresarea");
       scoresArea.style.display = "inline";
 
-      // update quiz header progress
-      var quizHeaderProgress = document.getElementById("quiz_header_progress");
-      quizHeaderProgress.innerHTML = "Complete";
+      // hide quiz header area
+      var quizHeaderArea = document.getElementById("quiz_header_area");
+      quizHeaderArea.style.display = "none";
 
       // sort in ascending order and output assessments
       var assessments = Quiz.assessments;
@@ -2067,6 +2069,8 @@ function nextButton(canvas, context) {
 
       return;
     }
+
+
   }
   // #endregion
 
@@ -2081,10 +2085,6 @@ function nextButton(canvas, context) {
   // disable the feedback button
   var feedbackButton = document.getElementById("feedbackButton");
   feedbackButton.disabled = true;
-
-  // clear feedback
-  var outputArea = document.getElementById("outputarea");
-  outputArea.innerHTML = "";
   
   // increment the next image index
   ++imageIndex;
@@ -3069,9 +3069,9 @@ var interactionMode;
 
 // The background images.
 var Backgrounds = {
-  practiceImage: "url(bg_lighttan.jpg)",
+  practiceImage: "url(assets/bg_lighttan.jpg)",
   practiceColor: "#F6F0E8",
-  quizImage: "url(bg_lightgrey.jpg)",
+  quizImage: "url(assets/bg_lightgrey.jpg)",
   quizColor: "#E5E5E5"
 };
 
