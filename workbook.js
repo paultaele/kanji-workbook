@@ -3069,8 +3069,8 @@ var interactionMode;
 
 // The background images.
 var Backgrounds = {
-  practiceImage: "url(bg_lightgrey.jpg)",
-  practiceColor: "#E5E5E5",
+  practiceImage: "url(bg_lighttan.jpg)",
+  practiceColor: "#F6F0E8",
   quizImage: "url(bg_lightgrey.jpg)",
   quizColor: "#E5E5E5"
 };
