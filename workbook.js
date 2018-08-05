@@ -1263,7 +1263,7 @@ function assessButton() {
     outputDetailed(Results);
   }
 
-  // quiz mode
+  // case: quiz mode
   if (interactionMode === InteractionEnum.quiz) {
 
     // disable assess, undo, and clear button
@@ -1283,6 +1283,10 @@ function assessButton() {
     var symbol = modelsData[theIndex].shapes[0].interpretation;
     var assessment = createAssessment(chapter, symbol, stars);
     Quiz.assessments.push(assessment);
+
+    // hide waiting message
+    var waitingMessageArea = document.getElementById("waiting_message_area");
+    waitingMessageArea.style.display = "none";
   }
 
 }
@@ -2042,6 +2046,10 @@ function nextButton(canvas, context) {
     // note: use "+ 2" since image index not yet updated until later in function
     var quizHeaderProgress = document.getElementById("quiz_header_progress");
     quizHeaderProgress.innerHTML = "(" + (imageIndex + 2) + " / " + imagesData.length + ")";
+
+    // show waiting message
+    var waitingMessageArea = document.getElementById("waiting_message_area");
+    waitingMessageArea.style.display = "inline";
 
     // reached the last image => display final results
     if (imageIndex >= imagesData.length - 1) {
@@ -2858,6 +2866,10 @@ function setInteractionMode(mode) {
     // load next random image
     var theIndex = imageIndices[imageIndex];
     loadCanvasImage(canvas, context, imagesData[theIndex].path, true);
+
+    // show waiting message
+    var waitingMessageArea = document.getElementById("waiting_message_area");
+    waitingMessageArea.style.display = "inline";
   }
 
 }

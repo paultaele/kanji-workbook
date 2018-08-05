@@ -218,3 +218,7 @@ th {
 #quiz_header_progress {
   font-weight: normal;
 }
+
+#waiting_message_area {
+  font-family: Consolas, monaco, monospace;
+}
