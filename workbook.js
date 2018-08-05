@@ -4,12 +4,12 @@
 
 function init() {
 
+  // check for valid login
+  checkLogin();
+
   // set background
   document.body.style.backgroundImage = Backgrounds.practiceImage;
   document.body.style.backgroundColor = Backgrounds.practiceColor;
-
-  // check for valid login
-  checkLogin();
 
   // get the canvas and its context
 	canvas = document.getElementById("canvas");
@@ -33,30 +33,39 @@ function checkLogin() {
 
   // get cookie
   var cookie = document.cookie;
-  
-  // debug
-  console.log("cookie: " + cookie);
 
   // tokenize the cookie
   var tokens = cookie.split(/[\s;=]+/);
 
   // get index of "username"
-  var found = tokens.findIndex(function(element) {
-    return element === "username";
-  });
+  var usernameIndex = tokens.findIndex(function(element) { return element === "username"; });
+  var usertypeIndex = tokens.findIndex(function(element) { return element === "usertype"; });
 
-  // case: "username" not found => go back to login page
-  if (found < 0) { window.location.href = loginPage; }
+  // case: "username" not found => clear cookie record and redirect to login page
+  if (usernameIndex < 0) {
+    Cookie.username = "";
+    Cookie.usertype = "";
+    window.location.href = loginPage;
+  }
   
-  // get username
-  var username_text = tokens[found + 1];
+  // get username and usertype
+  var username_text = tokens[usernameIndex + 1];
+  var usertype_text = tokens[usertypeIndex + 1];
 
-  // case: "username" is empty => go back to login page
-  if (username_text === "") { window.location.href = loginPage; }
+  // case: "username" is empty => clear cookie record and redirect to login page
+  if (username_text === "") {
+    Cookie.username = "";
+    Cookie.usertype = "";
+    window.location.href = loginPage;
+  }
 
   // set header message
   var headerMessage = document.getElementById("header_message");
   headerMessage.innerHTML = "こんにちは, <strong>" + username_text + "</strong>";
+
+  // save username and usertype
+  Cookie.username = username_text;
+  Cookie.usertype = usertype_text;
 }
 
 function displayHeader() {
@@ -3007,6 +3016,7 @@ var InteractionEnum = {
   quiz: "quizInput"
 };
 
+// The score state.
 var ScoresState = {
   ch00: null,
   ch03: null,
@@ -3020,6 +3030,12 @@ var ScoresState = {
   ch11: null,
   ch12: null
 };
+
+// The cookie.
+var Cookie = {
+  username: "",
+  usertype: ""
+}
 
 // The canvas and its context.
 var canvas;
