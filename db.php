@@ -2,7 +2,7 @@
 
 $mysqli_servername = "localhost";
 $mysqli_username = "kanjiwor_WPJCF";
-$mysqli_password = "P4nd4!b34r?";
+$mysqli_password = "T34gu3@330";
 $mysqli_database = 'kanjiwor_WPJCF';
 
 // create connection

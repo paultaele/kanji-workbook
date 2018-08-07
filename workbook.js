@@ -27,7 +27,6 @@ function init() {
 }
 
 function checkLogin() {
-
   // set login page
   var loginPage = "index.html";
 
@@ -43,8 +42,6 @@ function checkLogin() {
 
   // case: "username" not found => clear cookie record and redirect to login page
   if (usernameIndex < 0) {
-    Cookie.username = "";
-    Cookie.usertype = "";
     window.location.href = loginPage;
   }
   
@@ -54,8 +51,6 @@ function checkLogin() {
 
   // case: "username" is empty => clear cookie record and redirect to login page
   if (username_text === "") {
-    Cookie.username = "";
-    Cookie.usertype = "";
     window.location.href = loginPage;
   }
 
@@ -63,9 +58,13 @@ function checkLogin() {
   var headerMessage = document.getElementById("header_message");
   headerMessage.innerHTML = "こんにちは, <strong>" + username_text + "</strong>";
 
-  // save username and usertype
-  Cookie.username = username_text;
-  Cookie.usertype = usertype_text;
+  // set gradebook link display flag
+  var displayState;
+  if (usertype_text === "student") { displayState = "none"; }
+  else if (usertype_text === "instructor") { displayState = "inline"; }
+  document.getElementById("gradebook_link").style.display = displayState;
+  document.getElementById("gradebook_divider").style.display = displayState;
+  
 }
 
 function displayHeader() {
@@ -3030,12 +3029,6 @@ var ScoresState = {
   ch11: null,
   ch12: null
 };
-
-// The cookie.
-var Cookie = {
-  username: "",
-  usertype: ""
-}
 
 // The canvas and its context.
 var canvas;

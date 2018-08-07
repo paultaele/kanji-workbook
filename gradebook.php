@@ -6,7 +6,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Kanji Workbook</title>
-  <script type="text/javascript" src="scores.js"></script>
+  <script type="text/javascript" src="gradebook.js"></script>
   <link rel="stylesheet" type="text/css" href="scores.css">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
@@ -34,26 +34,16 @@
   </div>
 
   <!-- main display area -->
-  <div id="main_display_area">
-    
-    <input type="submit" id="return_button" name="return_button" class="element_look"
-      onclick="returnButton();" value="Return">
+    <div id="main_display_area">
 
-    <?php include 'scoresLookup.php';?>
+      <input type="submit" id="return_button" name="return_button" class="element_look"
+        onclick="returnButton();" value="Return">
 
-    <div id="scores_display_area" name="scores_display_area"></div>
-  </div>
+      <?php include 'gradebookLookup.php';?>
 
-  <!-- reset scores area -->
-  <div id="reset_scores_area">
-    <br><br>
-    
-    <form>
-      Reset scores?
-      <input type="checkbox" name="reset_checkbox" value="yes">
-      <input type="submit" name="reset_button" value="OK" formaction="scoresReset.php" formmethod="post">
-    </form>
-  </div>
+      <div id="gradebook_display_area" name="gradebook_display_area"></div>
+
+    </div>
 
 </body>
 </html>
