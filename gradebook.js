@@ -6,16 +6,138 @@ function init() {
   // check login
   checkLogin();
 
+  // get the gradebook entries
+  entries = getEntries();
+
+  // output gradebook
+  outputGradebook(entries);
+}
+
+function outputGradebook(entries) {
+  // create output
+  var output = "";
+
+  // set table tag contants
+  var table  = "<table>";
+  var table_ = "</table>";
+  var tr     = "<tr>";
+  var tr_    = "</tr>";
+  var th     = "<th>";
+  var th_    = "</th>"; 
+  var td     = "<td>";
+  var td_    = "</td>";
+  var br     = "<br>";
+
+  // start table
+  output += table;
+
+  // set table headers
+  var firstEntry = entries[0];
+  var usernameClick = "<a href='#' onclick='displaySorted(\"username\");'>username</a>";
+  var usertypeClick = "<a href='#' onclick='displaySorted(\"usertype\");'>usertype</a>";
+  output += tr;
+  output += th + usernameClick + th_;
+  output += th + usertypeClick + th_;
+  for (var i = 0; i < firstEntry.scores.length; ++i) {
+    output += th + firstEntry.scores[i][0] + th_;
+  }
+  output += tr_;
+
+  // set table data
+  for (var i = 0; i < entries.length; ++i) {
+    var entry = entries[i];
+    output += tr;
+    output += td + entry.username + td_;
+    output += td + entry.usertype + td_;
+    for (var j = 0; j < entry.scores.length; ++j) {
+      var score = entry.scores[j];
+      var scoreValue = score[1];
+      var scoreOutput = scoreValue === null ? "-" : scoreValue;
+      output += td + scoreOutput + td_;
+    }
+    output += tr_;
+  }
+
+  // end table
+  output += table;
+
+  // output gradebook
+  var gradebookDisplayArea = document.getElementById("gradebook_display_area");
+  gradebookDisplayArea.innerHTML = output;
+}
+
+function displaySorted(target) {
+  // copy entries
+  var es = JSON.parse(JSON.stringify(entries));
+
+  if (target === "username") {
+    es.sort(function(a, b) {
+      if (a.username < b.username) { return -1; }
+      if (a.username > b.username) { return  1; }
+      return 0;
+    });
+  }
+  else if (target === "usertype") {
+    es.sort(function(a, b) {
+      if (a.usertype < b.usertype) { return -1; }
+      if (a.usertype > b.usertype) { return  1; }
+      return 0;
+    });
+  }
+
+  outputGradebook(es);
+}
+
+function getEntries(gradebook) {
+
   // get gradebook object
   var gradebookInput = document.getElementById("gradebook_input");
   var gradebookJson = gradebookInput.innerHTML;
   var gradebook = JSON.parse(gradebookJson);
 
-  // output gradebook
-  outputGradebook(gradebook);
+  // iterate through the gradebook
+  var entries = [];
+  for (var i = 0; i < gradebook.length; ++i) {
+    // get the gradebook entry
+    var row = gradebook[i];
+
+    // get the username and usertype
+    var username = row.username;
+    var usertype = row.usertype;
+
+    // get the entry's scores
+    var scores = [];
+    for (var key in row) {
+      // skip indirect keys, username, and usertype
+      if (!row.hasOwnProperty(key) || key === "username" || key === "usertype") { continue; }
+      
+      // add the score to the collection
+      var value = row[key];
+      var score = [key, value];
+      scores.push(score);
+    }
+
+    // sort the scores by its key (i.e., assignment type)
+    scores.sort(function(a, b) {
+      if (a[0] < b[0]) { return -1; }
+      if (a[0] > b[0]) { return  1; }
+      return 0;
+    });
+
+    // create row object and add to array of rows
+    var entry = {
+      username: username,
+      usertype: usertype,
+      scores: scores
+    };
+    entries.push(entry);
+
+  }
+
+  return entries;
 }
 
-function outputGradebook(gradebook) {
+function outputGradebook2(gradebook) {
 
   // create output
   var output = "";
@@ -34,72 +156,7 @@ function outputGradebook(gradebook) {
   // start table
   output += table;
 
-  // iterate through the gradebook
-  for (var i = 0; i < gradebook.length; ++i) {
-    // get the gradebook entry
-    var entry = gradebook[i];
-
-    // get the username and usertype
-    var username = entry.username;
-    var usertype = entry.usertype;
-
-    // get the entry's scores
-    var scores = [];
-    for (var key in entry) {
-      // skip indirect keys, username, and usertype
-      if (!entry.hasOwnProperty(key) || key === "username" || key === "usertype") { continue; }
-      
-      // add the score to the collection
-      var value = entry[key];
-      var score = [key, value];
-      scores.push(score);
-    }
-
-    // sort the scores by its key (i.e., assignment type)
-    scores.sort(function(a, b) {
-      if (a[0] < b[0]) { return -1; }
-      if (a[0] > b[0]) { return  1; }
-      return 0;
-    });
-
-    // create table header
-    if (i === 0) {
-      output += tr;
-
-      output += th + "Username" + th_;
-      output += th + "Usertype" + th_;
-      
-      for (var j = 0; j < scores.length; ++j) {
-        output += th + scores[j][0] + th_;
-      }
-
-      output += tr_;
-    }
-
-    // create table data
-    output += tr;
-
-    output += td + username + td_;
-    output += td + usertype + td_;
-    
-    for (var j = 0; j < scores.length; ++j) {
-      var score = scores[j];
-      var scoreValue = score[1];
-
-      if (scoreValue === null) { scoreValue = "N/A"; }
-
-      output += td + scoreValue + td_;
-    }
-
-    output += tr_;
-  }
-
-  // end table
-  output += table_;
-
-  // output gradebook
-  var gradebookDisplayArea = document.getElementById("gradebook_display_area");
-  gradebookDisplayArea.innerHTML = output;
+  
 
 }
 
@@ -138,7 +195,10 @@ function returnButton() {
   window.location = "workbook.html";
 }
 
-// #region Fields.
+// #region Fields
+
+// The gradebook entries.
+var entries;
 
 // The background images.
 var Backgrounds = {

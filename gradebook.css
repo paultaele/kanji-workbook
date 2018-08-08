@@ -3,6 +3,12 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: lightblue;
+}
+
 #header_area {
   display: grid;
   grid-template-columns: 1fr 1fr;
