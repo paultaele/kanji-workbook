@@ -42,6 +42,7 @@
     <?php include 'scoresLookup.php';?>
 
     <div id="scores_display_area" name="scores_display_area"></div>
+  
   </div>
 
   <!-- reset scores area -->

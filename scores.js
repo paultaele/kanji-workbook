@@ -12,6 +12,7 @@ function init() {
   var scoresStateJson = scoresStateInput.innerHTML;
   var scoresState = JSON.parse(scoresStateJson);
 
+  // output scores state
   outputScoresState(scoresState);
 }
 

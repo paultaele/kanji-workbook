@@ -35,8 +35,7 @@ $mysqli->close();
 
 // convert scores to JSON and add to hidden state
 $json_data = json_encode($gradebook);
-// $hidden = "hidden";
-$hidden = "";
+$hidden = "hidden";
 echo "<div $hidden><textarea id='gradebook_input' cols='50' rows='10'>$json_data</textarea><br></div>";
 
 ?>

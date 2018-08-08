@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <title>Kanji Workbook</title>
   <script type="text/javascript" src="gradebook.js"></script>
-  <link rel="stylesheet" type="text/css" href="scores.css">
+  <link rel="stylesheet" type="text/css" href="gradebook.css">
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
   <meta http-equiv="Pragma" content="no-cache" />
   <meta http-equiv="Expires" content="0" />
