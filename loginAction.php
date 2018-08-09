@@ -3,7 +3,7 @@
 // disable caching
 include "nocache.php";
 
-// get the form's username, password, and usertype
+// gethe form's username and password
 $login_username = trim($_REQUEST['username_input']);
 $login_password = trim($_REQUEST['password_input']);
 
@@ -17,10 +17,9 @@ $result = $mysqli->query($query);
 if (!$result) { echo "<p>Error getting logins from the database: " . mysql_error() . "</p>"; }
 
 // iterate through the database rows
-$entry = mysqli_fetch_assoc($result); // get the first table entry
 $success = false;
 $login_usertype = null;
-while ($entry) {
+while ($entry = mysqli_fetch_assoc($result)) {
   // get the entry's username and password
   $entry_username = trim($entry['username']);
   $entry_password = trim($entry['password']);
@@ -34,35 +33,13 @@ while ($entry) {
     $login_usertype = $entry_usertype;
     break; 
   }
-
-  // get the next table entry
-  $entry = mysqli_fetch_assoc($result);
 }
 
-// close connection
-$mysqli->close();
+// case: password not matched => redirect to login page and exit script
+if (!$login_success) {
+  // close connection
+  $mysqli->close();
 
-// password matched
-if ($login_success) {
-  
-  // create username cookie
-  $cookie_name = "username";
-  $cookie_value = $login_username;
-  $cookie_time = time() + 3600;
-  setcookie($cookie_name, $cookie_value, $cookie_time, "/"); // 86400 = 1 day
-
-  // create usertype cookie
-  $cookie_name = "usertype";
-  $cookie_value = $login_usertype;
-  $cookie_time = time() + 3600;
-  setcookie($cookie_name, $cookie_value, $cookie_time, "/"); // 86400 = 1 day
-
-  // redirect to workbook page
-  header('Location:workbook.html');
-}
-
-// case: password not matched 
-else {
   // delete username cookie
   $cookie_name = "username";
   $cookie_value = "";
@@ -79,6 +56,51 @@ else {
 
   // redirect to index page
   header('Location:index.html');
+  exit;
 }
+
+// add username and usertype to cookie
+setcookie("username", $login_username, time() + 3600, "/"); // 86400 = 1 day
+setcookie("usertype", $login_usertype, time() + 3600, "/"); // 86400 = 1 day
+
+// ---- START TEST -----
+
+// get the scores table
+$database_table = "scores";
+$query = "SELECT * FROM " . $database_table;
+$result = $mysqli->query($query);
+if (!$result) { echo "<p>Error getting scores from the database: " . mysql_error() . "</p>"; }
+
+// check if username exists
+$found_flag = false;
+while ($entry = mysqli_fetch_assoc($result)) {
+  // get the entry's username
+  $entry_username = trim($entry['username']);
+
+  // login username matches entry username => enable found flag and quit loop
+  if ($login_username === $entry_username) {
+    $found_flag = true; 
+    break;
+  }
+}
+
+// username not found in scores table =? add new row with username and usertype
+if (!$found_flag) {
+  $query = "INSERT INTO scores
+    (username, usertype)
+    VALUES
+    ('$login_username', '$login_usertype')
+  ";
+  $result = $mysqli->query($query);
+  if (!$result) { echo "<p>Error getting scores from the database: " . mysql_error() . "</p>"; }
+}
+
+// ----  END TEST  -----
+
+// close connection
+$mysqli->close();
+
+// redirect to workbook page
+header('Location:workbook.html');
 
 ?>

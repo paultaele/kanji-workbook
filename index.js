@@ -1,7 +1,5 @@
 function init() {
-    
-    console.log("check");
-    checkLogin();
+  checkLogin();
 }
 
 function checkLogin() {
@@ -11,9 +9,6 @@ function checkLogin() {
 
   // get cookie
   var cookie = document.cookie;
-  
-  // debug
-  console.log("cookie: " + cookie);
 
   // tokenize the cookie
   var tokens = cookie.split(/[\s;=]+/);
