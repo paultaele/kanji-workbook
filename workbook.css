@@ -222,3 +222,11 @@ th {
 #waiting_message_area {
   font-family: Consolas, monaco, monospace;
 }
+
+#legend_area {
+  margin: 10px;
+}
+
+.legend_font {
+  font-size: 2em;
+}

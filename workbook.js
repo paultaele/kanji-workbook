@@ -290,6 +290,14 @@ function strokeMatchFeedbackButton(canvas, context) {
   // lock interface so that buttons are disabled
   lockInterface(true);
 
+  // show and display legend
+  var legendArea = document.getElementById("legend_area");
+  legendArea.style.display = "block";
+  var output = "";
+  output += "<span class='legend_font' style='color: #0000ff'><strong>■</strong></span> <span>match</span> | ";
+  output += "<span class='legend_font' style='color: #ff0000'><strong>■</strong></span> <span>no match</span>";
+  legendArea.innerHTML = output;
+
   // save the original state and revert to empty canvas
   Anim.originalState = context.getImageData(0, 0, canvas.width, canvas.height);
   var canvasState = canvasStates[0];
@@ -319,6 +327,11 @@ function strokeMatchFeedbackButton(canvas, context) {
       // unlock interface and restore original canvas state
       lockInterface(false);
       context.putImageData(Anim.originalState, 0, 0);
+
+      // clear and hide legend
+      var legendArea = document.getElementById("legend_area");
+      legendArea.style.display = "hidden";
+      legendArea.innerHTML = "";
 
       return;
     }
@@ -354,6 +367,14 @@ function strokeValidFeedbackButton(canvas, context) {
   // lock interface so that buttons are disabled
   lockInterface(true);
 
+  // show and display legend
+  var legendArea = document.getElementById("legend_area");
+  legendArea.style.display = "block";
+  var output = "";
+  output += "<span class='legend_font' style='color: #0000ff'><strong>■</strong></span> <span>valid</span> | ";
+  output += "<span class='legend_font' style='color: #ff0000'><strong>■</strong></span> <span>invalid</span>";
+  legendArea.innerHTML = output;
+
   // save the original state and revert to empty canvas
   Anim.originalState = context.getImageData(0, 0, canvas.width, canvas.height);
   var canvasState = canvasStates[0];
@@ -382,6 +403,11 @@ function strokeValidFeedbackButton(canvas, context) {
       // unlock interface and restore original canvas state
       lockInterface(false);
       context.putImageData(Anim.originalState, 0, 0);
+
+      // clear and hide legend
+      var legendArea = document.getElementById("legend_area");
+      legendArea.style.display = "hidden";
+      legendArea.innerHTML = "";
 
       return;
     }
@@ -412,6 +438,14 @@ function strokeExistFeedbackButton(canvas, context) {
 
   // lock interface so that buttons are disabled
   lockInterface(true);
+
+  // show and display legend
+  var legendArea = document.getElementById("legend_area");
+  legendArea.style.display = "block";
+  var output = "";
+  output += "<span class='legend_font' style='color: #0000ff'><strong>■</strong></span> <span>exists</span> | ";
+  output += "<span class='legend_font' style='color: #ff0000'><strong>■</strong></span> <span>missing</span> ";
+  legendArea.innerHTML = output;
 
   // save the original state and revert to empty canvas
   Anim.originalState = context.getImageData(0, 0, canvas.width, canvas.height);
@@ -445,6 +479,11 @@ function strokeExistFeedbackButton(canvas, context) {
       lockInterface(false);
       context.putImageData(Anim.originalState, 0, 0);
 
+      // clear and hide legend
+      var legendArea = document.getElementById("legend_area");
+      legendArea.style.display = "hidden";
+      legendArea.innerHTML = "";
+
       return;
     }
 
@@ -475,6 +514,16 @@ function strokeOrderFeedbackButton(canvas, context) {
   // lock interface so that buttons are disabled
   lockInterface(true);
 
+  // show and display legend
+  var legendArea = document.getElementById("legend_area");
+  legendArea.style.display = "block";
+  var output = "";
+  output += "<span class='legend_font' style='color: #0000ff'><strong>■</strong></span> <span>correct</span> | ";
+  output += "<span class='legend_font' style='color: #ffa500'><strong>■</strong></span> <span>early</span> | ";
+  output += "<span class='legend_font' style='color: #551a8b'><strong>■</strong></span> <span>late</span> | ";
+  output += "<span class='legend_font' style='color: #808080'><strong>■</strong></span> <span>invalid</span>";
+  legendArea.innerHTML = output;
+
   // save the original state and revert to empty canvas
   Anim.originalState = context.getImageData(0, 0, canvas.width, canvas.height);
   var canvasState = canvasStates[0];
@@ -500,6 +549,11 @@ function strokeOrderFeedbackButton(canvas, context) {
       // unlock interface and restore original canvas state
       lockInterface(false);
       context.putImageData(Anim.originalState, 0, 0);
+
+      // clear and hide legend
+      var legendArea = document.getElementById("legend_area");
+      legendArea.style.display = "hidden";
+      legendArea.innerHTML = "";
 
       return;
     }
@@ -535,6 +589,15 @@ function strokeDirectionFeedbackButton(canvas, context) {
   // lock interface so that buttons are disabled
   lockInterface(true);
 
+  // show and display legend *****
+  var legendArea = document.getElementById("legend_area");
+  legendArea.style.display = "block";
+  var output = "";
+  output += "<span class='legend_font' style='color: #0000ff'><strong>■</strong></span> <span>correct</span> | ";
+  output += "<span class='legend_font' style='color: #ff0000'><strong>■</strong></span> <span>incorrect</span> | ";
+  output += "<span class='legend_font' style='color: #808080'><strong>■</strong></span> <span>invalid</span>";
+  legendArea.innerHTML = output;
+
   // save the original state and revert to empty canvas
   Anim.originalState = context.getImageData(0, 0, canvas.width, canvas.height);
   var canvasState = canvasStates[0];
@@ -560,6 +623,11 @@ function strokeDirectionFeedbackButton(canvas, context) {
       // unlock interface and restore original canvas state
       lockInterface(false);
       context.putImageData(Anim.originalState, 0, 0);
+
+      // clear and hide legend
+      var legendArea = document.getElementById("legend_area");
+      legendArea.style.display = "hidden";
+      legendArea.innerHTML = "";
 
       return;
     }
@@ -758,6 +826,16 @@ function strokeLengthFeedbackButton(canvas, context) {
   // lock interface so that buttons are disabled
   lockInterface(true);
 
+  // show and display legend
+  var legendArea = document.getElementById("legend_area");
+  legendArea.style.display = "block";
+  var output = "";
+  output += "<span class='legend_font' style='color: #0000ff'><strong>■</strong></span> <span>valid</span> | ";
+  output += "<span class='legend_font' style='color: #00ff00'><strong>■</strong></span> <span>lacking</span> | ";
+  output += "<span class='legend_font' style='color: #ff0000'><strong>■</strong></span> <span>extraneous</span> | ";
+  output += "<span class='legend_font' style='color: #808080'><strong>■</strong></span> <span>invalid</span>";
+  legendArea.innerHTML = output;
+
   // save the original state and revert to empty canvas
   Anim.originalState = context.getImageData(0, 0, canvas.width, canvas.height);
   var canvasState = canvasStates[0];
@@ -788,6 +866,11 @@ function strokeLengthFeedbackButton(canvas, context) {
       // unlock interface and restore original canvas state
       lockInterface(false);
       context.putImageData(Anim.originalState, 0, 0);
+
+      // clear and hide legend
+      var legendArea = document.getElementById("legend_area");
+      legendArea.style.display = "hidden";
+      legendArea.innerHTML = "";
 
       return;
     }
@@ -908,6 +991,14 @@ function strokeClosenessFeedbackButton(canvas, context) {
   // lock interface so that buttons are disabled
   lockInterface(true);
 
+  // show and display legend
+  var legendArea = document.getElementById("legend_area");
+  legendArea.style.display = "block";
+  var output = "";
+  output += "<span class='legend_font' style='color: #000000'><strong>■</strong></span> <span>close</span> | ";
+  output += "<span class='legend_font' style='color: #ff0000'><strong>■</strong></span> <span>not close</span>";
+  legendArea.innerHTML = output;
+
   // save the original state and revert to empty canvas
   Anim.originalState = context.getImageData(0, 0, canvas.width, canvas.height);
   var canvasState = canvasStates[0];
@@ -942,6 +1033,11 @@ function strokeClosenessFeedbackButton(canvas, context) {
       // unlock interface and restore original canvas state
       lockInterface(false);
       context.putImageData(Anim.originalState, 0, 0);
+
+      // clear and hide legend
+      var legendArea = document.getElementById("legend_area");
+      legendArea.style.display = "hidden";
+      legendArea.innerHTML = "";
 
       return;
     }
