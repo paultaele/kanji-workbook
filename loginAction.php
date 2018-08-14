@@ -55,7 +55,7 @@ if (!$login_success) {
   setcookie($cookie_name, $cookie_value, $cookie_time, "/"); // 86400 = 1 day
 
   // redirect to index page
-  header('Location:index.html');
+  header('Location:index.php');
   exit;
 }
 
@@ -101,6 +101,6 @@ if (!$found_flag) {
 $mysqli->close();
 
 // redirect to workbook page
-header('Location:workbook.html');
+header('Location:workbook.php');
 
 ?>

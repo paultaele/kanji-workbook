@@ -13,7 +13,7 @@ $username_value = $_COOKIE[$username_key];
 $usertype_value = $_COOKIE[$usertype_key];
 
 // usertype not instructor => redirect to workbook page
-if ($usertype_value !== "instructor") { header('Location:workbook.html'); }
+if ($usertype_value !== "instructor") { header('Location:workbook.php'); }
 
 // set database table
 $database_table = "scores";

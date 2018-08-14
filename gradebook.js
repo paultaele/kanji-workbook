@@ -162,8 +162,8 @@ function outputGradebook2(gradebook) {
 
 function checkLogin() {
   // set redirect pages
-  var loginPage = "index.html";
-  var workbookPage = "workbook.html";
+  var loginPage = "index.php";
+  var workbookPage = "workbook.php";
 
   // get cookie and its tokens
   var cookie = document.cookie;
@@ -192,7 +192,7 @@ function checkLogin() {
 }
 
 function returnButton() {
-  window.location = "workbook.html";
+  window.location = "workbook.php";
 }
 
 // #region Fields

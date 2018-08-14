@@ -27,4 +27,6 @@ $json_data = json_encode($scores);
 $hidden = "hidden";
 echo "<div $hidden><textarea id='scores_state_input' cols='50' rows='10'>$json_data</textarea><br></div>";
 
+include "footer.php"
+
 ?>

@@ -9,6 +9,6 @@ ob_start();
 setcookie("username", "", time() + 3600, "/");
 
 // redirect to calling page
-header('Location:index.html');
+header('Location:index.php');
 
 ?>

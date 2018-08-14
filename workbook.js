@@ -28,7 +28,7 @@ function init() {
 
 function checkLogin() {
   // set login page
-  var loginPage = "index.html";
+  var loginPage = "index.php";
 
   // get cookie
   var cookie = document.cookie;

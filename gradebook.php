@@ -34,16 +34,18 @@
   </div>
 
   <!-- main display area -->
-    <div id="main_display_area">
+  <div id="main_display_area">
 
-      <input type="submit" id="return_button" name="return_button" class="element_look"
-        onclick="returnButton();" value="Return">
+    <input type="submit" id="return_button" name="return_button" class="element_look"
+      onclick="returnButton();" value="Return">
 
-      <?php include 'gradebookLookup.php';?>
+    <?php include 'gradebookLookup.php';?>
 
-      <div id="gradebook_display_area" name="gradebook_display_area"></div>
+    <div id="gradebook_display_area" name="gradebook_display_area"></div>
 
-    </div>
+  </div>
+
+  <?php include "footer.php" ?>
 
 </body>
 </html>

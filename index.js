@@ -5,7 +5,7 @@ function init() {
 function checkLogin() {
     
   // set destination page
-  var destinationPage = "workbook.html";
+  var destinationPage = "workbook.php";
 
   // get cookie
   var cookie = document.cookie;
