@@ -17,22 +17,29 @@
 
     <form id="login_form">
 
-      <!-- username input -->
-      <label for="username_input"><span>Username:</span></label>
-      <input type="text" id="username_input" name="username_input" required>
+      <fieldset id="form_area">
 
-      <br><br>
-    
-      <!-- password input -->
-      <label for="password_input"><span>Password:</span></label>
-      <input type="password" id="password_input" name="password_input" required>
+        <!-- legend -->
+        <legend>Log In</legend>
 
-      <br><br>
+        <!-- username input -->
+        <label for="username_input"><span>Username:</span></label>
+        <input type="text" id="username_input" name="username_input" required>
 
-      <!-- submit button -->
-      <input type="submit" id="submit_button"
-        name="submit_button" value="Log In" formaction="loginAction.php" formmethod="get">
-          
+        <br><br>
+      
+        <!-- password input -->
+        <label for="password_input"><span>Password:</span></label>
+        <input type="password" id="password_input" name="password_input" required>
+
+        <br><br>
+
+        <!-- submit button -->
+        <input type="submit" id="submit_button"
+          name="submit_button" value="Log In" formaction="loginAction.php" formmethod="get">
+
+      </fieldset>
+
     </form>
 
     <?php include "footer.php" ?>

@@ -24,7 +24,7 @@ input[type="text"], input[type="password"] {
 }
 
 label {
-  width: 150px;
+  width: 350px;
   clear: left;
   text-align: right;
   padding-right: 10px;
@@ -44,4 +44,13 @@ input, label {
   display: inline-block;
   padding: 20px;
   opacity: 0.95;
+}
+
+#challenge_label {
+  width: 650px;
+  text-align: center;
+}
+
+#challenge_input {
+  width: 650px;
 }

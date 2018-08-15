@@ -3,7 +3,7 @@
 // disable caching
 include "nocache.php";
 
-// gethe form's username and password
+// get form's username and password
 $login_username = trim($_REQUEST['username_input']);
 $login_password = trim($_REQUEST['password_input']);
 
