@@ -17,8 +17,9 @@ function init() {
 }
 
 function checkLogin() {
-// set login page
+// set redirect pages
   var loginPage = "index.php";
+  var workbookPage = "workbook.php";
 
   // get cookie
   var cookie = document.cookie;
@@ -40,9 +41,10 @@ function checkLogin() {
   var usertype_text = tokens[usertypeIndex + 1];
 
   // case: "username" is empty => clear cookie record and redirect to login page
-  if (username_text === "") {
-    window.location.href = loginPage;
-  }
+  if (username_text === "") { window.location.href = loginPage; }
+  
+  // case: "usertype" is guest => redirect to workbook page
+  if (usertype_text === "guest") { window.location.href = workbookPage; }
 
   // set header message
   var headerMessage = document.getElementById("header_message");

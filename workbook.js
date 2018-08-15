@@ -58,12 +58,25 @@ function checkLogin() {
   var headerMessage = document.getElementById("header_message");
   headerMessage.innerHTML = "こんにちは, <strong>" + username_text + "</strong>";
 
-  // set gradebook link display flag
-  var displayState;
-  if (usertype_text === "student") { displayState = "none"; }
-  else if (usertype_text === "instructor") { displayState = "inline"; }
-  document.getElementById("gradebook_link").style.display = displayState;
-  document.getElementById("gradebook_divider").style.display = displayState;
+  // set gradebook and scores link display flag
+  var gradebookDisplayState;
+  var scoresDisplayState;
+  if (usertype_text === "guest") {
+    gradebookDisplayState = "none";
+    scoresDisplayState = "none";
+  }
+  else if (usertype_text === "student") {
+    gradebookDisplayState = "none";
+    scoresDisplayState = "inline";
+  }
+  else if (usertype_text === "instructor") {
+    gradebookDisplayState = "inline";
+    scoresDisplayState = "inline";
+  }
+  document.getElementById("gradebook_link").style.display = gradebookDisplayState;
+  document.getElementById("gradebook_divider").style.display = gradebookDisplayState;
+  document.getElementById("scores_link").style.display = scoresDisplayState;
+  document.getElementById("scores_divider").style.display = scoresDisplayState;
   
 }
 
@@ -182,6 +195,12 @@ function stepsButton(canvas, context) {
 
       // paint the feedback stroke
       paintStrokes(context, [modelStroke], Colors.blue, Opaqueness.heavy, 10);
+
+      // paint the feedback stroke's starting point
+      var point = modelStroke.points[0];
+
+      context.fillStyle = "rgba(" + Colors.blue + "," + Opaqueness.full + ")";
+      context.fillRect(point.x - 10, point.y - 10, 20, 20);
     }
 
     // animate the next step

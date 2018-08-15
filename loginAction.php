@@ -63,39 +63,38 @@ if (!$login_success) {
 setcookie("username", $login_username, time() + 3600, "/"); // 86400 = 1 day
 setcookie("usertype", $login_usertype, time() + 3600, "/"); // 86400 = 1 day
 
-// ---- START TEST -----
-
-// get the scores table
-$database_table = "scores";
-$query = "SELECT * FROM " . $database_table;
-$result = $mysqli->query($query);
-if (!$result) { echo "<p>Error getting scores from the database: " . mysql_error() . "</p>"; }
-
-// check if username exists
-$found_flag = false;
-while ($entry = mysqli_fetch_assoc($result)) {
-  // get the entry's username
-  $entry_username = trim($entry['username']);
-
-  // login username matches entry username => enable found flag and quit loop
-  if ($login_username === $entry_username) {
-    $found_flag = true; 
-    break;
-  }
-}
-
-// username not found in scores table =? add new row with username and usertype
-if (!$found_flag) {
-  $query = "INSERT INTO scores
-    (username, usertype)
-    VALUES
-    ('$login_username', '$login_usertype')
-  ";
+// add scores row for new non-guest usertypes
+if ($login_usertype !== "guest") {
+  // get the scores table
+  $database_table = "scores";
+  $query = "SELECT * FROM " . $database_table;
   $result = $mysqli->query($query);
   if (!$result) { echo "<p>Error getting scores from the database: " . mysql_error() . "</p>"; }
-}
 
-// ----  END TEST  -----
+  // check if username exists
+  $found_flag = false;
+  while ($entry = mysqli_fetch_assoc($result)) {
+    // get the entry's username
+    $entry_username = trim($entry['username']);
+
+    // login username matches entry username => enable found flag and quit loop
+    if ($login_username === $entry_username) {
+      $found_flag = true; 
+      break;
+    }
+  }
+
+  // username not found in scores table =? add new row with username and usertype
+  if (!$found_flag) {
+    $query = "INSERT INTO scores
+      (username, usertype)
+      VALUES
+      ('$login_username', '$login_usertype')
+    ";
+    $result = $mysqli->query($query);
+    if (!$result) { echo "<p>Error getting scores from the database: " . mysql_error() . "</p>"; }
+  }
+}
 
 // close connection
 $mysqli->close();

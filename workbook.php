@@ -25,8 +25,8 @@
     <form id="header_options">
       <input type="submit" id="gradebook_link" value="Gradebook" formaction="gradebook.php" formmethod="get">
       <span id="gradebook_divider">|</span>
-      <input type="submit" value="Scores" formaction="scores.php" formmethod="get">
-      <span>|</span>
+      <input type="submit" id="scores_link" value="Scores" formaction="scores.php" formmethod="get">
+      <span id="scores_divider">|</span>
       <input type="submit" value="Sign Out" formaction="logoutAction.php" formmethod="get">
     </form>
 
