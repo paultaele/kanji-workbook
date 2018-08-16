@@ -18,7 +18,7 @@
 
       <form id="login_form">
 
-        <fieldset id="form_area">
+        <fieldset id="fieldset_area">
           <!-- legend -->
           <legend>Sign Up Details</legend>
 
@@ -29,14 +29,14 @@
           <!-- generate username submit and input -->
           <label id="username_label" for="username_input" class="generate_label">Generate Username:<sup>*</sup></label><br>
           <input type="text" id="username_input" class="generate_input" name="username_input" readonly><br>
-          <input type="button" id="username_button" class="generate_button" value="Generate" onclick="generateOutput(fruits, 'username_input');">
+          <input type="button" id="username_button" class="generate_button" value="Generate" onclick="generateUsername();">
 
           <br><br>
 
           <!-- generate password submit and input -->
           <label id="password_label" for="password_input" class="generate_label">Generate Password:<sup>*</sup></label><br>
           <input type="text" id="password_input" class="generate_input" name="password_input" readonly><br>
-          <input type="button" id="password_button" class="generate_button" value="Generate" onclick="generateOutput(pokemons, 'password_input');">
+          <input type="button" id="password_button" class="generate_button" value="Generate" onclick="generatePassword();">
 
           <br><br>
 

@@ -17,7 +17,7 @@
 
     <form id="login_form">
 
-      <fieldset id="form_area">
+      <fieldset id="fieldset_area">
 
         <!-- legend -->
         <legend>Log In</legend>
@@ -37,6 +37,11 @@
         <!-- submit button -->
         <input type="submit" id="submit_button"
           name="submit_button" value="Log In" formaction="loginAction.php" formmethod="get">
+
+        <br><br>
+
+        <!-- sign up link -->
+        <span style="font-size: 0.75em"><a href="signup.php" style="text-decoration: none">Sign Up</a></span>
 
       </fieldset>
 

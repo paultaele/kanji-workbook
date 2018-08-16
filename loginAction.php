@@ -20,7 +20,7 @@ if (!$result) { echo "<p>Error getting logins from the database: " . mysql_error
 $success = false;
 $login_usertype = null;
 while ($entry = mysqli_fetch_assoc($result)) {
-  // get the entry's username and password
+  // get the entry's contents
   $entry_username = trim($entry['username']);
   $entry_password = trim($entry['password']);
   $entry_usertype = trim($entry['usertype']);

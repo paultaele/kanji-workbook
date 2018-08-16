@@ -1,20 +1,37 @@
-function generateOutput(elements, target) {
+function generateUsername() {
+  // set helper values
+  var count = pokemons.length;
+  var index;
 
+  // get element 1
+  index = randomDigit(count);
+  var element1 = pokemons[index].toLowerCase();
+
+  // get element 2
+  index = randomDigit(count);
+  var element2 = pokemons[index].toLowerCase();
+
+  // create username and add to form
+  var output = "" + element1 + "-" + element2;
+  document.getElementById("username_input").value = output;
+}
+
+function generatePassword() {
   // get element
-  var count = elements.length;
-  var index = (Math.floor(Math.random() * count) + 1) - 1;
-  var element = elements[index].toLocaleLowerCase();
+  var count = fruits.length;
+  var index = randomDigit(count);
+  var element = fruits[index].toLowerCase();
 
   // get number
-  var number = "" + randomDigit() + randomDigit() + randomDigit() + randomDigit() + randomDigit();
+  var number = "" + randomDigit(10) + randomDigit(10) + randomDigit(10) + randomDigit(10) + randomDigit(10);
 
   // create password and add to form
   var output = "" + element + number;
-  document.getElementById(target).value = output;
+  document.getElementById("password_input").value = output;
 }
 
-function randomDigit() {
-  return (Math.floor(Math.random() * 10) + 1) - 1;
+function randomDigit(num) {
+  return (Math.floor(Math.random() * num) + 1) - 1;
 }
 
 var pokemons = [
@@ -46,10 +63,8 @@ var pokemons = [
   "Raichu",
   "Sandshrew",
   "Sandslash",
-  "Nidoran♀",
   "Nidorina",
   "Nidoqueen",
-  "Nidoran♂",
   "Nidorino",
   "Nidoking",
   "Clefairy",
@@ -100,7 +115,7 @@ var pokemons = [
   "Slowbro",
   "Magnemite",
   "Magneton",
-  "Farfetch'd",
+  "Farfetchd",
   "Doduo",
   "Dodrio",
   "Seel",
@@ -139,7 +154,7 @@ var pokemons = [
   "Seaking",
   "Staryu",
   "Starmie",
-  "Mr. Mime",
+  "MrMime",
   "Scyther",
   "Jynx",
   "Electabuzz",

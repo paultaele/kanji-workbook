@@ -31,15 +31,15 @@ label {
   font-weight: bold;
 }
 
-input, label {
+/* input, label {
   float: left;
-}
+} */
 
 #submit_button, .generate_button {
   float: right;
 }
 
-#form_area {
+#fieldset_area {
   background-color: white;
   display: inline-block;
   padding: 20px;
@@ -60,4 +60,5 @@ input, label {
 
 #challenge_input {
   width: 650px;
+  text-align: center;
 }
