@@ -12,8 +12,8 @@ form {
   font-size: 2em;
 }
 
-input[type="submit"] {
-  font-size: 1em;
+input[type="submit"], input[type="button"] {
+  font-size: .75em;
   background-color: black;
   color: white;
   padding: 5px;
@@ -35,7 +35,7 @@ input, label {
   float: left;
 }
 
-#submit_button {
+#submit_button, .generate_button {
   float: right;
 }
 
@@ -46,7 +46,14 @@ input, label {
   opacity: 0.95;
 }
 
-#challenge_label {
+.generate_input {
+  width: 650px;
+  text-align: center;
+  background-color: lightgrey;
+  color: black;
+}
+
+#challenge_label, .generate_label {
   width: 650px;
   text-align: center;
 }
