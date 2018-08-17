@@ -1,14 +1,15 @@
 function generateUsername() {
   // set helper values
-  var count = pokemons.length;
+  var count1 = colors.length;
+  var count2 = pokemons.length;
   var index;
 
   // get element 1
-  index = randomDigit(count);
-  var element1 = pokemons[index].toLowerCase();
+  index = randomDigit(count1);
+  var element1 = colors[index].toLowerCase();
 
   // get element 2
-  index = randomDigit(count);
+  index = randomDigit(count2);
   var element2 = pokemons[index].toLowerCase();
 
   // create username and add to form
@@ -33,6 +34,20 @@ function generatePassword() {
 function randomDigit(num) {
   return (Math.floor(Math.random() * num) + 1) - 1;
 }
+
+var colors = [
+  "kuroi",
+  "shiroi",
+  "akai",
+  "kiiro",
+  "aoiro",
+  "midori",
+  "chairo",
+  "momoiro",
+  "daidaiiro",
+  "haiiro",
+  "murasaki"
+];
 
 var pokemons = [
   "Bulbasaur",
@@ -219,4 +234,3 @@ var fruits = [
   "tougarashi",
   "cyabetsu",
 ];
-

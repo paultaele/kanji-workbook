@@ -33,11 +33,12 @@ function outputGradebook(entries) {
 
   // set table headers
   var firstEntry = entries[0];
-  var usernameClick = "<a href='#' onclick='displaySorted(\"username\");'>username</a>";
-  var usertypeClick = "<a href='#' onclick='displaySorted(\"usertype\");'>usertype</a>";
+  // var usernameClick = "<a href='#' onclick='displaySorted(\"username\");'>username</a>";
+  // var usertypeClick = "<a href='#' onclick='displaySorted(\"usertype\");'>usertype</a>";
+  var usernameClick = "username";
+  var usertypeClick = "usertype";
   output += tr;
   output += th + usernameClick + th_;
-  output += th + usertypeClick + th_;
   for (var i = 0; i < firstEntry.scores.length; ++i) {
     output += th + firstEntry.scores[i][0] + th_;
   }
@@ -46,9 +47,12 @@ function outputGradebook(entries) {
   // set table data
   for (var i = 0; i < entries.length; ++i) {
     var entry = entries[i];
+
+    // skip non-student entries
+    if (entry.usertype !== "student") { continue; }
+
     output += tr;
     output += td + entry.username + td_;
-    output += td + entry.usertype + td_;
     for (var j = 0; j < entry.scores.length; ++j) {
       var score = entry.scores[j];
       var scoreValue = score[1];

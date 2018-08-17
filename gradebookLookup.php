@@ -23,9 +23,6 @@ $query = "SELECT * FROM $database_table ORDER BY username ASC";
 $results = $mysqli->query($query);
 if (!$results) { echo "ERROR: Could not perform query." . mysql_error() . "<br>"; }
 
-// TODO: make while loop for iterating through results
-// $gradebook = $results->fetch_assoc();
-
 // get the gradebook
 $gradebook = [];
 while( $row = $results->fetch_assoc() ) { $gradebook[] = $row; }
