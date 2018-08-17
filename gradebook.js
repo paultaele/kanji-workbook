@@ -187,8 +187,8 @@ function checkLogin() {
   // case: "username" is empty => clear cookie record and redirect to login page
   if (username_text === "") { window.location.href = loginPage; }
 
-  // case: "usertype" is student => redirect to workbook page
-  if (usertype_text === "student") { window.location.href = workbookPage; }
+  // case: "usertype" is student or tester => redirect to workbook page
+  if (usertype_text === "student" || usertype_text === "tester") { window.location.href = workbookPage; }
 
   // set header message
   var headerMessage = document.getElementById("header_message");

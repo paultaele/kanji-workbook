@@ -65,7 +65,7 @@ function checkLogin() {
     gradebookDisplayState = "none";
     scoresDisplayState = "none";
   }
-  else if (usertype_text === "student") {
+  else if (usertype_text === "student" || usertype_text === "tester") {
     gradebookDisplayState = "none";
     scoresDisplayState = "inline";
   }

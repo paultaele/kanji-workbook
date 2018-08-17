@@ -52,7 +52,7 @@ function checkLogin() {
 
   // set gradebook link display flag
   var displayState;
-  if (usertype_text === "student") { displayState = "none"; }
+  if (usertype_text === "student" || usertype_text === "tester") { displayState = "none"; }
   else if (usertype_text === "instructor") { displayState = "inline"; }
   document.getElementById("gradebook_link").style.display = displayState;
   document.getElementById("gradebook_divider").style.display = displayState;
