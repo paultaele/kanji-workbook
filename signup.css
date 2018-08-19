@@ -8,19 +8,17 @@ body {
   background-size: 100%;
 }
 
-form {
-  font-size: 2em;
-}
-
 input[type="submit"], input[type="button"] {
-  font-size: .75em;
+  font-size: 0.75em;
   background-color: black;
   color: white;
   padding: 5px;
+  font-size: 1.5em;
 }
 
 input[type="text"], input[type="password"] {
   font-size: 0.75em;
+  font-size: 1.5em;
 }
 
 label {
@@ -29,14 +27,12 @@ label {
   text-align: right;
   padding-right: 10px;
   font-weight: bold;
+  font-size: 1.5em;
 }
 
-/* input, label {
-  float: left;
-} */
-
-#submit_button, .generate_button {
+#submit_button, #username_button, #password_button {
   float: right;
+  font-size: 1.0em;
 }
 
 #fieldset_area {
@@ -47,15 +43,16 @@ label {
 }
 
 .generate_input {
-  width: 650px;
+  width: 400px;
   text-align: center;
   background-color: lightgrey;
   color: black;
 }
 
 #challenge_label, .generate_label {
-  width: 650px;
+  width: 600px;
   text-align: center;
+  font-size: 1.5em;
 }
 
 #challenge_input {
