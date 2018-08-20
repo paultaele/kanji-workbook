@@ -28,6 +28,8 @@ include "nocache.php";
     // get form's data
     $signup_username = trim($_REQUEST['username_input']);
     $signup_password = trim($_REQUEST['password_input']);
+    $signup_firstname = trim($_REQUEST['firstname_input']);
+    $signup_lastname = trim($_REQUEST['lastname_input']);
     $signup_code = trim($_REQUEST['code_input']);
     $signup_challenge = trim($_REQUEST['challenge_input']);
 
@@ -67,9 +69,9 @@ include "nocache.php";
 
     // add new account to database table
     $query = "INSERT INTO $database_table
-      (username, password, usertype)
+      (username, password, usertype, firstname, lastname)
       VALUES
-      ('$signup_username', '$signup_password', '$signup_usertype')
+      ('$signup_username', '$signup_password', '$signup_usertype', '$signup_firstname', '$signup_lastname')
     ";
     $result = $mysqli->query($query);
     if (!$result) { echo "<p>Error getting $database_table from the database: " . mysql_error() . "</p>"; }

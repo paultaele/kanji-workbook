@@ -35,9 +35,15 @@ function outputGradebook(entries) {
   var firstEntry = entries[0];
   // var usernameClick = "<a href='#' onclick='displaySorted(\"username\");'>username</a>";
   // var usertypeClick = "<a href='#' onclick='displaySorted(\"usertype\");'>usertype</a>";
-  var usernameClick = "username";
-  var usertypeClick = "usertype";
+  // var lastnameClick = "lastname";
+  // var firstnameClick = "firstname";
+  // var usernameClick = "username";
+  var lastnameClick = "<a href='#' onclick='displaySorted(\"lastname\");'>lastname</a>";
+  var firstnameClick = "<a href='#' onclick='displaySorted(\"firstname\");'>firstname</a>"
+  var usernameClick = "<a href='#' onclick='displaySorted(\"username\");'>username</a>"
   output += tr;
+  output += th + lastnameClick + th_;
+  output += th + firstnameClick + th_;
   output += th + usernameClick + th_;
   for (var i = 0; i < firstEntry.scores.length; ++i) {
     output += th + firstEntry.scores[i][0] + th_;
@@ -46,12 +52,15 @@ function outputGradebook(entries) {
 
   // set table data
   for (var i = 0; i < entries.length; ++i) {
+    // get the current entry
     var entry = entries[i];
 
     // skip non-student entries
     if (entry.usertype !== "student") { continue; }
 
     output += tr;
+    output += td + entry.lastname + td_;
+    output += td + entry.firstname + td_;
     output += td + entry.username + td_;
     for (var j = 0; j < entry.scores.length; ++j) {
       var score = entry.scores[j];
@@ -74,20 +83,35 @@ function displaySorted(target) {
   // copy entries
   var es = JSON.parse(JSON.stringify(entries));
 
-  if (target === "username") {
-    es.sort(function(a, b) {
-      if (a.username < b.username) { return -1; }
-      if (a.username > b.username) { return  1; }
-      return 0;
-    });
-  }
-  else if (target === "usertype") {
-    es.sort(function(a, b) {
-      if (a.usertype < b.usertype) { return -1; }
-      if (a.usertype > b.usertype) { return  1; }
-      return 0;
-    });
-  }
+  // sort
+  es.sort(function(a, b) {
+    if (a[target] < b[target]) { return -1; }
+    if (a[target] > b[target]) { return  1; }
+    return 0;
+  });
+
+  // if (target === "lastname") {
+  //   es.sort(function(a, b) {
+  //     if (a.lastname < b.lastname) { return -1; }
+  //     if (a.username > b.username) { return  1; }
+  //     return 0;
+  //   });
+  // }
+  // else if (target === "firstname") {
+  //   es.sort(function(a, b) {
+  //     if (a.firstname < b.firstname) { return -1; }
+  //     if (a.firstname > b.firstname) { return  1; }
+  //     return 0;
+  //   });
+  // }
+
+  // else if (target === "firstname") {
+  //   es.sort(function(a, b) {
+  //     if (a.firstname < b.firstname) { return -1; }
+  //     if (a.firstname > b.firstname) { return  1; }
+  //     return 0;
+  //   });
+  // }
 
   outputGradebook(es);
 }
@@ -105,15 +129,18 @@ function getEntries(gradebook) {
     // get the gradebook entry
     var row = gradebook[i];
 
-    // get the username and usertype
+    // get the non-scores
     var username = row.username;
     var usertype = row.usertype;
+    var firstname = row.firstname;
+    var lastname = row.lastname;
 
     // get the entry's scores
     var scores = [];
     for (var key in row) {
-      // skip indirect keys, username, and usertype
-      if (!row.hasOwnProperty(key) || key === "username" || key === "usertype") { continue; }
+
+      // skip indirect keys and non-score keys
+      if (!row.hasOwnProperty(key) || key === "username" || key === "usertype" || key === "firstname" || key === "lastname") { continue; }
       
       // add the score to the collection
       var value = row[key];
@@ -121,7 +148,7 @@ function getEntries(gradebook) {
       scores.push(score);
     }
 
-    // sort the scores by its key (i.e., assignment type)
+    // sort the scores by its key (i.e., assignment set type)
     scores.sort(function(a, b) {
       if (a[0] < b[0]) { return -1; }
       if (a[0] > b[0]) { return  1; }
@@ -132,36 +159,21 @@ function getEntries(gradebook) {
     var entry = {
       username: username,
       usertype: usertype,
+      firstname: firstname,
+      lastname: lastname,
       scores: scores
     };
     entries.push(entry);
 
+    // initially sort by last name
+    entries.sort(function(a, b) {
+      if (a.lastname < b.lastname) { return -1; }
+      if (a.lastname > b.lastname) { return  1; }
+      return 0;
+    });
   }
 
   return entries;
-}
-
-function outputGradebook2(gradebook) {
-
-  // create output
-  var output = "";
-
-  // set table tag contants
-  var table  = "<table>";
-  var table_ = "</table>";
-  var tr     = "<tr>";
-  var tr_    = "</tr>";
-  var th     = "<th>";
-  var th_    = "</th>"; 
-  var td     = "<td>";
-  var td_    = "</td>";
-  var br     = "<br>";
-
-  // start table
-  output += table;
-
-  
-
 }
 
 function checkLogin() {
@@ -176,6 +188,7 @@ function checkLogin() {
   // get index of "username" and "usertype" 
   var usernameIndex = tokens.findIndex(function(element) { return element === "username"; });
   var usertypeIndex = tokens.findIndex(function(element) { return element === "usertype"; });
+  var firstnameIndex = tokens.findIndex(function(element) { return element === "firstname"; });
 
   // case: "username" not found => clear cookie record and redirect to login page
   if (usernameIndex < 0) { window.location.href = loginPage; }
@@ -183,6 +196,7 @@ function checkLogin() {
   // get username and usertype
   var username_text = tokens[usernameIndex + 1];
   var usertype_text = tokens[usertypeIndex + 1];
+  var firstname_text = tokens[firstnameIndex + 1];
 
   // case: "username" is empty => clear cookie record and redirect to login page
   if (username_text === "") { window.location.href = loginPage; }
@@ -192,7 +206,7 @@ function checkLogin() {
 
   // set header message
   var headerMessage = document.getElementById("header_message");
-  headerMessage.innerHTML = "こんにちは, <strong>" + username_text + "</strong>";
+  headerMessage.innerHTML = "こんにちは, <strong>" + firstname_text + "-さん</strong>"; 
 }
 
 function returnButton() {

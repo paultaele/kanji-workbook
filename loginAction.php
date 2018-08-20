@@ -24,6 +24,8 @@ while ($entry = mysqli_fetch_assoc($result)) {
   $entry_username = trim($entry['username']);
   $entry_password = trim($entry['password']);
   $entry_usertype = trim($entry['usertype']);
+  $entry_firstname = trim($entry['firstname']);
+  $entry_lastname = trim($entry['lastname']);
 
   // get login success
   $login_success = $entry_username === $login_username && $entry_password === $login_password;
@@ -31,6 +33,7 @@ while ($entry = mysqli_fetch_assoc($result)) {
   // login success => also get usertype and break loop 
   if ($login_success) {
     $login_usertype = $entry_usertype;
+    $login_firstname = $entry_firstname;
     break; 
   }
 }
@@ -62,6 +65,7 @@ if (!$login_success) {
 // add username and usertype to cookie
 setcookie("username", $login_username, time() + 3600, "/"); // 86400 = 1 day
 setcookie("usertype", $login_usertype, time() + 3600, "/"); // 86400 = 1 day
+setcookie("firstname", $login_firstname, time() + 3600, "/"); // 86400 = 1 day
 
 // add scores row for new non-guest usertypes
 if ($login_usertype !== "guest") {

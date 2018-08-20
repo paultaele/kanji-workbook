@@ -27,9 +27,10 @@ function checkLogin() {
   // tokenize the cookie
   var tokens = cookie.split(/[\s;=]+/);
 
-  // get index of "username"
+  // get index of "username" and "usertype" 
   var usernameIndex = tokens.findIndex(function(element) { return element === "username"; });
   var usertypeIndex = tokens.findIndex(function(element) { return element === "usertype"; });
+  var firstnameIndex = tokens.findIndex(function(element) { return element === "firstname"; });
 
   // case: "username" not found => clear cookie record and redirect to login page
   if (usernameIndex < 0) {
@@ -39,6 +40,7 @@ function checkLogin() {
   // get username and usertype
   var username_text = tokens[usernameIndex + 1];
   var usertype_text = tokens[usertypeIndex + 1];
+  var firstname_text = tokens[firstnameIndex + 1];
 
   // case: "username" is empty => clear cookie record and redirect to login page
   if (username_text === "") { window.location.href = loginPage; }
@@ -48,7 +50,7 @@ function checkLogin() {
 
   // set header message
   var headerMessage = document.getElementById("header_message");
-  headerMessage.innerHTML = "こんにちは, <strong>" + username_text + "</strong>";
+  headerMessage.innerHTML = "こんにちは, <strong>" + firstname_text + "-さん</strong>";
 
   // set gradebook link display flag
   var displayState;
@@ -85,7 +87,7 @@ function outputScoresState(scoresState) {
 
   // sort set scores in ascending order
   setScores.sort(function(a, b){
-    return a[0] < b[0] ? -1 : (a[0] > b[0] ? 1 : 0);
+    return a[1] < b[0] ? -1 : (a[0] > b[0] ? 1 : 0);
   });
 
   // create output
