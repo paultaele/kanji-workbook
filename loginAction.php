@@ -84,7 +84,7 @@ if ($login_usertype !== "guest") {
     }
   }
 
-  // username not found in scores table =? add new row with username and usertype
+  // username not found in scores table => add new row with username and usertype
   if (!$found_flag) {
     $query = "INSERT INTO scores
       (username, usertype)

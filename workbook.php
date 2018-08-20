@@ -42,20 +42,20 @@
   <!-- options area -->
   <div id="optionsarea">
 
-    <!-- chapter selection  -->
-    <select id="chapterselect" class="elementlook">
-      <option value="XX">--- Select chapter ---</option>
-      <option value="00">Chapter 00</option>
-      <option value="03">Chapter 03</option>
-      <option value="04">Chapter 04</option>
-      <option value="05">Chapter 05</option>
-      <option value="06">Chapter 06</option>
-      <option value="07">Chapter 07</option>
-      <option value="08">Chapter 08</option>
-      <option value="09">Chapter 09</option>
-      <option value="10">Chapter 10</option>
-      <option value="11">Chapter 11</option>
-      <option value="12">Chapter 12</option>
+    <!-- set selection  -->
+    <select id="set_select" class="elementlook">
+      <option value="XX">--- Select Set ---</option>
+      <option value="00">Set 00</option>
+      <option value="03">Set 03</option>
+      <option value="04">Set 04</option>
+      <option value="05">Set 05</option>
+      <option value="06">Set 06</option>
+      <option value="07">Set 07</option>
+      <option value="08">Set 08</option>
+      <option value="09">Set 09</option>
+      <option value="10">Set 10</option>
+      <option value="11">Set 11</option>
+      <option value="12">Set 12</option>
     </select>
 
     <!-- go button -->

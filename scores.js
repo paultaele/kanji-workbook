@@ -76,15 +76,15 @@ function getTextStars(count, max) {
 
 function outputScoresState(scoresState) {
 
-  // extract the chapter scores
-  var chapterScores = [];
+  // extract the set scores
+  var setScores = [];
   for (var p in scoresState) {
-    if (p.substring(0, 2) !== "ch") { continue; }
-    chapterScores.push( [p, scoresState[p]] );
+    if (p.substring(0, 3) !== "set") { continue; }
+    setScores.push( [p, scoresState[p]] );
   }
 
-  // sort chapter scores in ascending order
-  chapterScores.sort(function(a, b){
+  // sort set scores in ascending order
+  setScores.sort(function(a, b){
     return a[0] < b[0] ? -1 : (a[0] > b[0] ? 1 : 0);
   });
 
@@ -107,18 +107,18 @@ function outputScoresState(scoresState) {
 
   // set table rows
   output += tr;
-  output += th + "Chapter" + th_;
+  output += th + "Set" + th_;
   output += th + "Top Score" + th_;
   output += tr_;
 
   // set table data
-  for (var i = 0; i < chapterScores.length; ++i) {
-    var chapterScore = chapterScores[i];
-    var chapterTd = "Chapter " + chapterScore[0].substring(2, 4);
-    var scoreTd = (chapterScore[1] === null) ? "<em>no record</em>" : getTextStars(chapterScore[1], 10);
+  for (var i = 0; i < setScores.length; ++i) {
+    var setScore = setScores[i];
+    var setTd = "Set " + setScore[0].substring(3, 5);
+    var scoreTd = (setScore[1] === null) ? "<em>no record</em>" : getTextStars(setScore[1], 10);
 
     output += tr;
-    output += td + chapterTd + td_;
+    output += td + setTd + td_;
     output += td + scoreTd + td_;
     output += tr_;
   }

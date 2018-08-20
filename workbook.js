@@ -1404,7 +1404,7 @@ function assessButton() {
 
     // create and add assessment to list
     var symbol = modelsData[theIndex].shapes[0].interpretation;
-    var assessment = createAssessment(chapter, symbol, stars);
+    var assessment = createAssessment(set, symbol, stars);
     Quiz.assessments.push(assessment);
 
     // hide waiting message
@@ -1415,11 +1415,11 @@ function assessButton() {
 }
 
 //
-function createAssessment(chapter, symbol, stars) {
+function createAssessment(set, symbol, stars) {
   
   var assessment = {};
 
-  assessment.chapter = chapter;
+  assessment.set = set;
   assessment.symbol = symbol;
   assessment.stars = JSON.parse(JSON.stringify(stars));
 
@@ -2244,7 +2244,7 @@ function displayScore(scoreDisplay) {
   document.getElementById("assessmentdetailedscoresarea").style.display = "none";
 
   //
-  if (scoreDisplay === "chapter") { document.getElementById("assessmentoverallscorearea").style.display = "inline"; }
+  if (scoreDisplay === "set") { document.getElementById("assessmentoverallscorearea").style.display = "inline"; }
   else if (scoreDisplay === "individual") { document.getElementById("assessmentindividualscoresarea").style.display = "inline"; }
   else if (scoreDisplay === "metric") { document.getElementById("assessmentmetricscoresarea").style.display = "inline"; }
   else if (scoreDisplay === "detailed") { document.getElementById("assessmentdetailedscoresarea").style.display = "inline"; } 
@@ -2294,15 +2294,15 @@ function setScoresState(flag) {
 }
 
 function outputAssessmentTitle(assessments) {
-  // get the current chapter
-  // alt: gettin chapter from 'chapter' global variable
-  var chapter = assessments[0].chapter;
+  // get the current set
+  // alt: gettin set from 'set' global variable
+  var set = assessments[0].set;
 
   // initialize the output
   var output = "";
 
   output += "<span class='largetext'>";
-  output += "<strong>" + "CHAPTER " + chapter + " ASSESSMENT" + "</strong>";
+  output += "<strong>" + "SET " + set + " ASSESSMENT" + "</strong>";
   output += "</span>";
 
   var assessmentTitleArea = document.getElementById("assessmenttitlearea");
@@ -2376,10 +2376,10 @@ function outputAssessmentOverallScore(assessments) {
   var averageAverageMetricStars = totalAverageMetricStars / (metricNames.length - 1);
   var strokeExistAverageStars = metricAverageStars["strokeExist"];
 
-  // calculate the chapter score
+  // calculate the set score
   var firstRatio = strokeExistAverageStars / 3; // 0.0 <= firstRatio <= 1.0
   var secondRatio = (strokeExistAverageStars * firstRatio) / 3; // 0.0 <= secondRatio <= 1.0
-  var chapterScore = secondRatio * 10;
+  var setScore = secondRatio * 10;
 
   // #endregion
 
@@ -2421,9 +2421,9 @@ function outputAssessmentOverallScore(assessments) {
 
   // #region Score Display Code
 
-  // get the current chapter
-  // alt: gettin chapter from 'chapter' global variable
-  var chapter = assessments[0].chapter;
+  // get the current set
+  // alt: gettin set from 'set' global variable
+  var set = assessments[0].set;
 
   // set the HTML tags
   var overallTable  = "<table class='overalltable smalltable table2col_25_75 largetext'>";
@@ -2455,7 +2455,7 @@ function outputAssessmentOverallScore(assessments) {
   // write table data
   output += tr;
   output += td + "Chapter" + td_;
-  output += td + getTextStars(chapterScore, 10) + td_;
+  output += td + getTextStars(setScore, 10) + td_;
   output += tr_;
 
   // end table
@@ -2498,7 +2498,7 @@ function outputAssessmentOverallScore(assessments) {
   assessmentOverallScoresArea.innerHTML = output;
 
   // save scores state
-  ScoresState["ch" + chapter] = chapterScore;
+  ScoresState["set" + set] = setScore;
 
   // #endregion
 
@@ -2842,19 +2842,19 @@ function outputAssessmentDetailedScores(assessments) {
 function goButton(canvas, context) {
 
   // get the selected option
-  var chapterSelect = document.getElementById("chapterselect");
-  var selected = chapterSelect.value;
+  var setSelect = document.getElementById("set_select");
+  var selected = setSelect.value;
 
-  // ignore non-chapter selections
+  // ignore non-set selections
   if (selected === "XX") { return; }
 
-  // set the new chapter
-  chapter = selected;
+  // set the new set
+  set = selected;
 
   // set the files
-  imagesDataFile = "data/ch" + chapter + "/data_images.json";
-  modelsDataFile = "data/ch" + chapter + "/data_models_trace.json";
-  templatesDataFile = "data/ch" + chapter + "/data_templates_trace.json";
+  imagesDataFile = "data/set" + set + "/data_images.json";
+  modelsDataFile = "data/set" + set + "/data_models_trace.json";
+  templatesDataFile = "data/set" + set + "/data_templates_trace.json";
 
   // reset the interface and clear the canvas
   reset();
@@ -2873,7 +2873,7 @@ function goButton(canvas, context) {
 function lockInterface(state) {
 
   var elements = document.querySelectorAll("input[type=submit]");
-  var chapterSelect = document.getElementById("chapterselect");
+  var setSelect = document.getElementById("set_select");
 
   if (state) {
     Anim.buttonStates = {};
@@ -2884,8 +2884,7 @@ function lockInterface(state) {
     }
 
     //
-    
-    chapterSelect.disabled = true;
+    setSelect.disabled = true;
 
     removeCanvasListeners(canvas);
   }
@@ -2897,7 +2896,7 @@ function lockInterface(state) {
     }
 
     //
-    chapterSelect.disabled = false;
+    setSelect.disabled = false;
 
     addCanvasListeners(canvas);
   }
@@ -2977,7 +2976,7 @@ function setInteractionMode(mode) {
     
     // show quiz header title
     var quizHeaderTitle = document.getElementById("quiz_header_title");
-    quizHeaderTitle.innerHTML = "Chapter " + chapter + " Quiz";
+    quizHeaderTitle.innerHTML = "Set " + set + " Quiz";
 
     // set quiz header progress
     var quizHeaderProgress = document.getElementById("quiz_header_progress");
@@ -3132,17 +3131,17 @@ var InteractionEnum = {
 
 // The score state.
 var ScoresState = {
-  ch00: null,
-  ch03: null,
-  ch04: null,
-  ch05: null,
-  ch06: null,
-  ch07: null,
-  ch08: null,
-  ch09: null,
-  ch10: null,
-  ch11: null,
-  ch12: null
+  set00: null,
+  set03: null,
+  set04: null,
+  set05: null,
+  set06: null,
+  set07: null,
+  set08: null,
+  set09: null,
+  set10: null,
+  set11: null,
+  set12: null
 };
 
 // The canvas and its context.
@@ -3183,20 +3182,20 @@ var canvasStates;
 var canvasWidth;
 var canvasHeight;
 
-// The current chapter.
-var chapter = "03";
+// The current set.
+var set = "03";
 
 // The image-related variables.
 var imagesData;
 var imageIndex;
-var imagesDataFile = "data/ch" + chapter + "/data_images.json";
+var imagesDataFile = "data/set" + set + "/data_images.json";
 
 // The data-related variables.
 var modelsData;
 var templatesData;
 var idsToSymbolsData;
-var modelsDataFile = "data/ch" + chapter + "/data_models_trace.json";
-var templatesDataFile = "data/ch" + chapter + "/data_templates_trace.json";
+var modelsDataFile = "data/set" + set + "/data_models_trace.json";
+var templatesDataFile = "data/set" + set + "/data_templates_trace.json";
 var idsToSymbolsDataFile = "data/ids_to_symbols.json";
 
 // The interface mode.
