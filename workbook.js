@@ -110,7 +110,7 @@ function reset() {
   // #region Model Data Setup
   // read the models and templates data
   modelsData = readFileSync(modelsDataFile);
-  templatesData = readFileSync(templatesDataFile);
+  // templatesData = readFileSync(templatesDataFile);
   // #endregion
 
   // #region Button Setup
@@ -2854,9 +2854,9 @@ function goButton(canvas, context) {
   set = selected;
 
   // set the files
-  imagesDataFile = "data/set" + set + "/data_images.json";
-  modelsDataFile = "data/set" + set + "/data_models_trace.json";
-  templatesDataFile = "data/set" + set + "/data_templates_trace.json";
+  imagesDataFile = dataPath + "/set" + set + "/data_images.json";
+  modelsDataFile = dataPath + "/set" + set + "/data_models_trace.json";
+  // templatesDataFile = dataPath + "/set" + set + "/data_templates_trace.json";
 
   // reset the interface and clear the canvas
   reset();
@@ -3187,18 +3187,21 @@ var canvasHeight;
 // The current set.
 var set = "03";
 
+// The dataset path.
+var dataPath = "data";
+
 // The image-related variables.
 var imagesData;
 var imageIndex;
-var imagesDataFile = "data/set" + set + "/data_images.json";
+var imagesDataFile = dataPath + "/set" + set + "/data_images.json";
 
 // The data-related variables.
 var modelsData;
 var templatesData;
 var idsToSymbolsData;
-var modelsDataFile = "data/set" + set + "/data_models_trace.json";
-var templatesDataFile = "data/set" + set + "/data_templates_trace.json";
-var idsToSymbolsDataFile = "data/ids_to_symbols.json";
+var modelsDataFile = dataPath + "/set" + set + "/data_models_trace.json";
+// var templatesDataFile = dataPath + "/set" + set + "/data_templates_trace.json";
+var idsToSymbolsDataFile = dataPath + "/ids_to_symbols.json";
 
 // The interface mode.
 var interactionMode;
