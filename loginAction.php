@@ -34,6 +34,7 @@ while ($entry = mysqli_fetch_assoc($result)) {
   if ($login_success) {
     $login_usertype = $entry_usertype;
     $login_firstname = $entry_firstname;
+    $login_lastname = $entry_lastname;
     break; 
   }
 }
@@ -91,9 +92,9 @@ if ($login_usertype !== "guest") {
   // username not found in scores table => add new row with username and usertype
   if (!$found_flag) {
     $query = "INSERT INTO scores
-      (username, usertype)
+      (username, usertype, firstname, lastname)
       VALUES
-      ('$login_username', '$login_usertype')
+      ('$login_username', '$login_usertype', '$login_firstname', '$login_lastname')
     ";
     $result = $mysqli->query($query);
     if (!$result) { echo "<p>Error getting scores from the database: " . mysql_error() . "</p>"; }

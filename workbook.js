@@ -25,8 +25,18 @@ function init() {
   // get IDs to symbols data file
   idsToSymbolsData = readFileSync(idsToSymbolsDataFile);
 
+  // get set list
+  var setList = readFileSync(setListFile);
+
   // fill set select element
-  fillSetSelect(setListFile)
+  fillSetSelect(setList);
+
+  // initialize scores state
+  for (var i = 0; i < setList.length; ++i) {
+    var setNumber = setList[i][0];
+    ScoresState["set" + setNumber] = null;
+  }
+
 }
 
 function checkLogin() {
@@ -85,8 +95,8 @@ function checkLogin() {
   
 }
 
-function fillSetSelect(file) {
-  setList = readFileSync(file);
+function fillSetSelect(setList) {
+  
   var setSelect = document.getElementById("set_select");
   var option;
   option = document.createElement("option");
@@ -3150,17 +3160,17 @@ var InteractionEnum = {
 
 // The score state.
 var ScoresState = {
-  set00: null,
-  set03: null,
-  set04: null,
-  set05: null,
-  set06: null,
-  set07: null,
-  set08: null,
-  set09: null,
-  set10: null,
-  set11: null,
-  set12: null
+  // set01: null,
+  // set02: null,
+  // set03: null,
+  // set04: null,
+  // set05: null,
+  // set06: null,
+  // set0: null,
+  // set09: null,
+  // set10: null,
+  // set11: null,
+  // set12: null
 };
 
 // The canvas and its context.

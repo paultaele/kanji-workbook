@@ -18,7 +18,8 @@ $scores_state = json_decode($scores_state_input);
 $database_table = "scores";
 
 // iterate through the scores
-foreach($scores_state as $metric => $score)  {
+foreach($scores_state as $metric => $score) {
+
   // case: score is null -> skip
   if ($score === null) { continue; }
   
@@ -32,8 +33,8 @@ foreach($scores_state as $metric => $score)  {
   $prior_scores = $results->fetch_assoc();
   $prior_score = $prior_scores[$metric];
 
-  // case: current score <= prior score -> skip
-  if ($score <= $prior_score) { continue; }
+  // case: prior score exists and current score <= prior score -> skip
+  if ($prior_score != null && $score <= $prior_score) { continue; }
 
   // update to new score
   $query = "UPDATE $database_table
@@ -50,7 +51,7 @@ $mysqli->close();
 // // display scores
 // include "scores.php";
 
-// // redirect to scores page
+// redirect to scores page
 header('Location:scores.php');
 
 ?>

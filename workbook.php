@@ -87,7 +87,7 @@
     </form>
 
     <div>
-      <a href="#" onclick="displayScore('chapter');">Overall Score</a> |
+      <a href="#" onclick="displayScore('set');">Overall Score</a> |
       <a href="#" onclick="displayScore('individual');">Individual Scores</a> |
       <a href="#" onclick="displayScore('metric');">Metric Scores</a> |
       <a href="#" onclick="displayScore('detailed');">Detailed Scores</a>
