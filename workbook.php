@@ -44,7 +44,7 @@
 
     <!-- set selection  -->
     <select id="set_select" class="elementlook">
-      <option value="XX">--- Select Set ---</option>
+      <!-- <option value="XX">--- Select Set ---</option>
       <option value="00">Set 00</option>
       <option value="03">Set 03</option>
       <option value="04">Set 04</option>
@@ -55,7 +55,7 @@
       <option value="09">Set 09</option>
       <option value="10">Set 10</option>
       <option value="11">Set 11</option>
-      <option value="12">Set 12</option>
+      <option value="12">Set 12</option> -->
     </select>
 
     <!-- go button -->

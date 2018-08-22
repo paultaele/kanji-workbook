@@ -22,8 +22,11 @@ function init() {
   var workbookArea = document.getElementById("workbookarea");
   workbookArea.style.display = "none";
 
-  //
+  // get IDs to symbols data file
   idsToSymbolsData = readFileSync(idsToSymbolsDataFile);
+
+  // fill set select element
+  fillSetSelect(setListFile)
 }
 
 function checkLogin() {
@@ -82,8 +85,22 @@ function checkLogin() {
   
 }
 
-function displayHeader() {
-
+function fillSetSelect(file) {
+  setList = readFileSync(file);
+  var setSelect = document.getElementById("set_select");
+  var option;
+  option = document.createElement("option");
+  option.text = "--- Select Set ---";
+  setSelect.add(option);
+  for (var i = 0; i < setList.length; ++i) {
+    var setElement = setList[i];
+    var setValue = setElement[0];
+    var setText = setElement[1];
+    option = document.createElement("option");
+    option.value = setValue;
+    option.text = setText;
+    setSelect.add(option);
+  }
 }
 
 function reset() {
@@ -3185,10 +3202,11 @@ var canvasWidth;
 var canvasHeight;
 
 // The current set.
-var set = "03";
+var set;
 
 // The dataset path.
-var dataPath = "data";
+// var dataPath = "data/original";
+var dataPath = "data/japn100";
 
 // The image-related variables.
 var imagesData;
@@ -3202,6 +3220,7 @@ var idsToSymbolsData;
 var modelsDataFile = dataPath + "/set" + set + "/data_models_trace.json";
 // var templatesDataFile = dataPath + "/set" + set + "/data_templates_trace.json";
 var idsToSymbolsDataFile = dataPath + "/ids_to_symbols.json";
+var setListFile = dataPath + "/set_list.json";
 
 // The interface mode.
 var interactionMode;
