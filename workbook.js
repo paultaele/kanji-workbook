@@ -3216,7 +3216,7 @@ var set;
 
 // The dataset path.
 // var dataPath = "data/original";
-var dataPath = "data/japn100";
+var dataPath = "data/tamu";
 
 // The image-related variables.
 var imagesData;

@@ -87,7 +87,7 @@ function outputScoresState(scoresState) {
 
   // sort set scores in ascending order
   setScores.sort(function(a, b){
-    return a[1] < b[0] ? -1 : (a[0] > b[0] ? 1 : 0);
+    return a[0] < b[0] ? -1 : (a[0] > b[0] ? 1 : 0);
   });
 
   // create output
