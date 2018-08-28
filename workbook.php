@@ -86,6 +86,7 @@
       >
     </form>
 
+    <!-- specialized scores link -->
     <div>
       <a href="#" onclick="displayScore('set');">Overall Score</a> |
       <a href="#" onclick="displayScore('individual');">Individual Scores</a> |
@@ -110,10 +111,10 @@
 
   </div>
 
-  <!-- workbook and output area -->
+  <!-- workbook area -->
   <div id="workbookarea" class="content" style="display: none;">
 
-    <!-- workbook area -->
+    <!-- writing area -->
     <div id="writingarea">
 
       <!-- transition buttons -->
@@ -123,9 +124,7 @@
       </div>
 
       <!-- writing canvas -->
-      <canvas id="canvas" class="canvaslook">
-        <!-- -->
-      </canvas>
+      <canvas id="canvas" class="canvaslook"></canvas>
 
       <!-- legend area-->
       <div id="legend_area" hidden></div>
@@ -145,13 +144,13 @@
 
     </div>
 
-    <!-- output area -->
+    <!-- feedback area -->
     <div id="feedbackarea">
 
       <!-- feedback button -->
       <input type="submit" id="feedbackButton" class="elementlook" value="Details" onclick="feedbackButton();" disabled>
 
-      <!-- feedback space -->
+      <!-- output area -->
       <div id="outputarea"></div>
 
       <!-- waiting messsage area -->
