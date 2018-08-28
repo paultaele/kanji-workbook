@@ -12,6 +12,11 @@ function init() {
   var scoresStateJson = scoresStateInput.innerHTML;
   var scoresState = JSON.parse(scoresStateJson);
 
+  // get sets
+  var setList = readFileSync(setListFile);
+  sets = {};
+  for (var i = 0; i < setList.length; ++i) { sets[setList[i][0]] = setList[i][1]; }
+
   // output scores state
   outputScoresState(scoresState);
 }
@@ -94,7 +99,7 @@ function outputScoresState(scoresState) {
   var output = "";
 
   // set table tag contants
-  var table  = "<table class='centered smalltable table2col_25_75 largetext'>";
+  var table  = "<table class='centered smalltable table2col_75_25'>";
   var table_ = "</table>";
   var tr     = "<tr>";
   var tr_    = "</tr>";
@@ -116,7 +121,8 @@ function outputScoresState(scoresState) {
   // set table data
   for (var i = 0; i < setScores.length; ++i) {
     var setScore = setScores[i];
-    var setTd = "Set " + setScore[0].substring(3, 5);
+    // var setTd = "Set " + setScore[0].substring(3, 5);
+    var setTd = sets[setScore[0].substring(3, 5)];
     var scoreTd = (setScore[1] === null) ? "<em>no record</em>" : getTextStars(setScore[1], 10);
 
     output += tr;
@@ -133,6 +139,19 @@ function outputScoresState(scoresState) {
   scoresDisplayArea.innerHTML = output;
 }
 
+function readFileSync(fileName) {
+  var content;
+  var request = new XMLHttpRequest();
+  request.onreadystatechange = function() {
+    if (this.readyState === 4 && this.status === 200) {
+      content = JSON.parse(this.response);
+    }
+  };
+  request.open("GET", fileName, false);
+  request.send();
+  return content;
+}
+
 // #region Fields.
 
 // The background images.
@@ -142,5 +161,10 @@ var Backgrounds = {
   quizImage: "url(assets/bg_lightgrey.jpg)",
   quizColor: "#E5E5E5"
 };
+
+var dataPath = "data/tamu";
+var setListFile = dataPath + "/set_list.json";
+
+var sets;
 
 // #endregion

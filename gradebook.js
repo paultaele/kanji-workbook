@@ -41,13 +41,21 @@ function outputGradebook(entries) {
   var lastnameClick = "<a href='#' onclick='displaySorted(\"lastname\");'>lastname</a>";
   var firstnameClick = "<a href='#' onclick='displaySorted(\"firstname\");'>firstname</a>"
   var usernameClick = "<a href='#' onclick='displaySorted(\"username\");'>username</a>"
+  
+  // start table row
   output += tr;
+
+  // display headers for lastname, firstname, and username
   output += th + lastnameClick + th_;
   output += th + firstnameClick + th_;
   output += th + usernameClick + th_;
+
+  // display headers for scores
   for (var i = 0; i < firstEntry.scores.length; ++i) {
-    output += th + firstEntry.scores[i][0] + th_;
+    output += th + "<span style='font-size: .75em'>" + firstEntry.scores[i][0] + "</span>" + th_;
   }
+
+  // end table row
   output += tr_;
 
   // set table data
@@ -58,16 +66,23 @@ function outputGradebook(entries) {
     // skip non-student entries
     if (entry.usertype !== "student") { continue; }
 
+    // start table row
     output += tr;
+
+    // display lastname, firstname, and username
     output += td + entry.lastname + td_;
     output += td + entry.firstname + td_;
     output += td + entry.username + td_;
+
+    // display scores
     for (var j = 0; j < entry.scores.length; ++j) {
       var score = entry.scores[j];
       var scoreValue = score[1];
       var scoreOutput = scoreValue === null ? "-" : scoreValue;
       output += td + scoreOutput + td_;
     }
+
+    // end table row
     output += tr_;
   }
 

@@ -71,3 +71,11 @@ th {
 .table2col_25_75 td:nth-child(2) {
   width: 75%;
 }
+
+.table2col_75_25 td:nth-child(1) {
+  width: 75%;
+}
+
+.table2col_72_25 td:nth-child(2) {
+  width: 25%;
+}
