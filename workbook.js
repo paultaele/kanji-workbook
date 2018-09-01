@@ -25,10 +25,8 @@ function init() {
   // get IDs to symbols data file
   idsToSymbolsData = readFileSync(idsToSymbolsDataFile);
 
-  // get set list
+  // get set list and fill set list element
   var setList = readFileSync(setListFile);
-
-  // fill set select element
   fillSetSelect(setList);
 
   // initialize scores state
@@ -37,6 +35,11 @@ function init() {
     ScoresState["set" + setNumber] = null;
   }
 
+  // get vocabulary list
+  vocabularyList = readFileSync(vocabularyListFile);
+  
+  // debug
+  console.log(vocabularyList);
 }
 
 function checkLogin() {
@@ -3261,21 +3264,23 @@ var set;
 
 // The dataset path.
 // var dataPath = "data/original";
-var dataPath = "data/tamu";
+const dataPath = "data/tamu";
 
 // The image-related variables.
 var imagesData;
 var imageIndex;
-var imagesDataFile = dataPath + "/set" + set + "/data_images.json";
+const imagesDataFile = dataPath + "/set" + set + "/data_images.json";
 
 // The data-related variables.
 var modelsData;
 var templatesData;
 var idsToSymbolsData;
-var modelsDataFile = dataPath + "/set" + set + "/data_models_trace.json";
+const modelsDataFile = dataPath + "/set" + set + "/data_models_trace.json";
 // var templatesDataFile = dataPath + "/set" + set + "/data_templates_trace.json";
-var idsToSymbolsDataFile = dataPath + "/ids_to_symbols.json";
-var setListFile = dataPath + "/set_list.json";
+const idsToSymbolsDataFile = dataPath + "/ids_to_symbols.json";
+const setListFile = dataPath + "/set_list.json";
+const vocabularyListFile = dataPath + "/vocabulary_list.json";
+var vocabularyList;
 
 // The interface mode.
 var interactionMode;
