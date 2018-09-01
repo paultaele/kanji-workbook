@@ -2,32 +2,33 @@
 
 "146":
 {
-	"kun'yomi": ["mono"],
-	"on'yomi": ["butsu"],
-	"english": ["thing"],
+	"kanji":	"物",
+	"kun'yomi": ["もの"],
+	"on'yomi": 	["ブツ"],
+	"english": 	["thing"],
 	"words":
 	[
 		{
-			"kanji": "kanji",
-			"kana": "tabemono",
+			"kanji": "食べ物",
+			"kana": "たべもの",
 			"english": ["food"],
 			"type": "kun'yomi"
 		},
 		{
-			"kanji": "kanji",
-			"kana": "mono",
+			"kanji": "物",
+			"kana": "もの",
 			"english": ["things"],
 			"type": "kun'yomi"
 		},
 		{
-			"kanji": "kanji",
-			"kana": "kaimono",
+			"kanji": "買い物",
+			"kana": "かいもの",
 			"english": ["shopping"],
 			"type": "kun'yomi"
 		},
 		{
-			"kanji": "kanji",
-			"kana": "doubutsu",
+			"kanji": "動物",
+			"kana": "ドウブツ",
 			"english": ["animal"],
 			"type": "on'yomi"
 		}

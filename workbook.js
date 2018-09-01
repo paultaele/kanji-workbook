@@ -29,6 +29,10 @@ function init() {
   var setList = readFileSync(setListFile);
   fillSetSelect(setList);
 
+  // debug
+  console.log("setListFile: " + setListFile);
+  console.log(setList);
+
   // initialize scores state
   for (var i = 0; i < setList.length; ++i) {
     var setNumber = setList[i][0];
@@ -37,9 +41,6 @@ function init() {
 
   // get vocabulary list
   vocabularyList = readFileSync(vocabularyListFile);
-  
-  // debug
-  console.log(vocabularyList);
 }
 
 function checkLogin() {
@@ -3061,6 +3062,15 @@ function setInteractionMode(mode) {
 
 // TODO
 function outputVocabulary(interpretation) {
+
+  // get vocabulary
+  var vocabulary = vocabularyList[interpretation];
+
+  // debug
+  console.log("vocabulary");
+  console.log(vocabulary);
+
+
   console.log("interpretation: " + interpretation);
   
   //
@@ -3264,22 +3274,22 @@ var set;
 
 // The dataset path.
 // var dataPath = "data/original";
-const dataPath = "data/tamu";
+var dataPath = "data/tamu";
 
 // The image-related variables.
 var imagesData;
 var imageIndex;
-const imagesDataFile = dataPath + "/set" + set + "/data_images.json";
+var imagesDataFile = dataPath + "/set" + set + "/data_images.json";
 
 // The data-related variables.
 var modelsData;
 var templatesData;
 var idsToSymbolsData;
-const modelsDataFile = dataPath + "/set" + set + "/data_models_trace.json";
+var modelsDataFile = dataPath + "/set" + set + "/data_models_trace.json";
 // var templatesDataFile = dataPath + "/set" + set + "/data_templates_trace.json";
-const idsToSymbolsDataFile = dataPath + "/ids_to_symbols.json";
-const setListFile = dataPath + "/set_list.json";
-const vocabularyListFile = dataPath + "/vocabulary_list.json";
+var idsToSymbolsDataFile = dataPath + "/ids_to_symbols.json";
+var setListFile = dataPath + "/set_list.json";
+var vocabularyListFile = dataPath + "/vocabulary_list.json";
 var vocabularyList;
 
 // The interface mode.
