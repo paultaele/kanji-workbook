@@ -165,6 +165,9 @@
         </div>
       </div>
 
+      <!-- vocabulary area -->
+      <div id="vocabulary_area"></div>
+
     </div>
 
   </div>

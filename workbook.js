@@ -1333,6 +1333,9 @@ function symbolSpeedFeedbackButton(canvas, context) {
 
 function assessButton() {
 
+  // clear vocabulary area
+  document.getElementById("vocabulary_area").innerHTML = "";
+
   // save the original state and revert to empty canvas
   Anim.originalState = context.getImageData(0, 0, canvas.width, canvas.height);
   var canvasState = canvasStates[0];
@@ -1348,7 +1351,7 @@ function assessButton() {
   var originalInputStrokes = CanvasData.strokes;
   var theIndex = interactionMode === InteractionEnum.quiz ? Quiz.imageIndices[imageIndex] : imageIndex;
   var originalModelStrokes = modelsData[theIndex].strokes;
-
+  
   // no drawn strokes ==> quit function
   if (originalInputStrokes.length === 0) { return; }
 
@@ -2166,8 +2169,16 @@ function backButton(canvas, context) {
   // increment the next image index
   --imageIndex;
 
+  // get the image details
+  let imageData = imagesData[imageIndex];
+  let imagePath = imageData.path;
+  let imageInterpretation = imageData.interpretation;
+
+  // TODO: output vocabulary
+  outputVocabulary(imageInterpretation);
+
   // load the back canvas image
-  loadCanvasImage(canvas, context, imagesData[imageIndex].path, true);
+  loadCanvasImage(canvas, context, imagePath, true);
 
   // enable the next button
   document.getElementById("nextButton").disabled = false;
@@ -2176,6 +2187,7 @@ function backButton(canvas, context) {
   if (imageIndex <= 0) {
     document.getElementById("backButton").disabled = true;
   }
+
 }
 
 function nextButton(canvas, context) {
@@ -2228,7 +2240,6 @@ function nextButton(canvas, context) {
       return;
     }
 
-
   }
   // #endregion
 
@@ -2246,10 +2257,18 @@ function nextButton(canvas, context) {
   
   // increment the next image index
   ++imageIndex;
+  
+  // get the image details
+  var theIndex = interactionMode === InteractionEnum.quiz ? Quiz.imageIndices[imageIndex] : imageIndex;
+  let imageData = imagesData[theIndex];
+  let imagePath = imageData.path;
+  let imageInterpretation = imageData.interpretation;
+
+  // practice mode => output vocabulary
+  if (interactionMode === InteractionEnum.practice) { outputVocabulary(imageInterpretation); }
 
   // load the next canvas image
-  var theIndex = interactionMode === InteractionEnum.quiz ? Quiz.imageIndices[imageIndex] : imageIndex;
-  loadCanvasImage(canvas, context, imagesData[theIndex].path, true);
+  loadCanvasImage(canvas, context, imagePath, true);
 
   // clear the output area
   var outputArea = document.getElementById("outputarea");
@@ -2263,6 +2282,7 @@ function nextButton(canvas, context) {
     document.getElementById("nextButton").disabled = true;
   }
   // #endregion
+
 }
 
 function displayScore(scoreDisplay) {
@@ -2433,7 +2453,7 @@ function outputAssessmentOverallScore(assessments) {
 
   // #endregion
 
-  // #region Technique Score Calculation
+  // #region Precision Score Calculation
 
   var strokeEditAverageStars = metricAverageStars["strokeEdit"];
   var strokeSpeedAverageStars = metricAverageStars["strokeSpeed"];
@@ -2963,12 +2983,23 @@ function setInteractionMode(mode) {
     // enable canvas
     addCanvasListeners(canvas);
 
+    // get the image details
+    var imageData = imagesData[imageIndex];
+    var imagePath = imageData.path;
+    var imageInterpretation = imageData.interpretation;
+
     // load next image
-    loadCanvasImage(canvas, context, imagesData[imageIndex].path, true);
+    loadCanvasImage(canvas, context, imagePath, true);
+
+    // TODO: display vocabulary
+    outputVocabulary(imageInterpretation);
   }
 
   // quiz interaction mode
   else if (mode === InteractionEnum.quiz) {
+
+    // clear vocabulary area
+    document.getElementById("vocabulary_area").innerHTML = "";
 
     // set background
     document.body.style.backgroundImage = Backgrounds.quizImage;
@@ -3022,6 +3053,20 @@ function setInteractionMode(mode) {
     var waitingMessageArea = document.getElementById("waiting_message_area");
     waitingMessageArea.style.display = "inline";
   }
+
+}
+
+// TODO
+function outputVocabulary(interpretation) {
+  console.log("interpretation: " + interpretation);
+  
+  //
+  let output;
+  output = "interpretation:" + interpretation;
+  
+  //
+  let vocabularyArea = document.getElementById("vocabulary_area");
+  vocabularyArea.innerHTML = output;
 
 }
 
