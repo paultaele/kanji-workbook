@@ -29,10 +29,6 @@ function init() {
   var setList = readFileSync(setListFile);
   fillSetSelect(setList);
 
-  // debug
-  console.log("setListFile: " + setListFile);
-  console.log(setList);
-
   // initialize scores state
   for (var i = 0; i < setList.length; ++i) {
     var setNumber = setList[i][0];
@@ -2178,7 +2174,7 @@ function backButton(canvas, context) {
   let imagePath = imageData.path;
   let imageInterpretation = imageData.interpretation;
 
-  // TODO: output vocabulary
+  // output vocabulary
   outputVocabulary(imageInterpretation);
 
   // load the back canvas image
@@ -2995,7 +2991,7 @@ function setInteractionMode(mode) {
     // load next image
     loadCanvasImage(canvas, context, imagePath, true);
 
-    // TODO: display vocabulary
+    // display vocabulary
     outputVocabulary(imageInterpretation);
   }
 
@@ -3067,12 +3063,8 @@ function outputVocabulary(interpretation) {
   var vocabulary = vocabularyList[interpretation];
 
   // debug
-  console.log("vocabulary");
   console.log(vocabulary);
 
-
-  console.log("interpretation: " + interpretation);
-  
   //
   let output;
   output = "interpretation:" + interpretation;
