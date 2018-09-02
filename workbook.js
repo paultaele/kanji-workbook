@@ -3059,19 +3059,79 @@ function setInteractionMode(mode) {
 // TODO
 function outputVocabulary(interpretation) {
 
+  // get vocabulary area and clear
+  let vocabularyArea = document.getElementById("vocabulary_area");
+  vocabularyArea.innerHTML = "";
+
   // get vocabulary
   var vocabulary = vocabularyList[interpretation];
 
-  // debug
-  console.log(vocabulary);
+  // vocabulary undefined => quit
+  if (vocabulary === undefined) { return; }
 
-  //
-  let output;
-  output = "interpretation:" + interpretation;
+  // get vocabulary details
+  var kanji = vocabulary.kanji;
+  var kunyomi = vocabulary.kunyomi;
+  var onyomi = vocabulary.onyomi;
+  var english = vocabulary.english;
+  var words = vocabulary.words;
+
+  // initialize output
+  let output = "";
+
+  // output kanji details
+  output += "<table class='kanji_content'>";
+  output += "<tr>";
+  output += "<td rowspan='3' style='text-align: center;'>" + "<span style='font-size: 3em'>" + kanji + "</span>" + "</td>";
+  output += "<td style='text-align: left; padding-left: 10px;'>";
+  for (let i = 0; i < kunyomi.length; ++i) {
+    output += kunyomi[i];
+    if (i < kunyomi.length - 1) { output += ";"; }
+  }
+  output += "</td>";
+  output += "</tr>";
+  output += "<tr>";
+  output += "<td style='text-align: left; padding-left: 10px;'>";
+  for (let i = 0; i < onyomi.length; ++i) {
+    output += onyomi[i];
+    if (i < onyomi.length - 1) { output += ";"; }
+  }
+  output += "</td>";
+  output += "</tr>";
+  output += "<tr>";
+  output += "<td style='text-align: left; padding-left: 10px;'>";
+  output += "(";
+  for (let i = 0; i < english.length; ++i) {
+    output += english[i];
+    if (i < english.length - 1) { output += ";"; }
+  }
+  output += ")";
+  output += "</td>";
+  output += "</tr>";
+  output += "</table>";
+
+  output += "<br>";
+
+  // output word list
+  output += "<table class='words_content'>";
+  output += "<tr>";
+  output += "<th>Kanji</th>";
+  output += "<th>Kana</th>";
+  output += "<th>English</th>";
+  output += "<tr>";
+  for (let i = 0; i < words.length; ++i) {
+    let word = words[i];
+
+    output += "<tr>";
+    output += "<td>" + word.kanji + "</td>";
+    output += "<td>" + word.kana + "</td>";
+    output += "<td>" + word.english + "</td>";
+    output += "<tr>";
+  }
+  output += "</table>";
   
-  //
-  let vocabularyArea = document.getElementById("vocabulary_area");
-  vocabularyArea.innerHTML = output;
+  // output to vocabulary area
+  vocabularyArea.innerHTML = "<span style='font-size: 1.5em'>" + output + "</span>";
 
 }
 

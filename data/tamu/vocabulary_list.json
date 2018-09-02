@@ -1,10 +1,9 @@
 {
 
-"146":
-{
+"146": {
 	"kanji":	"物",
-	"kun'yomi": ["もの"],
-	"on'yomi": 	["ブツ"],
+	"kunyomi": ["もの"],
+	"onyomi": 	["ブツ"],
 	"english": 	["thing"],
 	"words":
 	[
@@ -12,25 +11,61 @@
 			"kanji": "食べ物",
 			"kana": "たべもの",
 			"english": ["food"],
-			"type": "kun'yomi"
+			"type": "kunyomi"
 		},
 		{
 			"kanji": "物",
 			"kana": "もの",
 			"english": ["things"],
-			"type": "kun'yomi"
+			"type": "kunyomi"
 		},
 		{
 			"kanji": "買い物",
 			"kana": "かいもの",
 			"english": ["shopping"],
-			"type": "kun'yomi"
+			"type": "kunyomi"
 		},
 		{
 			"kanji": "動物",
 			"kana": "ドウブツ",
 			"english": ["animal"],
-			"type": "on'yomi"
+			"type": "onyomi"
+		}
+	]
+}
+
+,
+
+"147": {
+	"kanji":	"物",
+	"kunyomi": ["もの"],
+	"onyomi": 	["ブツ"],
+	"english": 	["thing"],
+	"words":
+	[
+		{
+			"kanji": "食べ物",
+			"kana": "たべもの",
+			"english": ["food"],
+			"type": "kunyomi"
+		},
+		{
+			"kanji": "物",
+			"kana": "もの",
+			"english": ["things"],
+			"type": "kunyomi"
+		},
+		{
+			"kanji": "買い物",
+			"kana": "かいもの",
+			"english": ["shopping"],
+			"type": "kunyomi"
+		},
+		{
+			"kanji": "動物",
+			"kana": "ドウブツ",
+			"english": ["animal"],
+			"type": "onyomi"
 		}
 	]
 }
