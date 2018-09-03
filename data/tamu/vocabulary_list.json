@@ -10,26 +10,22 @@
 		{
 			"kanji": "食べ物",
 			"kana": "たべもの",
-			"english": ["food"],
-			"type": "kunyomi"
+			"english": ["food"]
 		},
 		{
 			"kanji": "物",
 			"kana": "もの",
-			"english": ["things"],
-			"type": "kunyomi"
+			"english": ["things"]
 		},
 		{
 			"kanji": "買い物",
 			"kana": "かいもの",
-			"english": ["shopping"],
-			"type": "kunyomi"
+			"english": ["shopping"]
 		},
 		{
 			"kanji": "動物",
 			"kana": "ドウブツ",
-			"english": ["animal"],
-			"type": "onyomi"
+			"english": ["animal"]
 		}
 	]
 },
@@ -43,20 +39,17 @@
 		{
 			"kanji": "鳥",
 			"kana": "とり",
-			"english": ["bird"],
-			"type": "kunyomi"
+			"english": ["bird"]
 		},
 		{
 			"kanji": "焼き鳥",
 			"kana": "やきとり",
-			"english": ["grilled chicken"],
-			"type": "onyomi"
+			"english": ["grilled chicken"]
 		},
 		{
 			"kanji": "白鳥",
 			"kana": "ハクチョウ",
-			"english": ["swan"],
-			"type": "onyomi"
+			"english": ["swan"]
 		}
 	]
 },
@@ -70,26 +63,22 @@
 		{
 			"kanji": "料理",
 			"kana": "リョウリ",
-			"english": ["cooking"],
-			"type": "onyomi"
+			"english": ["cooking"]
 		},
 		{
 			"kanji": "料金",
 			"kana": "リョウキン",
-			"english": ["charge"],
-			"type": "onyomi"
+			"english": ["charge"]
 		},
 		{
 			"kanji": "授業料",
 			"kana": "ジュギョウリョウ",
-			"english": ["tuition"],
-			"type": "onyomi"
+			"english": ["tuition"]
 		},
 		{
 			"kanji": "給料",
 			"kana": "キュウリョウ",
-			"english": ["salary"],
-			"type": "onyomi"
+			"english": ["salary"]
 		}
 	]
 },
@@ -103,49 +92,65 @@
 		{
 			"kanji": "料理",
 			"kana": "リョウリ",
-			"english": ["cooking"],
-			"type": "onyomi"
+			"english": ["cooking"]
 		},
 		{
 			"kanji": "理由",
 			"kana": "リユウ",
-			"english": ["reason"],
-			"type": "onyomi"
+			"english": ["reason"]
 		}
 	]
 },
 "150": {
-	"kanji":	"?",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kanji":	"特",
+	"kunyomi": null,
+	"onyomi": 	["トク, トッ"],
+	"english": 	["special"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"kanji": "特に",
+			"kana": "トクニ",
+			"english": ["especially"]
+		},
+		{
+			"kanji": "特別な",
+			"kana": "トクベツな",
+			"english": ["special"]
+		},
+		{
+			"kanji": "特急電車",
+			"kana": "トッキュウデンシャ",
+			"english": ["super express train"]
 		}
 	]
 },
 "151": {
-	"kanji":	"?",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kanji":	"安",
+	"kunyomi": ["やす"],
+	"onyomi": 	["アン"],
+	"english": 	["cheap", "ease"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"kanji": "安い",
+			"kana": "やすい",
+			"english": ["cheap"]
+		},
+		{
+			"kanji": "安心",
+			"kana": "アンシン",
+			"english": ["relief"]
+		},
+		{
+			"kanji": "不安な",
+			"kana": "フアンな",
+			"english": ["uneasy"]
 		}
 	]
 },
 "152": {
-	"kanji":	"?",
+	"kanji":	"飯",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -154,13 +159,12 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 },
 "153": {
-	"kanji":	"?",
+	"kanji":	"肉",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -169,13 +173,12 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 },
 "154": {
-	"kanji":	"?",
+	"kanji":	"悪",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -184,13 +187,12 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 },
 "155": {
-	"kanji":	"?",
+	"kanji":	"体",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -199,13 +201,12 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 },
 "156": {
-	"kanji":	"?",
+	"kanji":	"空",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -214,13 +215,12 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 },
 "157": {
-	"kanji":	"?",
+	"kanji":	"港",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -229,13 +229,12 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 },
 "158": {
-	"kanji":	"?",
+	"kanji":	"着",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -244,13 +243,12 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 },
 "159": {
-	"kanji":	"?",
+	"kanji":	"同",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -259,13 +257,12 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 },
 "160": {
-	"kanji":	"?",
+	"kanji":	"海",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -274,13 +271,12 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 },
 "161": {
-	"kanji":	"?",
+	"kanji":	"昼",
 	"kunyomi": ["?"],
 	"onyomi": 	["?"],
 	"english": 	["?"],
@@ -289,8 +285,7 @@
 		{
 			"kanji": "?",
 			"kana": "?",
-			"english": ["?"],
-			"type": "?"
+			"english": ["?"]
 		}
 	]
 }
