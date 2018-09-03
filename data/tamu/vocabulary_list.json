@@ -84,7 +84,7 @@
 },
 "149": {
 	"kanji":	"理",
-	"kunyomi": null,
+	"kunyomi": 	null,
 	"onyomi": 	["リ"],
 	"english": 	["reason"],
 	"words":
@@ -103,7 +103,7 @@
 },
 "150": {
 	"kanji":	"特",
-	"kunyomi": null,
+	"kunyomi": 	null,
 	"onyomi": 	["トク, トッ"],
 	"english": 	["special"],
 	"words":
@@ -194,7 +194,7 @@
 },
 "154": {
 	"kanji":	"悪",
-	"kunyomi": ["わる"],
+	"kunyomi": 	["わる"],
 	"onyomi": 	["アク"],
 	"english": 	["bad", "wrong"],
 	"words":
@@ -223,7 +223,7 @@
 },
 "155": {
 	"kanji":	"体",
-	"kunyomi": ["からだ"],
+	"kunyomi": 	["からだ"],
 	"onyomi": 	["タイ"],
 	"english": 	["body"],
 	"words":
@@ -247,85 +247,155 @@
 },
 "156": {
 	"kanji":	"空",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": 	["そら", "あ", "から"],
+	"onyomi": 	["クウ"],
+	"english": 	["sky", "empty"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "空港",
+			"kana": "クウコウ",
+			"english": ["airport"]
+		},
+		{
+			"kanji": "空気",
+			"kana": "クウキ",
+			"english": ["air"]
+		},
+		{
+			"kanji": "空",
+			"kana": "そら",
+			"english": ["sky"]
+		},
+		{
+			"kanji": "空く",
+			"kana": "あく",
+			"english": ["to be vacant"]
+		},
+		{
+			"kanji": "空手",
+			"kana": "からて",
+			"english": ["karate"]
 		}
 	]
 },
 "157": {
 	"kanji":	"港",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": 	["みなと"],
+	"onyomi": 	["コウ"],
+	"english": 	["port", "harbor"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "空港",
+			"kana": "クウコウ",
+			"english": ["airport"]
+		},
+		{
+			"kanji": "神戸港",
+			"kana": "コウベコウ",
+			"english": ["Kobe Port"]
+		},
+		{
+			"kanji": "港",
+			"kana": "みなと",
+			"english": ["port"]
 		}
 	]
 },
 "158": {
 	"kanji":	"着",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": 	["つ", "き"],
+	"onyomi": 	["チャク"],
+	"english": 	["to reach", "to wear"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "着く",
+			"kana": "つく",
+			"english": ["to arrive"]
+		},
+		{
+			"kanji": "着る",
+			"kana": "きる",
+			"english": ["to wear"]
+		},
+		{
+			"kanji": "着物",
+			"kana": "きもの",
+			"english": ["kimono"]
+		},
+		{
+			"kanji": "大阪着",
+			"kana": "おおさかチャク",
+			"english": ["arriving at Osaka"]
 		}
 	]
 },
 "159": {
 	"kanji":	"同",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": 	["おな"],
+	"onyomi": 	["ドウ"],
+	"english": 	["same"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "同じ",
+			"kana": "おなじ",
+			"english": ["same"]
+		},
+		{
+			"kanji": "同時",
+			"kana": "ドウジ",
+			"english": ["same time", "simultaneous"]
 		}
 	]
 },
 "160": {
 	"kanji":	"海",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": 	["うみ"],
+	"onyomi": 	["カイ"],
+	"english": 	["sea"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "海",
+			"kana": "うみ",
+			"english": ["sea"]
+		},
+		{
+			"kanji": "日本海",
+			"kana": "ニホンカイ",
+			"english": ["the Japan sea"]
+		},
+		{
+			"kanji": "海外",
+			"kana": "カイガイ",
+			"english": ["overseas"]
 		}
 	]
 },
 "161": {
 	"kanji":	"昼",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": 	["ひる"],
+	"onyomi": 	["チュウ"],
+	"english": 	["noon", "daytime"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "昼",
+			"kana": "ひる",
+			"english": ["noon", "daytime"]
+		},
+		{
+			"kanji": "昼ご飯",
+			"kana": "ひるごハン",
+			"english": ["lunch"]
+		},
+		{
+			"kanji": "昼食",
+			"kana": "チュウショク",
+			"english": ["lunch"]
 		}
 	]
 }
