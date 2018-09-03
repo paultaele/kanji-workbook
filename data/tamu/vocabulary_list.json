@@ -151,57 +151,97 @@
 },
 "152": {
 	"kanji":	"飯",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": 	null,
+	"onyomi": 	["ハン"],
+	"english": 	["food", "cooked rice"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "ご飯",
+			"kana": "ごハン",
+			"english": ["rice", "meal"]
+		},
+		{
+			"kanji": "朝ご飯",
+			"kana": "あさごハン",
+			"english": ["breakfast"]
 		}
 	]
 },
 "153": {
 	"kanji":	"肉",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": 	null,
+	"onyomi": 	["ニク"],
+	"english": 	["meat"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "肉",
+			"kana": "ニク",
+			"english": ["meat"]
+		},
+		{
+			"kanji": "牛肉",
+			"kana": "ギュウニク",
+			"english": ["beef"]
+		},
+		{
+			"kanji": "肉屋",
+			"kana": "ニクや",
+			"english": ["meat shop"]
 		}
 	]
 },
 "154": {
 	"kanji":	"悪",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": ["わる"],
+	"onyomi": 	["アク"],
+	"english": 	["bad", "wrong"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "悪い",
+			"kana": "わるい",
+			"english": ["bad"]
+		},
+		{
+			"kanji": "気分が悪い",
+			"kana": "キブンがわるい",
+			"english": ["to feel sick"]
+		},
+		{
+			"kanji": "最悪",
+			"kana": "サイアク",
+			"english": ["the worst"]
+		},
+		{
+			"kanji": "悪魔",
+			"kana": "アクマ",
+			"english": ["the devil"]
 		}
 	]
 },
 "155": {
 	"kanji":	"体",
-	"kunyomi": ["?"],
-	"onyomi": 	["?"],
-	"english": 	["?"],
+	"kunyomi": ["からだ"],
+	"onyomi": 	["タイ"],
+	"english": 	["body"],
 	"words":
 	[
 		{
-			"kanji": "?",
-			"kana": "?",
-			"english": ["?"]
+			"kanji": "体",
+			"kana": "からだ",
+			"english": ["body"]
+		},
+		{
+			"kanji": "体重",
+			"kana": "タイジュウ",
+			"english": ["body weight"]
+		},
+		{
+			"kanji": "体操",
+			"kana": "タイソウ",
+			"english": ["gymnastics", "physical exercises"]
 		}
 	]
 },

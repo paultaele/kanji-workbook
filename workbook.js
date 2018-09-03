@@ -3102,7 +3102,7 @@ function outputVocabulary(interpretation) {
   if (onyomi !== null) {
     for (let i = 0; i < onyomi.length; ++i) {
       output += onyomi[i];
-      if (i < onyomi.length - 1) { output += ";"; }
+      if (i < onyomi.length - 1) { output += "; "; }
     }
   }
   else {
@@ -3139,7 +3139,12 @@ function outputVocabulary(interpretation) {
     output += "<tr>";
     output += "<td>" + word.kanji + "</td>";
     output += "<td>" + word.kana + "</td>";
-    output += "<td>" + word.english + "</td>";
+    output += "<td>";
+    for (let j = 0; j < word.english.length; ++j) {
+      output += word.english[j];
+      if (j < word.english.length - 1) { output += "; "; }  
+    }
+    output += "</td>";
     output += "<tr>";
   }
   output += "</table>";
