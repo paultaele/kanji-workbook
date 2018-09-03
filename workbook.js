@@ -3080,34 +3080,48 @@ function outputVocabulary(interpretation) {
   let output = "";
 
   // output kanji details
-  output += "<table class='kanji_content'>";
+  output += "<table class='kanji_content' width='100%'>";
+
   output += "<tr>";
-  output += "<td rowspan='3' style='text-align: center;'>" + "<span style='font-size: 3em'>" + kanji + "</span>" + "</td>";
+  output += "<td width='20%' rowspan='3' style='text-align: center;'>" + "<span style='font-size: 3em'>" + kanji + "</span>" + "</td>";
   output += "<td style='text-align: left; padding-left: 10px;'>";
-  for (let i = 0; i < kunyomi.length; ++i) {
-    output += kunyomi[i];
-    if (i < kunyomi.length - 1) { output += ";"; }
+  if (kunyomi !== null) {
+    for (let i = 0; i < kunyomi.length; ++i) {
+      output += kunyomi[i];
+      if (i < kunyomi.length - 1) { output += ";"; }
+    }
+  }
+  else {
+    output += "<span style='color: transparent;'>[音読みがありません]</span>";
   }
   output += "</td>";
   output += "</tr>";
+
   output += "<tr>";
   output += "<td style='text-align: left; padding-left: 10px;'>";
-  for (let i = 0; i < onyomi.length; ++i) {
-    output += onyomi[i];
-    if (i < onyomi.length - 1) { output += ";"; }
+  if (onyomi !== null) {
+    for (let i = 0; i < onyomi.length; ++i) {
+      output += onyomi[i];
+      if (i < onyomi.length - 1) { output += ";"; }
+    }
+  }
+  else {
+    output += "<span style='color: transparent;'>[訓読みがありません]</span>";
   }
   output += "</td>";
   output += "</tr>";
+
   output += "<tr>";
   output += "<td style='text-align: left; padding-left: 10px;'>";
   output += "(";
   for (let i = 0; i < english.length; ++i) {
     output += english[i];
-    if (i < english.length - 1) { output += ";"; }
+    if (i < english.length - 1) { output += "; "; }
   }
   output += ")";
   output += "</td>";
   output += "</tr>";
+
   output += "</table>";
 
   output += "<br>";

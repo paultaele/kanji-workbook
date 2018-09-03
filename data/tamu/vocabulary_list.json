@@ -32,38 +32,265 @@
 			"type": "onyomi"
 		}
 	]
-}
-,
+},
 "147": {
-	"kanji":	"物",
-	"kunyomi": ["もの"],
-	"onyomi": 	["ブツ"],
-	"english": 	["thing"],
+	"kanji":	"鳥",
+	"kunyomi": ["とり"],
+	"onyomi": 	["チョウ"],
+	"english": 	["bird"],
 	"words":
 	[
 		{
-			"kanji": "食べ物",
-			"kana": "たべもの",
-			"english": ["food"],
+			"kanji": "鳥",
+			"kana": "とり",
+			"english": ["bird"],
 			"type": "kunyomi"
 		},
 		{
-			"kanji": "物",
-			"kana": "もの",
-			"english": ["things"],
-			"type": "kunyomi"
-		},
-		{
-			"kanji": "買い物",
-			"kana": "かいもの",
-			"english": ["shopping"],
-			"type": "kunyomi"
-		},
-		{
-			"kanji": "動物",
-			"kana": "ドウブツ",
-			"english": ["animal"],
+			"kanji": "焼き鳥",
+			"kana": "やきとり",
+			"english": ["grilled chicken"],
 			"type": "onyomi"
+		},
+		{
+			"kanji": "白鳥",
+			"kana": "ハクチョウ",
+			"english": ["swan"],
+			"type": "onyomi"
+		}
+	]
+},
+"148": {
+	"kanji":	"料",
+	"kunyomi": 	null,
+	"onyomi": 	["リョウ"],
+	"english": 	["ingredients", "fare"],
+	"words":
+	[
+		{
+			"kanji": "料理",
+			"kana": "リョウリ",
+			"english": ["cooking"],
+			"type": "onyomi"
+		},
+		{
+			"kanji": "料金",
+			"kana": "リョウキン",
+			"english": ["charge"],
+			"type": "onyomi"
+		},
+		{
+			"kanji": "授業料",
+			"kana": "ジュギョウリョウ",
+			"english": ["tuition"],
+			"type": "onyomi"
+		},
+		{
+			"kanji": "給料",
+			"kana": "キュウリョウ",
+			"english": ["salary"],
+			"type": "onyomi"
+		}
+	]
+},
+"149": {
+	"kanji":	"理",
+	"kunyomi": null,
+	"onyomi": 	["リ"],
+	"english": 	["reason"],
+	"words":
+	[
+		{
+			"kanji": "料理",
+			"kana": "リョウリ",
+			"english": ["cooking"],
+			"type": "onyomi"
+		},
+		{
+			"kanji": "理由",
+			"kana": "リユウ",
+			"english": ["reason"],
+			"type": "onyomi"
+		}
+	]
+},
+"150": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"151": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"152": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"153": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"154": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"155": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"156": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"157": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"158": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"159": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"160": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
+		}
+	]
+},
+"161": {
+	"kanji":	"?",
+	"kunyomi": ["?"],
+	"onyomi": 	["?"],
+	"english": 	["?"],
+	"words":
+	[
+		{
+			"kanji": "?",
+			"kana": "?",
+			"english": ["?"],
+			"type": "?"
 		}
 	]
 }
