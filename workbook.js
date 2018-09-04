@@ -3132,14 +3132,17 @@ function outputVocabulary(interpretation) {
   output += "<th>Kanji</th>";
   output += "<th>Kana</th>";
   output += "<th>English</th>";
+
   output += "<tr>";
   for (let i = 0; i < words.length; ++i) {
     let word = words[i];
 
     output += "<tr>";
-    output += "<td>" + word.kanji + "</td>";
-    output += "<td>" + word.kana + "</td>";
-    output += "<td>";
+    output += word.highlight ? "<td style='background-color: #e6e6e6'>" : "<td>";
+    output += word.kanji + "</td>";
+    output += word.highlight ? "<td style='background-color: #e6e6e6'>" : "<td>";
+    output += word.kana + "</td>";
+    output += word.highlight ? "<td style='background-color: #e6e6e6'>" : "<td>";
     for (let j = 0; j < word.english.length; ++j) {
       output += word.english[j];
       if (j < word.english.length - 1) { output += "; "; }  
