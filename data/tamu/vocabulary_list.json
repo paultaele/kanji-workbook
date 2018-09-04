@@ -10,22 +10,26 @@
 		{
 			"kanji": "食べ物",
 			"kana": "たべもの",
-			"english": ["food"]
+			"english": ["food"],
+			"highlight": true
 		},
 		{
 			"kanji": "物",
 			"kana": "もの",
-			"english": ["things"]
+			"english": ["things"],
+			"highlight": true
 		},
 		{
 			"kanji": "買い物",
 			"kana": "かいもの",
-			"english": ["shopping"]
+			"english": ["shopping"],
+			"highlight": true
 		},
 		{
 			"kanji": "動物",
 			"kana": "ドウブツ",
-			"english": ["animal"]
+			"english": ["animal"],
+			"highlight": false
 		}
 	]
 },
@@ -39,17 +43,20 @@
 		{
 			"kanji": "鳥",
 			"kana": "とり",
-			"english": ["bird"]
+			"english": ["bird"],
+			"highlight": true
 		},
 		{
 			"kanji": "焼き鳥",
 			"kana": "やきとり",
-			"english": ["grilled chicken"]
+			"english": ["grilled chicken"],
+			"highlight": false
 		},
 		{
 			"kanji": "白鳥",
 			"kana": "ハクチョウ",
-			"english": ["swan"]
+			"english": ["swan"],
+			"highlight": false
 		}
 	]
 },
@@ -63,22 +70,26 @@
 		{
 			"kanji": "料理",
 			"kana": "リョウリ",
-			"english": ["cooking"]
+			"english": ["cooking"],
+			"highlight": true
 		},
 		{
 			"kanji": "料金",
 			"kana": "リョウキン",
-			"english": ["charge"]
+			"english": ["charge"],
+			"highlight": false
 		},
 		{
 			"kanji": "授業料",
 			"kana": "ジュギョウリョウ",
-			"english": ["tuition"]
+			"english": ["tuition"],
+			"highlight": false
 		},
 		{
 			"kanji": "給料",
 			"kana": "キュウリョウ",
-			"english": ["salary"]
+			"english": ["salary"],
+			"highlight": false
 		}
 	]
 },
@@ -92,12 +103,14 @@
 		{
 			"kanji": "料理",
 			"kana": "リョウリ",
-			"english": ["cooking"]
+			"english": ["cooking"],
+			"highlight": true
 		},
 		{
 			"kanji": "理由",
 			"kana": "リユウ",
-			"english": ["reason"]
+			"english": ["reason"],
+			"highlight": false
 		}
 	]
 },
@@ -111,17 +124,20 @@
 		{
 			"kanji": "特に",
 			"kana": "トクニ",
-			"english": ["especially"]
+			"english": ["especially"],
+			"highlight": true
 		},
 		{
 			"kanji": "特別な",
 			"kana": "トクベツな",
-			"english": ["special"]
+			"english": ["special"],
+			"highlight": false
 		},
 		{
 			"kanji": "特急電車",
 			"kana": "トッキュウデンシャ",
-			"english": ["super express train"]
+			"english": ["super express train"],
+			"highlight": false
 		}
 	]
 },
@@ -135,17 +151,20 @@
 		{
 			"kanji": "安い",
 			"kana": "やすい",
-			"english": ["cheap"]
+			"english": ["cheap"],
+			"highlight": true
 		},
 		{
 			"kanji": "安心",
 			"kana": "アンシン",
-			"english": ["relief"]
+			"english": ["relief"],
+			"highlight": false
 		},
 		{
 			"kanji": "不安な",
 			"kana": "フアンな",
-			"english": ["uneasy"]
+			"english": ["uneasy"],
+			"highlight": false
 		}
 	]
 },
@@ -159,12 +178,14 @@
 		{
 			"kanji": "ご飯",
 			"kana": "ごハン",
-			"english": ["rice", "meal"]
+			"english": ["rice", "meal"],
+			"highlight": true
 		},
 		{
 			"kanji": "朝ご飯",
 			"kana": "あさごハン",
-			"english": ["breakfast"]
+			"english": ["breakfast"],
+			"highlight": true
 		}
 	]
 },
@@ -178,17 +199,20 @@
 		{
 			"kanji": "肉",
 			"kana": "ニク",
-			"english": ["meat"]
+			"english": ["meat"],
+			"highlight": true
 		},
 		{
 			"kanji": "牛肉",
 			"kana": "ギュウニク",
-			"english": ["beef"]
+			"english": ["beef"],
+			"highlight": false
 		},
 		{
 			"kanji": "肉屋",
 			"kana": "ニクや",
-			"english": ["meat shop"]
+			"english": ["meat shop"],
+			"highlight": false
 		}
 	]
 },
@@ -202,22 +226,26 @@
 		{
 			"kanji": "悪い",
 			"kana": "わるい",
-			"english": ["bad"]
+			"english": ["bad"],
+			"highlight": true
 		},
 		{
 			"kanji": "気分が悪い",
 			"kana": "キブンがわるい",
-			"english": ["to feel sick"]
+			"english": ["to feel sick"],
+			"highlight": true
 		},
 		{
 			"kanji": "最悪",
 			"kana": "サイアク",
-			"english": ["the worst"]
+			"english": ["the worst"],
+			"highlight": false
 		},
 		{
 			"kanji": "悪魔",
 			"kana": "アクマ",
-			"english": ["the devil"]
+			"english": ["the devil"],
+			"highlight": false
 		}
 	]
 },
@@ -231,17 +259,20 @@
 		{
 			"kanji": "体",
 			"kana": "からだ",
-			"english": ["body"]
+			"english": ["body"],
+			"highlight": true
 		},
 		{
 			"kanji": "体重",
 			"kana": "タイジュウ",
-			"english": ["body weight"]
+			"english": ["body weight"],
+			"highlight": false
 		},
 		{
 			"kanji": "体操",
 			"kana": "タイソウ",
-			"english": ["gymnastics", "physical exercises"]
+			"english": ["gymnastics", "physical exercises"],
+			"highlight": false
 		}
 	]
 },
@@ -255,27 +286,32 @@
 		{
 			"kanji": "空港",
 			"kana": "クウコウ",
-			"english": ["airport"]
+			"english": ["airport"],
+			"highlight": true
 		},
 		{
 			"kanji": "空気",
 			"kana": "クウキ",
-			"english": ["air"]
+			"english": ["air"],
+			"highlight": true
 		},
 		{
 			"kanji": "空",
 			"kana": "そら",
-			"english": ["sky"]
+			"english": ["sky"],
+			"highlight": false
 		},
 		{
 			"kanji": "空く",
 			"kana": "あく",
-			"english": ["to be vacant"]
+			"english": ["to be vacant"],
+			"highlight": false
 		},
 		{
 			"kanji": "空手",
 			"kana": "からて",
-			"english": ["karate"]
+			"english": ["karate"],
+			"highlight": false
 		}
 	]
 },
@@ -289,17 +325,20 @@
 		{
 			"kanji": "空港",
 			"kana": "クウコウ",
-			"english": ["airport"]
+			"english": ["airport"],
+			"highlight": true
 		},
 		{
 			"kanji": "神戸港",
 			"kana": "コウベコウ",
-			"english": ["Kobe Port"]
+			"english": ["Kobe Port"],
+			"highlight": false
 		},
 		{
 			"kanji": "港",
 			"kana": "みなと",
-			"english": ["port"]
+			"english": ["port"],
+			"highlight": false
 		}
 	]
 },
@@ -313,22 +352,26 @@
 		{
 			"kanji": "着く",
 			"kana": "つく",
-			"english": ["to arrive"]
+			"english": ["to arrive"],
+			"highlight": true
 		},
 		{
 			"kanji": "着る",
 			"kana": "きる",
-			"english": ["to wear"]
+			"english": ["to wear"],
+			"highlight": true
 		},
 		{
 			"kanji": "着物",
 			"kana": "きもの",
-			"english": ["kimono"]
+			"english": ["kimono"],
+			"highlight": true
 		},
 		{
 			"kanji": "大阪着",
 			"kana": "おおさかチャク",
-			"english": ["arriving at Osaka"]
+			"english": ["arriving at Osaka"],
+			"highlight": false
 		}
 	]
 },
@@ -342,12 +385,14 @@
 		{
 			"kanji": "同じ",
 			"kana": "おなじ",
-			"english": ["same"]
+			"english": ["same"],
+			"highlight": true
 		},
 		{
 			"kanji": "同時",
 			"kana": "ドウジ",
-			"english": ["same time", "simultaneous"]
+			"english": ["same time", "simultaneous"],
+			"highlight": false
 		}
 	]
 },
@@ -361,17 +406,20 @@
 		{
 			"kanji": "海",
 			"kana": "うみ",
-			"english": ["sea"]
+			"english": ["sea"],
+			"highlight": true
 		},
 		{
 			"kanji": "日本海",
 			"kana": "ニホンカイ",
-			"english": ["the Japan sea"]
+			"english": ["the Japan sea"],
+			"highlight": false
 		},
 		{
 			"kanji": "海外",
 			"kana": "カイガイ",
-			"english": ["overseas"]
+			"english": ["overseas"],
+			"highlight": false
 		}
 	]
 },
@@ -385,17 +433,20 @@
 		{
 			"kanji": "昼",
 			"kana": "ひる",
-			"english": ["noon", "daytime"]
+			"english": ["noon", "daytime"],
+			"highlight": true
 		},
 		{
 			"kanji": "昼ご飯",
 			"kana": "ひるごハン",
-			"english": ["lunch"]
+			"english": ["lunch"],
+			"highlight": true
 		},
 		{
 			"kanji": "昼食",
 			"kana": "チュウショク",
-			"english": ["lunch"]
+			"english": ["lunch"],
+			"highlight": false
 		}
 	]
 },
