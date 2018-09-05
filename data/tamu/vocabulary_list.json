@@ -2499,8 +2499,8 @@
 },
 "226": {
 	"kanji":	"的",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["まと"],
+	"onyomi": 	["テキ"],
 	"english": 	["target", "-ish"],
 	"words":
 	[
@@ -2712,32 +2712,32 @@
 },
 "233": {
 	"kanji":	"試",
-	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"kunyomi": 	["こころ"],
+	"onyomi": 	["シ"],
 	"english": 	["test", "to try"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "試験",
+			"kana": "シケン",
 			"english": ["exam"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "試合",
+			"kana": "シアイ",
 			"english": ["game", "match"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "入試",
+			"kana": "ニュウシ",
 			"english": ["entrance exam"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "試みる",
+			"kana": "こころみる",
 			"english": ["to try"],
 			"highlight": false
 		}
@@ -2745,26 +2745,26 @@
 },
 "234": {
 	"kanji":	"験",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["ケン"],
 	"english": 	["to examine"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "試験",
+			"kana": "シケン",
 			"english": ["exam"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "実験",
+			"kana": "ジッケン",
 			"english": ["experiment"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "経験",
+			"kana": "ケイケン",
 			"english": ["experience"],
 			"highlight": false
 		}
@@ -2772,26 +2772,26 @@
 },
 "235": {
 	"kanji":	"貸",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["か"],
+	"onyomi": 	["タイ"],
 	"english": 	["to lend", "loan"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "貸す",
+			"kana": "かす",
 			"english": ["to lend"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "貸し出し",
+			"kana": "かしだし",
 			"english": ["lending"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "賃貸マンション",
+			"kana": "チンタイマンション",
 			"english": ["apartment for rent"],
 			"highlight": false
 		}
@@ -2799,26 +2799,26 @@
 },
 "236": {
 	"kanji":	"図",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["はか"],
+	"onyomi": 	["ト", "ズ"],
 	"english": 	["drawing", "to devise"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "図書館",
+			"kana": "トショカン",
 			"english": ["library"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "地図",
+			"kana": "チズ",
 			"english": ["map"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "図る",
+			"kana": "はかる",
 			"english": ["to devise"],
 			"highlight": false
 		}
@@ -2826,32 +2826,32 @@
 },
 "237": {
 	"kanji":	"館",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["カン"],
 	"english": 	["building", "hall"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "図書館",
+			"kana": "トショカン",
 			"english": ["library"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
-			"english": ["movie"],
+			"kanji": "映画館",
+			"kana": "エイガカン",
+			"english": ["movie theater"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "旅館",
+			"kana": "リョカン",
 			"english": ["Japanese inn"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "大使館",
+			"kana": "タイシカン",
 			"english": ["embassy"],
 			"highlight": false
 		}
@@ -2859,26 +2859,26 @@
 },
 "238": {
 	"kanji":	"終",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["お"],
+	"onyomi": 	["シュウ"],
 	"english": 	["end"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "終わる",
+			"kana": "おわる",
 			"english": ["to come to an end"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "終わり",
+			"kana": "おわり",
 			"english": ["end"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "最終〜",
+			"kana": "サイシュウ〜",
 			"english": ["the last ..."],
 			"highlight": false
 		}
@@ -2886,32 +2886,32 @@
 },
 "239": {
 	"kanji":	"宿",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["やど"],
+	"onyomi": 	["シュク"],
 	"english": 	["inn", "to lodge in"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "宿題",
+			"kana": "シュクダイ",
 			"english": ["homework"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "下宿",
+			"kana": "ゲシュク",
 			"english": ["boardinghouse"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "宿泊",
+			"kana": "シュクハク",
 			"english": ["lodging"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "宿",
+			"kana": "やど",
 			"english": ["inn"],
 			"highlight": false
 		}
@@ -2919,31 +2919,37 @@
 },
 "240": {
 	"kanji":	"題",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["ダイ"],
 	"english": 	["title", "topic"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "宿題",
+			"kana": "シュクダイ",
 			"english": ["homework"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "話題",
+			"kana": "ワダイ",
 			"english": ["topic of conversation"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "題",
+			"kana": "ダイ",
 			"english": ["title"],
 			"highlight": false
 		}
 	]
 }
+
+
+
+
+
+
 
 
 }
