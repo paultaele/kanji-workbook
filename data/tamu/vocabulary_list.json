@@ -1689,13 +1689,13 @@
 	[
 		{
 			"kanji": "〜以上",
-			"kana": "イジョウ",
+			"kana": "〜イジョウ",
 			"english": ["... or more"],
 			"highlight": true
 		},
 		{
 			"kanji": "〜以下",
-			"kana": "イカ",
+			"kana": "〜イカ",
 			"english": ["... or less"],
 			"highlight": false
 		},
@@ -1924,80 +1924,1026 @@
 	]
 },
 "208": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"教",
+	"kunyomi": 	["おし"],
+	"onyomi": 	["キョウ"],
 	"english": 	["to teach"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "教える",
+			"kana": "おしえる",
 			"english": ["to teach"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "教室",
+			"kana": "キョウシツ",
 			"english": ["classroom"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "教会",
+			"kana": "キョウカイ",
 			"english": ["church"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "キリスト教",
+			"kana": "キリストキョウ",
 			"english": ["Christianity"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "教科書",
+			"kana": "キョウカショ",
 			"english": ["textbook"],
 			"highlight": false
 		}
 	]
 },
 "209": {
-	"kanji":	"",
+	"kanji":	"室",
+	"kunyomi": 	null,
+	"onyomi": 	["シツ"],
+	"english": 	["room"],
+	"words":
+	[
+		{
+			"kanji": "教室",
+			"kana": "キョウシツ",
+			"english": ["classroom"],
+			"highlight": true
+		},
+		{
+			"kanji": "研究室",
+			"kana": "ケンキュウシツ",
+			"english": ["professor's office"],
+			"highlight": false
+		},
+		{
+			"kanji": "地下室",
+			"kana": "チカシツ",
+			"english": ["basement"],
+			"highlight": false
+		},
+		{
+			"kanji": "待合室",
+			"kana": "まちあいシツ",
+			"english": ["waiting room"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"210": {
+	"kanji":	"歳",
+	"kunyomi": 	null,
+	"onyomi": 	["サイ", "セイ"],
+	"english": 	["year", "age"],
+	"words":
+	[
+		{
+			"kanji": "二十五歳",
+			"kana": "ニジュウゴサイ",
+			"english": ["twenty-fiive years old"],
+			"highlight": true
+		},
+		{
+			"kanji": "お歳暮",
+			"kana": "おセイボ",
+			"english": ["year-end gift"],
+			"highlight": false
+		},
+		{
+			"kanji": "二十歳",
+			"kana": "はたち",
+			"english": ["twenty years old"],
+			"highlight": false
+		}
+	]
+},
+"211": {
+	"kanji":	"習",
+	"kunyomi": 	["なら"],
+	"onyomi": 	["シュウ"],
+	"english": 	["to learn"],
+	"words":
+	[
+		{
+			"kanji": "習う",
+			"kana": "ならう",
+			"english": ["to learn"],
+			"highlight": true
+		},
+		{
+			"kanji": "習字",
+			"kana": "シュウジ",
+			"english": ["calligraphy"],
+			"highlight": false
+		},
+		{
+			"kanji": "練習",
+			"kana": "レンシュウ",
+			"english": ["practice"],
+			"highlight": false
+		},
+		{
+			"kanji": "習慣",
+			"kana": "シュウカン",
+			"english": ["habit", "custom"],
+			"highlight": false
+		}
+	]
+},
+"212": {
+	"kanji":	"主",
+	"kunyomi": 	["おも", "ぬし"],
+	"onyomi": 	["シュ"],
+	"english": 	["main", "lord"],
+	"words":
+	[
+		{
+			"kanji": "主に",
+			"kana": "おもに",
+			"english": ["mainly"],
+			"highlight": true
+		},
+		{
+			"kanji": "ご主人",
+			"kana": "ごシュジン",
+			"english": ["husband"],
+			"highlight": true
+		},
+		{
+			"kanji": "主婦",
+			"kana": "シュフ",
+			"english": ["housewife"],
+			"highlight": false
+		},
+		{
+			"kanji": "主語",
+			"kana": "シュゴ",
+			"english": ["subject of a sentence"],
+			"highlight": false
+		},
+		{
+			"kanji": "持ち主",
+			"kana": "もちぬし",
+			"english": ["owner"],
+			"highlight": false
+		}
+	]
+},
+"213": {
+	"kanji":	"結",
+	"kunyomi": 	["むす"],
+	"onyomi": 	["ケッ", "ケツ"],
+	"english": 	["to tie", "to join"],
+	"words":
+	[
+		{
+			"kanji": "結婚する",
+			"kana": "ケッコンする",
+			"english": ["to marry"],
+			"highlight": true
+		},
+		{
+			"kanji": "結果",
+			"kana": "ケッカ",
+			"english": ["result"],
+			"highlight": false
+		},
+		{
+			"kanji": "結論",
+			"kana": "ケツロン",
+			"english": ["conclusion"],
+			"highlight": false
+		},
+		{
+			"kanji": "結ぶ",
+			"kana": "むすぶ",
+			"english": ["to tie a knot"],
+			"highlight": false
+		}
+	]
+},
+"214": {
+	"kanji":	"婚",
+	"kunyomi": 	null,
+	"onyomi": 	["コン"],
+	"english": 	["marriage"],
+	"words":
+	[
+		{
+			"kanji": "結婚する",
+			"kana": "ケッコンする",
+			"english": ["to marry"],
+			"highlight": true
+		},
+		{
+			"kanji": "離婚",
+			"kana": "リコン",
+			"english": ["divorce"],
+			"highlight": false
+		},
+		{
+			"kanji": "婚約者",
+			"kana": "コンヤクシャ",
+			"english": ["fiancée"],
+			"highlight": false
+		}
+	]
+},
+"215": {
+	"kanji":	"集",
+	"kunyomi": 	["あつ"],
+	"onyomi": 	["シュウ"],
+	"english": 	["to gather"],
+	"words":
+	[
+		{
+			"kanji": "集める",
+			"kana": "あつめる",
+			"english": ["to collect"],
+			"highlight": true
+		},
+		{
+			"kanji": "特集",
+			"kana": "トクシュウ",
+			"english": ["(magazine) feature"],
+			"highlight": false
+		},
+		{
+			"kanji": "集中する",
+			"kana": "シュウチュウする",
+			"english": ["to concentrate"],
+			"highlight": false
+		}
+	]
+},
+"216": {
+	"kanji":	"発",
+	"kunyomi": 	null,
+	"onyomi": 	["ハッ", "ハツ", "パツ"],
+	"english": 	["to start", "to reveal"],
+	"words":
+	[
+		{
+			"kanji": "発表する",
+			"kana": "ハッピョウする",
+			"english": ["to make public", "to give a presentation"],
+			"highlight": true
+		},
+		{
+			"kanji": "発音",
+			"kana": "ハツオン",
+			"english": ["pronunciation"],
+			"highlight": false
+		},
+		{
+			"kanji": "出発",
+			"kana": "シュッパツ",
+			"english": ["departure"],
+			"highlight": false
+		}
+	]
+},
+"217": {
+	"kanji":	"表",
+	"kunyomi": 	["あらわ"],
+	"onyomi": 	["ピョウ", "ヒョウ"],
+	"english": 	["to express", "surface"],
+	"words":
+	[
+		{
+			"kanji": "発表する",
+			"kana": "ハッピョウする",
+			"english": ["to make public", "to give a presentation"],
+			"highlight": true
+		},
+		{
+			"kanji": "表紙",
+			"kana": "ヒョウシ",
+			"english": ["cover page"],
+			"highlight": false
+		},
+		{
+			"kanji": "表す",
+			"kana": "あらわす",
+			"english": ["to express"],
+			"highlight": false
+		}
+	]
+},
+"218": {
+	"kanji":	"品",
+	"kunyomi": 	["しな"],
+	"onyomi": 	["ヒン"],
+	"english": 	["goods", "refinement"],
+	"words":
+	[
+		{
+			"kanji": "作品",
+			"kana": "サクヒン",
+			"english": ["piece of work"],
+			"highlight": true
+		},
+		{
+			"kanji": "上品な",
+			"kana": "ジョウヒンな",
+			"english": ["elegant"],
+			"highlight": false
+		},
+		{
+			"kanji": "品物",
+			"kana": "しなもの",
+			"english": ["merchandise article"],
+			"highlight": false
+		}
+	]
+},
+"219": {
+	"kanji":	"字",
+	"kunyomi": 	null,
+	"onyomi": 	["ジ"],
+	"english": 	["character", "letter"],
+	"words":
+	[
+		{
+			"kanji": "文字",
+			"kana": "モジ",
+			"english": ["character"],
+			"highlight": true
+		},
+		{
+			"kanji": "赤字",
+			"kana": "あかジ",
+			"english": ["deficit"],
+			"highlight": false
+		},
+		{
+			"kanji": "名字",
+			"kana": "ミョウジ",
+			"english": ["family name"],
+			"highlight": false
+		},
+		{
+			"kanji": "大文字",
+			"kana": "おおモジ",
+			"english": ["uppercase letters"],
+			"highlight": false
+		},
+		{
+			"kanji": "漢字",
+			"kana": "カンジ",
+			"english": ["kanji"],
+			"highlight": false
+		}
+	]
+},
+"220": {
+	"kanji":	"活",
+	"kunyomi": 	null,
+	"onyomi": 	["カツ", "カッ"],
+	"english": 	["lively"],
+	"words":
+	[
+		{
+			"kanji": "活動",
+			"kana": "カツドウ",
+			"english": ["activity"],
+			"highlight": true
+		},
+		{
+			"kanji": "生活",
+			"kana": "セイカツ",
+			"english": ["(daily) life"],
+			"highlight": true
+		},
+		{
+			"kanji": "活発な",
+			"kana": "カッパツな",
+			"english": ["active"],
+			"highlight": false
+		}
+	]
+},
+"221": {
+	"kanji":	"写",
+	"kunyomi": 	["うつ"],
+	"onyomi": 	["シャ"],
+	"english": 	["to copy"],
+	"words":
+	[
+		{
+			"kanji": "写真",
+			"kana": "シャシン",
+			"english": ["photograph"],
+			"highlight": true
+		},
+		{
+			"kanji": "写生",
+			"kana": "シャセイ",
+			"english": ["sketch"],
+			"highlight": false
+		},
+		{
+			"kanji": "写す",
+			"kana": "うつす",
+			"english": ["to copy"],
+			"highlight": false
+		}
+	]
+},
+"222": {
+	"kanji":	"真",
+	"kunyomi": 	["ま"],
+	"onyomi": 	["シン"],
+	"english": 	["true", "reality"],
+	"words":
+	[
+		{
+			"kanji": "写真",
+			"kana": "シャシン",
+			"english": ["photograph"],
+			"highlight": true
+		},
+		{
+			"kanji": "真ん中",
+			"kana": "まんなか",
+			"english": ["center"],
+			"highlight": false
+		},
+		{
+			"kanji": "〜の真上",
+			"kana": "〜のまうえ",
+			"english": ["right above ..."],
+			"highlight": false
+		},
+		{
+			"kanji": "真夜中",
+			"kana": "まよなか",
+			"english": ["midnight"],
+			"highlight": false
+		}
+	]
+},
+"223": {
+	"kanji":	"歩",
+	"kunyomi": 	["ある"],
+	"onyomi": 	["ホ", "ポ"],
+	"english": 	["to walk"],
+	"words":
+	[
+		{
+			"kanji": "歩く",
+			"kana": "あるく",
+			"english": ["to walk"],
+			"highlight": true
+		},
+		{
+			"kanji": "歩道",
+			"kana": "ホドウ",
+			"english": ["sidewalk"],
+			"highlight": false
+		},
+		{
+			"kanji": "散歩する",
+			"kana": "サンポする",
+			"english": ["to stroll"],
+			"highlight": false
+		}
+	]
+},
+"224": {
+	"kanji":	"野",
+	"kunyomi": 	["の"],
+	"onyomi": 	["ヤ"],
+	"english": 	["field"],
+	"words":
+	[
+		{
+			"kanji": "分野",
+			"kana": "ブンヤ",
+			"english": ["realm", "field"],
+			"highlight": true
+		},
+		{
+			"kanji": "小野さん",
+			"kana": "おのさん",
+			"english": ["Mr./Ms. Ono"],
+			"highlight": true
+		},
+		{
+			"kanji": "長野",
+			"kana": "ながの",
+			"english": ["Nagano"],
+			"highlight": true
+		},
+		{
+			"kanji": "野球",
+			"kana": "ヤキュウ",
+			"english": ["baseball"],
+			"highlight": false
+		},
+		{
+			"kanji": "野菜",
+			"kana": "ヤサイ",
+			"english": ["vegetable"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"225": {
+	"kanji":	"目",
+	"kunyomi": 	["め"],
+	"onyomi": 	["モク"],
+	"english": 	["eye"],
+	"words":
+	[
+		{
+			"kanji": "目的",
+			"kana": "モクテキ",
+			"english": ["purpose"],
+			"highlight": true
+		},
+		{
+			"kanji": "目",
+			"kana": "め",
+			"english": ["eyes"],
+			"highlight": true
+		},
+		{
+			"kanji": "目薬",
+			"kana": "めぐすり",
+			"english": ["eye drops"],
+			"highlight": false
+		},
+		{
+			"kanji": "目上の人",
+			"kana": "めうえのひと",
+			"english": ["one's superiors"],
+			"highlight": false
+		}
+	]
+},
+"226": {
+	"kanji":	"的",
 	"kunyomi": 	[""],
 	"onyomi": 	[""],
-	"english": 	["room"],
+	"english": 	["target", "-ish"],
+	"words":
+	[
+		{
+			"kanji": "目的",
+			"kana": "モクテキ",
+			"english": ["purpose"],
+			"highlight": true
+		},
+		{
+			"kanji": "現代的",
+			"kana": "ゲンダイテキ",
+			"english": ["modern"],
+			"highlight": false
+		},
+		{
+			"kanji": "社会的",
+			"kana": "シャカイテキ",
+			"english": ["social"],
+			"highlight": false
+		},
+		{
+			"kanji": "的",
+			"kana": "まと",
+			"english": ["target"],
+			"highlight": false
+		}
+	]
+},
+"227": {
+	"kanji":	"力",
+	"kunyomi": 	["ちから"],
+	"onyomi": 	["リョク", "リキ"],
+	"english": 	["power"],
+	"words":
+	[
+		{
+			"kanji": "力仕事",
+			"kana": "ちからしごと",
+			"english": ["physical labor such as construction"],
+			"highlight": true
+		},
+		{
+			"kanji": "協力",
+			"kana": "キョウリョク",
+			"english": ["cooperation"],
+			"highlight": false
+		},
+		{
+			"kanji": "努力",
+			"kana": "ドリョク",
+			"english": ["endeavor"],
+			"highlight": false
+		},
+		{
+			"kanji": "力士",
+			"kana": "リキシ",
+			"english": ["sumo wrestler"],
+			"highlight": false
+		}
+	]
+},
+"228": {
+	"kanji":	"洋",
+	"kunyomi": 	null,
+	"onyomi": 	["ヨウ"],
+	"english": 	["ocean", "overseas"],
+	"words":
+	[
+		{
+			"kanji": "洋服",
+			"kana": "ヨウフク",
+			"english": ["clothes"],
+			"highlight": true
+		},
+		{
+			"kanji": "東洋",
+			"kana": "トウヨウ",
+			"english": ["Asia"],
+			"highlight": false
+		},
+		{
+			"kanji": "洋食",
+			"kana": "ヨウショク",
+			"english": ["Western food"],
+			"highlight": false
+		},
+		{
+			"kanji": "大西洋",
+			"kana": "タイセイヨウ",
+			"english": ["the Atlantic"],
+			"highlight": false
+		}
+	]
+},
+"229": {
+	"kanji":	"服",
+	"kunyomi": 	null,
+	"onyomi": 	["フク"],
+	"english": 	["clothes"],
+	"words":
+	[
+		{
+			"kanji": "洋服",
+			"kana": "ヨウフク",
+			"english": ["clothes"],
+			"highlight": true
+		},
+		{
+			"kanji": "洋服",
+			"kana": "ヨウフク",
+			"english": ["Western clothes"],
+			"highlight": true
+		},
+		{
+			"kanji": "制服",
+			"kana": "セイフク",
+			"english": ["uniform"],
+			"highlight": false
+		}
+	]
+},
+"230": {
+	"kanji":	"堂",
+	"kunyomi": 	null,
+	"onyomi": 	["ドウ"],
+	"english": 	["hall"],
+	"words":
+	[
+		{
+			"kanji": "食堂",
+			"kana": "ショクドウ",
+			"english": ["dining room"],
+			"highlight": true
+		},
+		{
+			"kanji": "公会堂",
+			"kana": "コウカイドウ",
+			"english": ["public hall"],
+			"highlight": false
+		},
+		{
+			"kanji": "堂々とした",
+			"kana": "ドウドウとした",
+			"english": ["dignified", "imposing"],
+			"highlight": false
+		}
+	]
+},
+"231": {
+	"kanji":	"授",
+	"kunyomi": 	["さずか"],
+	"onyomi": 	["ジュ"],
+	"english": 	["to instruct"],
+	"words":
+	[
+		{
+			"kanji": "授業",
+			"kana": "ジュギョウ",
+			"english": ["class"],
+			"highlight": true
+		},
+		{
+			"kanji": "教授",
+			"kana": "キョウジュ",
+			"english": ["professor"],
+			"highlight": false
+		},
+		{
+			"kanji": "授かる",
+			"kana": "さずかる",
+			"english": ["to be given"],
+			"highlight": false
+		}
+	]
+},
+"232": {
+	"kanji":	"業",
+	"kunyomi": 	null,
+	"onyomi": 	["ギョウ"],
+	"english": 	["business", "vocation"],
+	"words":
+	[
+		{
+			"kanji": "授業",
+			"kana": "ジュギョウ",
+			"english": ["class"],
+			"highlight": true
+		},
+		{
+			"kanji": "職業",
+			"kana": "ショクギョウ",
+			"english": ["occupation"],
+			"highlight": false
+		},
+		{
+			"kanji": "産業",
+			"kana": "サンギョウ",
+			"english": ["industry"],
+			"highlight": false
+		},
+		{
+			"kanji": "サービス業",
+			"kana": "サービスギョウ",
+			"english": ["service industry"],
+			"highlight": false
+		}
+	]
+},
+"233": {
+	"kanji":	"試",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["test", "to try"],
 	"words":
 	[
 		{
 			"kanji": "",
 			"kana": "",
-			"english": ["classroom"],
+			"english": ["exam"],
 			"highlight": true
 		},
 		{
 			"kanji": "",
 			"kana": "",
-			"english": ["professor's office"],
+			"english": ["game", "match"],
 			"highlight": false
 		},
 		{
 			"kanji": "",
 			"kana": "",
-			"english": ["basement"],
+			"english": ["entrance exam"],
 			"highlight": false
 		},
 		{
 			"kanji": "",
 			"kana": "",
-			"english": ["waiting room"],
+			"english": ["to try"],
+			"highlight": false
+		}
+	]
+},
+"234": {
+	"kanji":	"験",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to examine"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["exam"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["experiment"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["experience"],
+			"highlight": false
+		}
+	]
+},
+"235": {
+	"kanji":	"貸",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to lend", "loan"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to lend"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["lending"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["apartment for rent"],
+			"highlight": false
+		}
+	]
+},
+"236": {
+	"kanji":	"図",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["drawing", "to devise"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["library"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["map"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to devise"],
+			"highlight": false
+		}
+	]
+},
+"237": {
+	"kanji":	"館",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["building", "hall"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["library"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["movie"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Japanese inn"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["embassy"],
+			"highlight": false
+		}
+	]
+},
+"238": {
+	"kanji":	"終",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["end"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to come to an end"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["end"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["the last ..."],
+			"highlight": false
+		}
+	]
+},
+"239": {
+	"kanji":	"宿",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["inn", "to lodge in"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["homework"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["boardinghouse"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["lodging"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["inn"],
+			"highlight": false
+		}
+	]
+},
+"240": {
+	"kanji":	"題",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["title", "topic"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["homework"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["topic of conversation"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["title"],
 			"highlight": false
 		}
 	]
 }
-
-
-
 
 
 }
