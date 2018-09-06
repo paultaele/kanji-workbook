@@ -3677,38 +3677,38 @@
 },
 "265": {
 	"kanji":	"心",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["こころ"],
+	"onyomi": 	["シン"],
 	"english": 	["heart", "mind"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "心",
+			"kana": "こころ",
 			"english": ["heart", "mind"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "心配する",
+			"kana": "シンパイする",
 			"english": ["to worry"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "熱心な",
+			"kana": "ネッシンな",
 			"english": ["enthusiastic"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "安心な",
+			"kana": "アンシンな",
 			"english": ["safe"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "好奇心",
+			"kana": "コウキシン",
 			"english": ["curiosity"],
 			"highlight": false
 		}
@@ -3716,26 +3716,26 @@
 },
 "266": {
 	"kanji":	"笑",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["わら", "え"],
+	"onyomi": 	["ショウ"],
 	"english": 	["to laugh"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "笑う",
+			"kana": "わらう",
 			"english": ["to laugh"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "微笑む",
+			"kana": "ほほえむ",
 			"english": ["to smile"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "爆笑する",
+			"kana": "バクショウする",
 			"english": ["to burst into laughter"],
 			"highlight": false
 		}
@@ -3743,32 +3743,32 @@
 },
 "267": {
 	"kanji":	"絶",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["た"],
+	"onyomi": 	["ゼッ", "ゼツ"],
 	"english": 	["to discontinue"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "絶対に",
+			"kana": "ゼッタイに",
 			"english": ["definitely"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "絶える",
+			"kana": "たえる",
 			"english": ["to die out"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "気絶する",
+			"kana": "キゼツする",
 			"english": ["to faint"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "絶望",
+			"kana": "ゼツボウ",
 			"english": ["despair"],
 			"highlight": false
 		}
@@ -3776,32 +3776,32 @@
 },
 "268": {
 	"kanji":	"対",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["タイ", "ツイ"],
 	"english": 	["opposite"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "絶対に",
+			"kana": "ゼッタイに",
 			"english": ["definitely"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "反対する",
+			"kana": "ハンタイする",
 			"english": ["to oppose"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "日本対中国",
+			"kana": "ニホンタイチュウゴク",
 			"english": ["Japan versus China"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一対",
+			"kana": "イッツイ",
 			"english": ["a pair"],
 			"highlight": false
 		}
@@ -3809,26 +3809,26 @@
 },
 "269": {
 	"kanji":	"痛",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["いた"],
+	"onyomi": 	["ツウ"],
 	"english": 	["pain"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "痛い",
+			"kana": "いたい",
 			"english": ["painful"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "頭痛",
+			"kana": "ズツウ",
 			"english": ["headache"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "鎮痛剤",
+			"kana": "チンツウザイ",
 			"english": ["painkiller"],
 			"highlight": false
 		}
@@ -3836,38 +3836,38 @@
 },
 "270": {
 	"kanji":	"最",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["もっと"],
+	"onyomi": 	["サイ"],
 	"english": 	["utmost"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "最悪",
+			"kana": "サイアク",
 			"english": ["the worst"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "最近",
+			"kana": "サイキン",
 			"english": ["recently"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "最高",
+			"kana": "サイコウ",
 			"english": ["the best"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "最後に",
+			"kana": "サイゴに",
 			"english": ["lastly"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "最も",
+			"kana": "もっとも",
 			"english": ["most"],
 			"highlight": false
 		}
@@ -3875,32 +3875,32 @@
 },
 "271": {
 	"kanji":	"続",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["つづ"],
+	"onyomi": 	["ゾク"],
 	"english": 	["to continue"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "続ける",
+			"kana": "つづける",
 			"english": ["to continue"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "手続き",
+			"kana": "てつづき",
 			"english": ["procedure"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "相続する",
+			"kana": "ソウゾクする",
 			"english": ["to inherit"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "連続ドラマ",
+			"kana": "レンゾクドラマ",
 			"english": ["serial TV drama"],
 			"highlight": false
 		}
