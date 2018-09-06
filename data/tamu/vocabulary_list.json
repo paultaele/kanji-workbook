@@ -3905,6 +3905,458 @@
 			"highlight": false
 		}
 	]
+},
+
+
+
+
+
+"272": {
+	"kanji":	"信",
+	"kunyomi": 	null,
+	"onyomi": 	["シン"],
+	"english": 	["to trust", "to believe in"],
+	"words":
+	[
+		{
+			"kanji": "信じる",
+			"kana": "シンじる",
+			"english": ["to believe"],
+			"highlight": true
+		},
+		{
+			"kanji": "自信",
+			"kana": "ジシン",
+			"english": ["confidence"],
+			"highlight": false
+		},
+		{
+			"kanji": "信号",
+			"kana": "シンゴウ",
+			"english": ["traffic signal"],
+			"highlight": false
+		},
+		{
+			"kanji": "迷信",
+			"kana": "メイシン",
+			"english": ["superstition"],
+			"highlight": false
+		}
+	]
+},
+"273": {
+	"kanji":	"経",
+	"kunyomi": 	null,
+	"onyomi": 	["ケイ"],
+	"english": 	["experience"],
+	"words":
+	[
+		{
+			"kanji": "経験",
+			"kana": "ケイケン",
+			"english": ["experience"],
+			"highlight": true
+		},
+		{
+			"kanji": "経済",
+			"kana": "ケイザイ",
+			"english": ["economy"],
+			"highlight": false
+		},
+		{
+			"kanji": "神経質",
+			"kana": "シンケイシツ",
+			"english": ["over sensitive"],
+			"highlight": false
+		},
+		{
+			"kanji": "経営学",
+			"kana": "ケイエイガク",
+			"english": ["management studies"],
+			"highlight": false
+		}
+	]
+},
+"274": {
+	"kanji":	"台",
+	"kunyomi": 	null,
+	"onyomi": 	["タイ", "ダイ"],
+	"english": 	["stand"],
+	"words":
+	[
+		{
+			"kanji": "台風",
+			"kana": "タイフウ",
+			"english": ["typhoon"],
+			"highlight": true
+		},
+		{
+			"kanji": "二台",
+			"kana": "ニダイ",
+			"english": ["two vehicles/machines/etc."],
+			"highlight": true
+		},
+		{
+			"kanji": "舞台",
+			"kana": "ブタイ",
+			"english": ["stage"],
+			"highlight": false
+		},
+		{
+			"kanji": "台所",
+			"kana": "ダイどころ",
+			"english": ["kitchen"],
+			"highlight": false
+		}
+	]
+},
+"275": {
+	"kanji":	"風",
+	"kunyomi": 	["かぜ"],
+	"onyomi": 	["フウ"],
+	"english": 	["wind"],
+	"words":
+	[
+		{
+			"kanji": "台風",
+			"kana": "タイフウ",
+			"english": ["typhoon"],
+			"highlight": true
+		},
+		{
+			"kanji": "和風",
+			"kana": "ワフウ",
+			"english": ["Japanese style"],
+			"highlight": false
+		},
+		{
+			"kanji": "風",
+			"kana": "かぜ",
+			"english": ["wind"],
+			"highlight": false
+		},
+		{
+			"kanji": "風邪をひく",
+			"kana": "かぜをひく",
+			"english": ["to catch a cold"],
+			"highlight": false
+		}
+	]
+},
+"276": {
+	"kanji":	"犬",
+	"kunyomi": 	["いぬ"],
+	"onyomi": 	["ケン"],
+	"english": 	["dog"],
+	"words":
+	[
+		{
+			"kanji": "犬",
+			"kana": "いぬ",
+			"english": ["dog"],
+			"highlight": true
+		},
+		{
+			"kanji": "番犬",
+			"kana": "ばんケン",
+			"english": ["watch dog"],
+			"highlight": false
+		},
+		{
+			"kanji": "盲導犬",
+			"kana": "モウドウケン",
+			"english": ["seeing-eye dog"],
+			"highlight": false
+		}
+	]
+},
+"277": {
+	"kanji":	"重",
+	"kunyomi": 	["おも", "かさ"],
+	"onyomi": 	["ジュウ", "チョウ"],
+	"english": 	["heavy", "to pile up"],
+	"words":
+	[
+		{
+			"kanji": "重い",
+			"kana": "おもい",
+			"english": ["heavy", "serious (illness)"],
+			"highlight": true
+		},
+		{
+			"kanji": "重ねる",
+			"kana": "かさねる",
+			"english": ["to pile up"],
+			"highlight": false
+		},
+		{
+			"kanji": "体重",
+			"kana": "タイジュウ",
+			"english": ["body weight"],
+			"highlight": false
+		},
+		{
+			"kanji": "貴重品",
+			"kana": "キチョウヒン",
+			"english": ["valuables"],
+			"highlight": false
+		}
+	]
+},
+"278": {
+	"kanji":	"初",
+	"kunyomi": 	["はじ", "はつ"],
+	"onyomi": 	["ショ"],
+	"english": 	["first"],
+	"words":
+	[
+		{
+			"kanji": "初めは",
+			"kana": "はじめは",
+			"english": ["at first"],
+			"highlight": true
+		},
+		{
+			"kanji": "初めて",
+			"kana": "はじめて",
+			"english": ["first time"],
+			"highlight": true
+		},
+		{
+			"kanji": "最初",
+			"kana": "サイショ",
+			"english": ["first"],
+			"highlight": false
+		},
+		{
+			"kanji": "初雪",
+			"kana": "はつゆき",
+			"english": ["first snow"],
+			"highlight": false
+		},
+		{
+			"kanji": "初恋",
+			"kana": "はつこい",
+			"english": ["first love"],
+			"highlight": false
+		}
+	]
+},
+"279": {
+	"kanji":	"若",
+	"kunyomi": 	["わか"],
+	"onyomi": 	null,
+	"english": 	["young"],
+	"words":
+	[
+		{
+			"kanji": "若い",
+			"kana": "わかい",
+			"english": ["young"],
+			"highlight": true
+		},
+		{
+			"kanji": "若者",
+			"kana": "わかもの",
+			"english": ["young people"],
+			"highlight": false
+		}
+	]
+},
+"280": {
+	"kanji":	"送",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to send"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to send"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["sending money"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["broadcast"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["out-of-service train"],
+			"highlight": false
+		}
+	]
+},
+"281": {
+	"kanji":	"幸",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["happiness"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["happy"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["good fortune"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["misfortune"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["fortunately"],
+			"highlight": false
+		}
+	]
+},
+"282": {
+	"kanji":	"計",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to measure"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["a watch"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["sum"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to measure"],
+			"highlight": false
+		}
+	]
+},
+"283": {
+	"kanji":	"遅",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["late"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to be late"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["late"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to be late"],
+			"highlight": false
+		}
+	]
+},
+"284": {
+	"kanji":	"配",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to deliver"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["worried about"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to distribute"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["delivery"],
+			"highlight": false
+		}
+	]
+},
+"285": {
+	"kanji":	"弟",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["young brother"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["younger brother"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["brothers"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["apprentice"],
+			"highlight": false
+		}
+	]
+},
+"286": {
+	"kanji":	"妹",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["young sister"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["younger sister"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["sisters"],
+			"highlight": false
+		}
+	]
 }
 
 
