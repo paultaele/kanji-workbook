@@ -2943,10 +2943,969 @@
 			"highlight": false
 		}
 	]
+},
+
+
+
+
+
+
+"241": {
+	"kanji":	"春",
+	"kunyomi": 	["はる"],
+	"onyomi": 	["シュン"],
+	"english": 	["spring"],
+	"words":
+	[
+		{
+			"kanji": "春",
+			"kana": "はる",
+			"english": ["spring"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["spring roll"],
+			"highlight": false
+		},
+		{
+			"kanji": "春巻",
+			"kana": "はるまき",
+			"english": ["spring roll"],
+			"highlight": false
+		},
+		{
+			"kanji": "春分",
+			"kana": "シュンブン",
+			"english": ["vernal equinox"],
+			"highlight": false
+		},
+		{
+			"kanji": "青春",
+			"kana": "セイシュン",
+			"english": ["youth"],
+			"highlight": false
+		}
+	]
+},
+"242": {
+	"kanji":	"秋",
+	"kunyomi": 	["あき"],
+	"onyomi": 	["シュウ"],
+	"english": 	["autumn"],
+	"words":
+	[
+		{
+			"kanji": "秋",
+			"kana": "あき",
+			"english": ["autumn"],
+			"highlight": true
+		},
+		{
+			"kanji": "秋学期",
+			"kana": "あきガッキ",
+			"english": ["fall semester"],
+			"highlight": false
+		},
+		{
+			"kanji": "秋分",
+			"kana": "シュウブン",
+			"english": ["autumnal equinox"],
+			"highlight": false
+		}
+	]
+},
+"243": {
+	"kanji":	"冬",
+	"kunyomi": 	["ふゆ"],
+	"onyomi": 	["トウ"],
+	"english": 	["winter"],
+	"words":
+	[
+		{
+			"kanji": "冬",
+			"kana": "ふゆ",
+			"english": ["winter"],
+			"highlight": true
+		},
+		{
+			"kanji": "冬休み",
+			"kana": "ふゆやすみ",
+			"english": ["winter vacation"],
+			"highlight": true
+		},
+		{
+			"kanji": "暖冬",
+			"kana": "ダントウ",
+			"english": ["warm winter"],
+			"highlight": false
+		},
+		{
+			"kanji": "春夏秋冬",
+			"kana": "シュンカシュウトウ",
+			"english": ["four seasons"],
+			"highlight": false
+		}
+	]
+},
+"244": {
+	"kanji":	"花",
+	"kunyomi": 	["はな"],
+	"onyomi": 	["カ"],
+	"english": 	["flower"],
+	"words":
+	[
+		{
+			"kanji": "花",
+			"kana": "はな",
+			"english": ["flower"],
+			"highlight": true
+		},
+		{
+			"kanji": "花見",
+			"kana": "はなみ",
+			"english": ["flower viewing"],
+			"highlight": false
+		},
+		{
+			"kanji": "花火",
+			"kana": "はなび",
+			"english": ["fireworks"],
+			"highlight": false
+		},
+		{
+			"kanji": "花粉症",
+			"kana": "カフンショウ",
+			"english": ["hay fever"],
+			"highlight": false
+		}
+	]
+},
+"245": {
+	"kanji":	"様",
+	"kunyomi": 	["さま"],
+	"onyomi": 	["ヨウ"],
+	"english": 	["Mr.", "Mrs.", "condition"],
+	"words":
+	[
+		{
+			"kanji": "〜様",
+			"kana": "〜さま",
+			"english": ["Mr./Mrs. ..."],
+			"highlight": true
+		},
+		{
+			"kanji": "お客様",
+			"kana": "おキャクさま",
+			"english": ["dear customer"],
+			"highlight": false
+		},
+		{
+			"kanji": "皆様",
+			"kana": "みなさま",
+			"english": ["everyone"],
+			"highlight": false
+		},
+		{
+			"kanji": "様子",
+			"kana": "ヨウス",
+			"english": ["manner"],
+			"highlight": false
+		}
+	]
+},
+"246": {
+	"kanji":	"不",
+	"kunyomi": 	null,
+	"onyomi": 	["フ", "ブ"],
+	"english": 	["negative", "non-"],
+	"words":
+	[
+		{
+			"kanji": "不安な",
+			"kana": "フアンな",
+			"english": ["uneasy", "worried"],
+			"highlight": true
+		},
+		{
+			"kanji": "不景気",
+			"kana": "フケイキ",
+			"english": ["recession"],
+			"highlight": false
+		},
+		{
+			"kanji": "不便",
+			"kana": "フベン",
+			"english": ["inconvenience"],
+			"highlight": false
+		},
+		{
+			"kanji": "水不足",
+			"kana": "みずブソク",
+			"english": ["water shortage"],
+			"highlight": false
+		}
+	]
+},
+"247": {
+	"kanji":	"姉",
+	"kunyomi": 	["あね", "ねえ"],
+	"onyomi": 	["シ"],
+	"english": 	["older sister"],
+	"words":
+	[
+		{
+			"kanji": "姉",
+			"kana": "あね",
+			"english": ["older sister"],
+			"highlight": true
+		},
+		{
+			"kanji": "お姉さん",
+			"kana": "おねえさん",
+			"english": ["older sister"],
+			"highlight": true
+		},
+		{
+			"kanji": "姉妹",
+			"kana": "シマイ",
+			"english": ["sisters"],
+			"highlight": false
+		}
+	]
+},
+"248": {
+	"kanji":	"兄",
+	"kunyomi": 	["あに", "にい"],
+	"onyomi": 	["キョウ", "ケイ"],
+	"english": 	["older brother"],
+	"words":
+	[
+		{
+			"kanji": "兄",
+			"kana": "あに",
+			"english": ["older brother"],
+			"highlight": true
+		},
+		{
+			"kanji": "お兄さん",
+			"kana": "おにいさん",
+			"english": ["older brother"],
+			"highlight": true
+		},
+		{
+			"kanji": "兄弟",
+			"kana": "キョウダイ",
+			"english": ["brothers"],
+			"highlight": false
+		},
+		{
+			"kanji": "父兄",
+			"kana": "フケイ",
+			"english": ["guardians"],
+			"highlight": false
+		}
+	]
+},
+"249": {
+	"kanji":	"漢",
+	"kunyomi": 	null,
+	"onyomi": 	["カン"],
+	"english": 	["China"],
+	"words":
+	[
+		{
+			"kanji": "漢字",
+			"kana": "カンジ",
+			"english": ["Chinese character"],
+			"highlight": true
+		},
+		{
+			"kanji": "漢方薬",
+			"kana": "カンポウヤク",
+			"english": ["Chinese herbal medicine"],
+			"highlight": false
+		},
+		{
+			"kanji": "漢和辞典",
+			"kana": "カンワジテン",
+			"english": ["kanji dictionary"],
+			"highlight": false
+		}
+	]
+},
+"250": {
+	"kanji":	"卒",
+	"kunyomi": 	null,
+	"onyomi": 	["ソツ"],
+	"english": 	["to graduate"],
+	"words":
+	[
+		{
+			"kanji": "卒業する",
+			"kana": "ソツギョウシキ",
+			"english": ["to graduate"],
+			"highlight": true
+		},
+		{
+			"kanji": "卒業式",
+			"kana": "ダイソツ",
+			"english": ["graduation ceremony"],
+			"highlight": false
+		}
+	]
+},
+"251": {
+	"kanji":	"工",
+	"kunyomi": 	null,
+	"onyomi": 	["コウ", "ク"],
+	"english": 	["craft", "construction"],
+	"words":
+	[
+		{
+			"kanji": "工学",
+			"kana": "コウガク",
+			"english": ["engineering"],
+			"highlight": true
+		},
+		{
+			"kanji": "工事",
+			"kana": "コウジ",
+			"english": ["construction"],
+			"highlight": false
+		},
+		{
+			"kanji": "工場",
+			"kana": "コウジョウ",
+			"english": ["factory"],
+			"highlight": false
+		},
+		{
+			"kanji": "大工",
+			"kana": "ダイク",
+			"english": ["carpenter"],
+			"highlight": false
+		}
+	]
+},
+"252": {
+	"kanji":	"研",
+	"kunyomi": 	["と"],
+	"onyomi": 	["ケン"],
+	"english": 	["to polish", "study"],
+	"words":
+	[
+		{
+			"kanji": "研究",
+			"kana": "ケンキュウ",
+			"english": ["research"],
+			"highlight": true
+		},
+		{
+			"kanji": "研修",
+			"kana": "ケンシュウ",
+			"english": ["training"],
+			"highlight": false
+		},
+		{
+			"kanji": "研ぐ",
+			"kana": "とぐ",
+			"english": ["to sharpen"],
+			"highlight": false
+		}
+	]
+},
+"253": {
+	"kanji":	"究",
+	"kunyomi": 	["きわ"],
+	"onyomi": 	["キュウ"],
+	"english": 	["research"],
+	"words":
+	[
+		{
+			"kanji": "研究",
+			"kana": "ケンキュウ",
+			"english": ["research"],
+			"highlight": true
+		},
+		{
+			"kanji": "探究",
+			"kana": "タンキュウ",
+			"english": ["inquiry"],
+			"highlight": false
+		},
+		{
+			"kanji": "究める",
+			"kana": "きわめる",
+			"english": ["to investigate thoroughly"],
+			"highlight": false
+		}
+	]
+},
+"254": {
+	"kanji":	"質",
+	"kunyomi": 	[""],
+	"onyomi": 	["シツ", "シチ"],
+	"english": 	["quality", "manner"],
+	"words":
+	[
+		{
+			"kanji": "質問",
+			"kana": "シツモン",
+			"english": ["question"],
+			"highlight": true
+		},
+		{
+			"kanji": "質がいい",
+			"kana": "シツがいい",
+			"english": ["good quality"],
+			"highlight": false
+		},
+		{
+			"kanji": "質屋",
+			"kana": "シチや",
+			"english": ["pawn shop"],
+			"highlight": false
+		}
+	]
+},
+"255": {
+	"kanji":	"問",
+	"kunyomi": 	["と"],
+	"onyomi": 	["モン"],
+	"english": 	["question"],
+	"words":
+	[
+		{
+			"kanji": "質問",
+			"kana": "シツモン",
+			"english": ["question"],
+			"highlight": true
+		},
+		{
+			"kanji": "問題",
+			"kana": "モンダイ",
+			"english": ["problem"],
+			"highlight": false
+		},
+		{
+			"kanji": "訪問",
+			"kana": "ホウモン",
+			"english": ["visit"],
+			"highlight": false
+		},
+		{
+			"kanji": "問う",
+			"kana": "とう",
+			"english": ["to question"],
+			"highlight": false
+		}
+	]
+},
+"256": {
+	"kanji":	"多",
+	"kunyomi": 	["おお"],
+	"onyomi": 	["タ"],
+	"english": 	["many"],
+	"words":
+	[
+		{
+			"kanji": "多い",
+			"kana": "おおい",
+			"english": ["many"],
+			"highlight": true
+		},
+		{
+			"kanji": "〜の多く",
+			"kana": "〜のおおく",
+			"english": ["many of ..."],
+			"highlight": false
+		},
+		{
+			"kanji": "多数決",
+			"kana": "タスウケツ",
+			"english": ["decision by majority"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"257": {
+	"kanji":	"皿",
+	"kunyomi": 	["さら", "ざら"],
+	"onyomi": 	null,
+	"english": 	["plate"],
+	"words":
+	[
+		{
+			"kanji": "皿",
+			"kana": "さら",
+			"english": ["plate", "dish"],
+			"highlight": true
+		},
+		{
+			"kanji": "灰皿",
+			"kana": "はいざら",
+			"english": ["ashtray"],
+			"highlight": false
+		}
+	]
+},
+"258": {
+	"kanji":	"声",
+	"kunyomi": 	["こえ"],
+	"onyomi": 	["セイ"],
+	"english": 	["voice"],
+	"words":
+	[
+		{
+			"kanji": "声",
+			"kana": "こえ",
+			"english": ["voice"],
+			"highlight": true
+		},
+		{
+			"kanji": "音声学",
+			"kana": "オンセイガク",
+			"english": ["phonetics"],
+			"highlight": false
+		},
+		{
+			"kanji": "無声映画",
+			"kana": "ムセイエイガ",
+			"english": ["silent movie"],
+			"highlight": false
+		}
+	]
+},
+"259": {
+	"kanji":	"茶",
+	"kunyomi": 	null,
+	"onyomi": 	["チャ", "サ"],
+	"english": 	["tea"],
+	"words":
+	[
+		{
+			"kanji": "お茶",
+			"kana": "おチャ",
+			"english": ["Japanese tea"],
+			"highlight": true
+		},
+		{
+			"kanji": "茶店",
+			"kana": "チャみせ",
+			"english": ["teahouse"],
+			"highlight": true
+		},
+		{
+			"kanji": "紅茶",
+			"kana": "コウチャ",
+			"english": ["black tea"],
+			"highlight": false
+		},
+		{
+			"kanji": "茶色",
+			"kana": "チャいろ",
+			"english": ["brown"],
+			"highlight": false
+		},
+		{
+			"kanji": "喫茶店",
+			"kana": "キッサテン",
+			"english": ["cafe"],
+			"highlight": false
+		}
+	]
+},
+"260": {
+	"kanji":	"止",
+	"kunyomi": 	["と"],
+	"onyomi": 	["シ"],
+	"english": 	["to stop"],
+	"words":
+	[
+		{
+			"kanji": "止まる",
+			"kana": "とまる",
+			"english": ["(something) stops"],
+			"highlight": true
+		},
+		{
+			"kanji": "中止する",
+			"kana": "チュウシする",
+			"english": ["to cancel"],
+			"highlight": false
+		},
+		{
+			"kanji": "禁止する",
+			"kana": "キンシする",
+			"english": ["to prohibit"],
+			"highlight": false
+		}
+	]
+},
+"261": {
+	"kanji":	"枚",
+	"kunyomi": 	null,
+	"onyomi": 	["マイ"],
+	"english": 	["sheet of ..."],
+	"words":
+	[
+		{
+			"kanji": "一枚",
+			"kana": "イチマイ",
+			"english": ["one sheet"],
+			"highlight": true
+		},
+		{
+			"kanji": "枚数",
+			"kana": "マイスウ",
+			"english": ["number of flat things"],
+			"highlight": false
+		}
+	]
+},
+"262": {
+	"kanji":	"両",
+	"kunyomi": 	null,
+	"onyomi": 	["リョウ"],
+	"english": 	["both"],
+	"words":
+	[
+		{
+			"kanji": "三両",
+			"kana": "サンリョウ",
+			"english": ["three ryoo"],
+			"highlight": true
+		},
+		{
+			"kanji": "両親",
+			"kana": "リョウシン",
+			"english": ["parents"],
+			"highlight": true
+		},
+		{
+			"kanji": "両手",
+			"kana": "リョウて",
+			"english": ["both hands"],
+			"highlight": false
+		},
+		{
+			"kanji": "両替",
+			"kana": "リョウがえ",
+			"english": ["exchange"],
+			"highlight": false
+		},
+		{
+			"kanji": "両方",
+			"kana": "リョウホウ",
+			"english": ["both sides"],
+			"highlight": false
+		}
+	]
+},
+"263": {
+	"kanji":	"無",
+	"kunyomi": 	["な"],
+	"onyomi": 	["ム", "ブ"],
+	"english": 	["none"],
+	"words":
+	[
+		{
+			"kanji": "無理な",
+			"kana": "ムリな",
+			"english": ["impossible"],
+			"highlight": true
+		},
+		{
+			"kanji": "無駄な",
+			"kana": "ムダな",
+			"english": ["wasteful"],
+			"highlight": false
+		},
+		{
+			"kanji": "無料",
+			"kana": "ムリョウ",
+			"english": ["free of charge"],
+			"highlight": false
+		},
+		{
+			"kanji": "無礼な",
+			"kana": "ブレイな",
+			"english": ["rude"],
+			"highlight": false
+		},
+		{
+			"kanji": "無い",
+			"kana": "ない",
+			"english": ["there is no ..."],
+			"highlight": false
+		}
+	]
+},
+"264": {
+	"kanji":	"払",
+	"kunyomi": 	["はら"],
+	"onyomi": 	["ばら"],
+	"english": 	["to pay"],
+	"words":
+	[
+		{
+			"kanji": "払う",
+			"kana": "はらう",
+			"english": ["to pay"],
+			"highlight": true
+		},
+		{
+			"kanji": "払い戻し",
+			"kana": "はらいもどし",
+			"english": ["refund"],
+			"highlight": false
+		},
+		{
+			"kanji": "分割払い",
+			"kana": "ブンカツばらい",
+			"english": ["payment in installation"],
+			"highlight": false
+		}
+	]
+},
+"265": {
+	"kanji":	"心",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["heart", "mind"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["heart", "mind"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to worry"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["enthusiastic"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["safe"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["curiosity"],
+			"highlight": false
+		}
+	]
+},
+"266": {
+	"kanji":	"笑",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to laugh"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to laugh"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to smile"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to burst into laughter"],
+			"highlight": false
+		}
+	]
+},
+"267": {
+	"kanji":	"絶",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to discontinue"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["definitely"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to die out"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to faint"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["despair"],
+			"highlight": false
+		}
+	]
+},
+"268": {
+	"kanji":	"対",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["opposite"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["definitely"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to oppose"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Japan versus China"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["a pair"],
+			"highlight": false
+		}
+	]
+},
+"269": {
+	"kanji":	"痛",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["pain"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["painful"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["headache"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["painkiller"],
+			"highlight": false
+		}
+	]
+},
+"270": {
+	"kanji":	"最",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["utmost"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["the worst"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["recently"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["the best"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["lastly"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["most"],
+			"highlight": false
+		}
+	]
+},
+"271": {
+	"kanji":	"続",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to continue"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to continue"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["procedure"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to inherit"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["serial TV drama"],
+			"highlight": false
+		}
+	]
 }
-
-
-
 
 
 
