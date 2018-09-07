@@ -4165,32 +4165,32 @@
 },
 "280": {
 	"kanji":	"送",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["おく"],
+	"onyomi": 	["ソウ"],
 	"english": 	["to send"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "送る",
+			"kana": "おくる",
 			"english": ["to send"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "送金",
+			"kana": "ソウキン",
 			"english": ["sending money"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "放送",
+			"kana": "ホウソウ",
 			"english": ["broadcast"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "回送電車",
+			"kana": "カイソウデンシャ",
 			"english": ["out-of-service train"],
 			"highlight": false
 		}
@@ -4198,32 +4198,32 @@
 },
 "281": {
 	"kanji":	"幸",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["しあわ", "さいわ"],
+	"onyomi": 	["コウ"],
 	"english": 	["happiness"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "幸せな",
+			"kana": "しあわせな",
 			"english": ["happy"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "幸運",
+			"kana": "コウウン",
 			"english": ["good fortune"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "不幸",
+			"kana": "フコウ",
 			"english": ["misfortune"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "幸い",
+			"kana": "さいわい",
 			"english": ["fortunately"],
 			"highlight": false
 		}
@@ -4231,26 +4231,26 @@
 },
 "282": {
 	"kanji":	"計",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["はか"],
+	"onyomi": 	["ケイ"],
 	"english": 	["to measure"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "時計",
+			"kana": "トケイ",
 			"english": ["a watch"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "合計",
+			"kana": "ゴウケイ",
 			"english": ["sum"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "計る",
+			"kana": "はかる",
 			"english": ["to measure"],
 			"highlight": false
 		}
@@ -4258,26 +4258,26 @@
 },
 "283": {
 	"kanji":	"遅",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["おく", "おそ"],
+	"onyomi": 	["チ"],
 	"english": 	["late"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "遅れる",
+			"kana": "おくれる",
 			"english": ["to be late"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "遅い",
+			"kana": "おそい",
 			"english": ["late"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "遅刻する",
+			"kana": "チコクする",
 			"english": ["to be late"],
 			"highlight": false
 		}
@@ -4285,26 +4285,26 @@
 },
 "284": {
 	"kanji":	"配",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["くば"],
+	"onyomi": 	["パイ", "ハイ"],
 	"english": 	["to deliver"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "心配な",
+			"kana": "シンパイな",
 			"english": ["worried about"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "配る",
+			"kana": "くばる",
 			"english": ["to distribute"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "配達",
+			"kana": "ハイタツ",
 			"english": ["delivery"],
 			"highlight": false
 		}
@@ -4312,26 +4312,26 @@
 },
 "285": {
 	"kanji":	"弟",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["おとうと"],
+	"onyomi": 	["ダイ", "デ"],
 	"english": 	["young brother"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "弟",
+			"kana": "おとうと",
 			"english": ["younger brother"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "兄弟",
+			"kana": "キョウダイ",
 			"english": ["brothers"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "弟子",
+			"kana": "デシ",
 			"english": ["apprentice"],
 			"highlight": false
 		}
@@ -4339,20 +4339,20 @@
 },
 "286": {
 	"kanji":	"妹",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["いもうと"],
+	"onyomi": 	["マイ"],
 	"english": 	["young sister"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "妹",
+			"kana": "いもうと",
 			"english": ["younger sister"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "姉妹",
+			"kana": "シマイ",
 			"english": ["sisters"],
 			"highlight": false
 		}
