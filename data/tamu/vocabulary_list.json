@@ -1,5 +1,4058 @@
 {
 
+
+
+
+
+"001": {
+	"kanji":	"一",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["one"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one o'clock"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["first-year student"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one minute"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one"],
+			"highlight": false
+		}
+	]
+},
+"002": {
+	"kanji":	"二",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["two"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["two"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["two o'clock"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["second-year student"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["two"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["two days"],
+			"highlight": false
+		}
+	]
+},
+"003": {
+	"kanji":	"三",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["three"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["three"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["three o'clock"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["three-year student"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["three"],
+			"highlight": false
+		}
+	]
+},
+"004": {
+	"kanji":	"四",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["four"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["four"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["four o'clock"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["fourth-year student"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["four"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["April"],
+			"highlight": false
+		}
+	]
+},
+"005": {
+	"kanji":	"五",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["five"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["five"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["five o'clock"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["five"],
+			"highlight": false
+		}
+	]
+},
+"006": {
+	"kanji":	"六",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["six"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["six"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["six o'clock"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["six hundred"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["six minutes"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["six"],
+			"highlight": false
+		}
+	]
+},
+"007": {
+	"kanji":	"七",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["seven"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["seven"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["seven o'clock"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["seven"],
+			"highlight": false
+		}
+	]
+},
+"008": {
+	"kanji":	"八",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["eight"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["eight"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["eight o'clock"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["eight hundred"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["eight years old"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["eight"],
+			"highlight": false
+		}
+	]
+},
+"009": {
+	"kanji":	"九",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["nine"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["nine"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["nine o'clock"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["nine years old"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["nine"],
+			"highlight": false
+		}
+	]
+},
+"010": {
+	"kanji":	"十",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["ten"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["ten"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["ten o'clock"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["ten years old"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["ten"],
+			"highlight": false
+		}
+	]
+},
+"011": {
+	"kanji":	"百",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["hundred"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["hundred"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["three hundred"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["six hundred"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["eight hundred"],
+			"highlight": true
+		}
+	]
+},
+"012": {
+	"kanji":	"千",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["thousand"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["thousand"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["three thousand"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["eight thousand"],
+			"highlight": false
+		}
+	]
+},
+"013": {
+	"kanji":	"万",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["ten thousand"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["ten thousand"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one hundred thousand"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one million"],
+			"highlight": false
+		}
+	]
+},
+"014": {
+	"kanji":	"円",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["yen", "circle"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one hundred yen"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["circle"],
+			"highlight": false
+		}
+	]
+},
+"015": {
+	"kanji":	"時",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["time"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one o'clock"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["in one's childhood"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["sometimes"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["watch"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"016": {
+	"kanji":	"日",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["day", "sun"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Japan"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Sunday"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["every day"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Mother's Day"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["diary"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["three days"],
+			"highlight": false
+		}
+	]
+},
+"017": {
+	"kanji":	"本",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["book", "basis"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["book"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Japan"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Japanese language"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Mr./Ms. Yamamoto"],
+			"highlight": false
+		}
+	]
+},
+"018": {
+	"kanji":	"人",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["person"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Japanese people"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["alone"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["this person"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["three people"],
+			"highlight": false
+		}
+	]
+},
+"019": {
+	"kanji":	"月",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["moon", "month"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Monday"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["January"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["moon"],
+			"highlight": false
+		}
+	]
+},
+"020": {
+	"kanji":	"火",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["020"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Tuesday"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["fire"],
+			"highlight": false
+		}
+	]
+},
+"021": {
+	"kanji":	"水",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["water"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		}
+	]
+},
+"022": {
+	"kanji":	"木",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["tree"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Wednesday"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["water"],
+			"highlight": true
+		}
+	]
+},
+"023": {
+	"kanji":	"金",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["gold", "money"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Thursday"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["tree"],
+			"highlight": false
+		}
+	]
+},
+"024": {
+	"kanji":	"土",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["soil"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Friday"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["money"],
+			"highlight": false
+		}
+	]
+},
+"025": {
+	"kanji":	"曜",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["weekday"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Saturday"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["soil"],
+			"highlight": false
+		}
+	]
+},
+"026": {
+	"kanji":	"上",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["up"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["top", "above"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["good at"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["rooftop"],
+			"highlight": false
+		}
+	]
+},
+"027": {
+	"kanji":	"下",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["down"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["under"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["subway"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["poor at"],
+			"highlight": false
+		}
+	]
+},
+"028": {
+	"kanji":	"中",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["middle"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["inside"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["China"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["junior high school"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["all year around"],
+			"highlight": false
+		}
+	]
+},
+"029": {
+	"kanji":	"半",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["half"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["half past three"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["half"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"030": {
+	"kanji":	"山",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["mountain"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["mountain"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Mt. Fuji"],
+			"highlight": false
+		}
+	]
+},
+"031": {
+	"kanji":	"川",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["river"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["river"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Mr./Ms. Ogawa"],
+			"highlight": false
+		}
+	]
+},
+"032": {
+	"kanji":	"元",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["origin"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["fine"],
+			"highlight": true
+		}
+	]
+},
+"033": {
+	"kanji":	"気",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["spirit"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["fine"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["weather"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["electricity"],
+			"highlight": false
+		}
+	]
+},
+"034": {
+	"kanji":	"天",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["heaven"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["weather"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["heaven"],
+			"highlight": false
+		}
+	]
+},
+"035": {
+	"kanji":	"私",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["I", "private"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["I"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["private university"],
+			"highlight": false
+		}
+	]
+},
+"036": {
+	"kanji":	"今",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["now"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["now"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["today"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["tonight"],
+			"highlight": false
+		}
+	]
+},
+"037": {
+	"kanji":	"田",
+	"kunyomi": 	[""],
+	"onyomi": 	null,
+	"english": 	["rice field"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Mr./Ms. Tanaka"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Mr./Ms. Yamada"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["rice field"],
+			"highlight": false
+		}
+	]
+},
+"038": {
+	"kanji":	"女",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["woman"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["woman"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["woman"],
+			"highlight": false
+		}
+	]
+},
+"039": {
+	"kanji":	"男",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["man"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["man"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["man"],
+			"highlight": false
+		}
+	]
+},
+"040": {
+	"kanji":	"見",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to see"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to see"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["sightseeing"],
+			"highlight": false
+		}
+	]
+},
+"041": {
+	"kanji":	"行",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to go"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to go"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["bank"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["first line"],
+			"highlight": false
+		}
+	]
+},
+"042": {
+	"kanji":	"食",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to eat"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to eat"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["food"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["cafeteria"],
+			"highlight": false
+		}
+	]
+},
+"043": {
+	"kanji":	"飲",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to drink"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to drink"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["drink"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["drunk driving"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"044": {
+	"kanji":	"東",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["east"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["east"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["east exit"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Tokyo"],
+			"highlight": false
+		}
+	]
+},
+"045": {
+	"kanji":	"西",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["west"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["west"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["west exit"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["northwest"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Kansai region"],
+			"highlight": false
+		}
+	]
+},
+"046": {
+	"kanji":	"南",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["south"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["south"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["south exit"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["southeast"],
+			"highlight": false
+		}
+	]
+},
+"047": {
+	"kanji":	"北",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["north"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["north"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["north exit"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Tohoku region"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Hokkaido"],
+			"highlight": false
+		}
+	]
+},
+"048": {
+	"kanji":	"口",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["mouth"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["north exit"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["mouth"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["population"],
+			"highlight": false
+		}
+	]
+},
+"049": {
+	"kanji":	"出",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to exit"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to exit"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["exit"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to take something out"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["attendance"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["export"],
+			"highlight": false
+		}
+	]
+},
+"050": {
+	"kanji":	"右",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["right"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["right"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["right turn"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["right and left"],
+			"highlight": false
+		}
+	]
+},
+"051": {
+	"kanji":	"左",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["left"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["left"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["left turn"],
+			"highlight": false
+		}
+	]
+},
+"052": {
+	"kanji":	"分",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["minute", "divide"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["five minutes"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["ten minutes"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["oneself"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["half"],
+			"highlight": false
+		}
+	]
+},
+"053": {
+	"kanji":	"先",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["ahead"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["teacher"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["last week"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["ahead"],
+			"highlight": false
+		}
+	]
+},
+"054": {
+	"kanji":	"生",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["birth"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["student"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["teacher"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to be born"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["once in a lifetime"],
+			"highlight": false
+		}
+	]
+},
+"055": {
+	"kanji":	"大",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["big"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["college student"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["big"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["tough"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["adult"],
+			"highlight": false
+		}
+	]
+},
+"056": {
+	"kanji":	"学",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["learning"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["university"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["student"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["school"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to study"],
+			"highlight": false
+		}
+	]
+},
+"057": {
+	"kanji":	"外",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["outside"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["foreign country"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["foreigner"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["outside"],
+			"highlight": false
+		}
+	]
+},
+"058": {
+	"kanji":	"国",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["country"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["foreign country"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["China"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["country"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"059": {
+	"kanji":	"京",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["capital"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Tokyo"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Kyoko"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Kyoto"],
+			"highlight": false
+		}
+	]
+},
+"060": {
+	"kanji":	"子",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["child"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["child"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Kyoko"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["girl"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["boy"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["e-mail"],
+			"highlight": false
+		}
+	]
+},
+"061": {
+	"kanji":	"小",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["small"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["small"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["elementary school"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["elementary school student"],
+			"highlight": false
+		}
+	]
+},
+"062": {
+	"kanji":	"会",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to meet"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to meet"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["company"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["office worker"],
+			"highlight": false
+		}
+	]
+},
+"063": {
+	"kanji":	"社",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["company"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["company"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["shrine"],
+			"highlight": false
+		}
+	]
+},
+"064": {
+	"kanji":	"父",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["father"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["father"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["father"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["father and mother"],
+			"highlight": false
+		}
+	]
+},
+"065": {
+	"kanji":	"母",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["mother"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["mother"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["mother"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["mother tongue"],
+			"highlight": false
+		}
+	]
+},
+"066": {
+	"kanji":	"高",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["high"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["expensive", "high"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["high school"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["high school student"],
+			"highlight": true
+		}
+	]
+},
+"067": {
+	"kanji":	"校",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["school"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["school"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["high school"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["high school student"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["junior high school"],
+			"highlight": false
+		}
+	]
+},
+"068": {
+	"kanji":	"毎",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["every"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["every day"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["every week"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["every night"],
+			"highlight": false
+		}
+	]
+},
+"069": {
+	"kanji":	"語",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["word"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Japanese (language)"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["English (language)"],
+			"highlight": false
+		}
+	]
+},
+"070": {
+	"kanji":	"文",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["sentence"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["literature"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["composition"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["letter", "character"],
+			"highlight": false
+		}
+	]
+},
+"071": {
+	"kanji":	"帰",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to return"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to return"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["going home"],
+			"highlight": false
+		}
+	]
+},
+"072": {
+	"kanji":	"入",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to enter"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to enter"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["entrance"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to put something in"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["import"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"073": {
+	"kanji":	"員",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["member"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["office worker"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["store clerk"],
+			"highlight": false
+		}
+	]
+},
+"074": {
+	"kanji":	"新",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["new"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["new"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["newspaper"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Bullet Train"],
+			"highlight": false
+		}
+	]
+},
+"075": {
+	"kanji":	"聞",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to listen"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to listen"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["newspaper"],
+			"highlight": true
+		}
+	]
+},
+"076": {
+	"kanji":	"作",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to make"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to make"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["composition"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["artistic piece"],
+			"highlight": false
+		}
+	]
+},
+"077": {
+	"kanji":	"仕",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["to serve"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["job"],
+			"highlight": true
+		}
+	]
+},
+"078": {
+	"kanji":	"事",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["thing"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["job"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["thing"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["fire"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["meal"],
+			"highlight": false
+		}
+	]
+},
+"079": {
+	"kanji":	"電",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["electricity"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["train"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["electricity"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["telephone"],
+			"highlight": false
+		}
+	]
+},
+"080": {
+	"kanji":	"車",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["car"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["car"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["train"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["bicycle"],
+			"highlight": false
+		}
+	]
+},
+"081": {
+	"kanji":	"休",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to rest"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to be absent", "to rest"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["holiday", "absence"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["holiday"],
+			"highlight": false
+		}
+	]
+},
+"082": {
+	"kanji":	"言",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to say"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to say"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["linguistics"],
+			"highlight": false
+		}
+	]
+},
+"083": {
+	"kanji":	"読",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to read"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to read"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["reading books"],
+			"highlight": false
+		}
+	]
+},
+"084": {
+	"kanji":	"思",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to think"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to think"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [" mysterious"],
+			"highlight": false
+		}
+	]
+},
+"085": {
+	"kanji":	"次",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["next"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["next"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one's second daughter"],
+			"highlight": false
+		}
+	]
+},
+"086": {
+	"kanji":	"何",
+	"kunyomi": 	[""],
+	"onyomi": 	null,
+	"english": 	["what"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["what"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["what time"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["how many people"],
+			"highlight": true
+		}
+	]
+},
+
+
+
+
+
+"087": {
+	"kanji":	"午",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["noon"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		}
+	]
+},
+"088": {
+	"kanji":	"後",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["after"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"089": {
+	"kanji":	"前",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["before"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		}
+	]
+},
+"090": {
+	"kanji":	"名",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["name"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"091": {
+	"kanji":	"白",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["white"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"092": {
+	"kanji":	"雨",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["rain"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"093": {
+	"kanji":	"書",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to write"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"094": {
+	"kanji":	"友",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["friend"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"095": {
+	"kanji":	"間",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["between"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"096": {
+	"kanji":	"家",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["house"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"097": {
+	"kanji":	"話",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to speak"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"098": {
+	"kanji":	"少",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["little"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"099": {
+	"kanji":	"古",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["old"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"100": {
+	"kanji":	"知",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to know"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"101": {
+	"kanji":	"来",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to come"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"102": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to live"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to live"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["address"],
+			"highlight": false
+		}
+	]
+},
+"103": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["right"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["New Year"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["right"],
+			"highlight": false
+		}
+	]
+},
+"104": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["year"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["third-year student"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["next year"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["this year"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["year"],
+			"highlight": true
+		}
+	]
+},
+"105": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to sell"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to sell"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["stand; stall"],
+			"highlight": false
+		}
+	]
+},
+"106": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	null,
+	"english": 	["to buy"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to buy"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["shopping"],
+			"highlight": false
+		}
+	]
+},
+"107": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["town"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["town"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Kitayama town"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["mayor of a town"],
+			"highlight": false
+		}
+	]
+},
+"108": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["long"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["long"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["one's first son"],
+			"highlight": false
+		}
+	]
+},
+"109": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["way"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["way", "road"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["calligraphy"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["judo"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Hokkaido"],
+			"highlight": false
+		}
+	]
+},
+"110": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["snow"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["snow"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["new snow"],
+			"highlight": false
+		}
+	]
+},
+"111": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to stand"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to stand"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["national university"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["private high school"],
+			"highlight": false
+		}
+	]
+},
+"112": {
+	"kanji":	"",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["self"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["oneself"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["automobile"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["bicycle"],
+			"highlight": false
+		}
+	]
+},
+"113": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["night"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["night"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["midnight"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["tonight"],
+			"highlight": false
+		}
+	]
+},
+"114": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["morning"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["morning"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["this morning"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["breakfast"],
+			"highlight": false
+		}
+	]
+},
+"115": {
+	"kanji":	"",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to hold"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to hold"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to bring"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["belongings"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"116": {
+	"kanji":	"手",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["hand"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["letter"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["singer"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["hand"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["sign language"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["good at"],
+			"highlight": false
+		}
+	]
+},
+"117": {
+	"kanji":	"紙",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["paper"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["letter"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["paper"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Japanese paper"],
+			"highlight": false
+		}
+	]
+},
+"118": {
+	"kanji":	"好",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["favorite", "to like"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to like"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["good will"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["liking", "taste"],
+			"highlight": false
+		}
+	]
+},
+"119": {
+	"kanji":	"近",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["near"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["nearby"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["neighborhood"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["recently"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["the Middle and Near East"],
+			"highlight": false
+		}
+	]
+},
+"120": {
+	"kanji":	"明",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["bright"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["cheerful", "bright"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["tomorrow"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["explanation"],
+			"highlight": false
+		}
+	]
+},
+"121": {
+	"kanji":	"病",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["ill", "sick"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["hospital"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["illness"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["serious illness"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["sudden illness"],
+			"highlight": false
+		}
+	]
+},
+"122": {
+	"kanji":	"院",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["institution"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["hospital"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["graduate school"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["beauty parlor"],
+			"highlight": false
+		}
+	]
+},
+"123": {
+	"kanji":	"映",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to reflect"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["movie"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["movie theater"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to be reflected"],
+			"highlight": false
+		}
+	]
+},
+"124": {
+	"kanji":	"画",
+	"kunyomi": 	null,
+	"onyomi": 	[""],
+	"english": 	["picture"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["movie"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["painter"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["plan"],
+			"highlight": false
+		}
+	]
+},
+"125": {
+	"kanji":	"歌",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to sing"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to sing"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["song"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["singer"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["national anthem"],
+			"highlight": false
+		}
+	]
+},
+"126": {
+	"kanji":	"市",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["city"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Kawaguchi city"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["city hall"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["mayor"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["market"],
+			"highlight": false
+		}
+	]
+},
+"127": {
+	"kanji":	"所",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["place"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["various places"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["neighborhood"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["kitchen"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["address"],
+			"highlight": false
+		}
+	]
+},
+"128": {
+	"kanji":	"勉",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to make efforts"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to study"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to try hard"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["diligent"],
+			"highlight": false
+		}
+	]
+},
+"129": {
+	"kanji":	"強",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["strong"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to study"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["strong"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["obstinate"],
+			"highlight": false
+		}
+	]
+},
+"130": {
+	"kanji":	"有",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to exist"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["famous"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["toll", "fee"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to exist"],
+			"highlight": false
+		}
+	]
+},
+"131": {
+	"kanji":	"旅",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["travel"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["travel"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["inn"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["traveling alone"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"132": {
+	"kanji":	"昔",
+	"kunyomi": 	[""],
+	"onyomi": 	null,
+	"english": 	["ancient times"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["old times"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["old tale"],
+			"highlight": false
+		}
+	]
+},
+"133": {
+	"kanji":	"々",
+	"kunyomi": 	null,
+	"onyomi": 	null,
+	"english": 	["symbol of repetition of a kanji"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["once upon a time"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["people"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["sometimes"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["various"],
+			"highlight": false
+		}
+	]
+},
+"134": {
+	"kanji":	"神",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["God"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["God"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["shrine"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Shinto religion"],
+			"highlight": false
+		}
+	]
+},
+"135": {
+	"kanji":	"早",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["early"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["early"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to get up early"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["early morning"],
+			"highlight": false
+		}
+	]
+},
+"136": {
+	"kanji":	"起",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to get up"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to get up"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to wake someone up"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to stand up"],
+			"highlight": false
+		}
+	]
+},
+"137": {
+	"kanji":	"牛",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["cow"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["cow"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["milk"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["beef"],
+			"highlight": false
+		}
+	]
+},
+"138": {
+	"kanji":	"使",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to use"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to use"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["ambassador"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["'Occupied'"],
+			"highlight": false
+		}
+	]
+},
+"139": {
+	"kanji":	"働",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to work"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to work"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["both husband and wife working for a living"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["labor"],
+			"highlight": false
+		}
+	]
+},
+"140": {
+	"kanji":	"連",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to link"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to take home"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["United Nations"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["consecutive holidays"],
+			"highlight": false
+		}
+	]
+},
+"141": {
+	"kanji":	"別",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["to separate"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["to separate"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["not in particular"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["special"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["discrimination"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["separately"],
+			"highlight": false
+		}
+	]
+},
+"142": {
+	"kanji":	"度",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["time", "degrees"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": null,
+			"english": ["once"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["near future"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["temperature"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["30 degrees"],
+			"highlight": false
+		}
+	]
+},
+"143": {
+	"kanji":	"赤",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["red"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["red color"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["red"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["the equator"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["the Red Cross"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": [""],
+			"highlight": false
+		}
+	]
+},
+"144": {
+	"kanji":	"青",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["blue"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["blue color"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["blue"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["youth"],
+			"highlight": false
+		}
+	]
+},
+"145": {
+	"kanji":	"色",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["color"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["color"],
+			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["various"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["scenary"],
+			"highlight": false
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["characteristic"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
 "146": {
 	"kanji":	"物",
 	"kunyomi": ["もの"],
@@ -4357,7 +8410,975 @@
 			"highlight": false
 		}
 	]
+},
+
+
+
+
+
+"287": {
+	"kanji":	"記",
+	"kunyomi": 	null,
+	"onyomi": 	["キ"],
+	"english": 	["to write down"],
+	"words":
+	[
+		{
+			"kanji": "日記",
+			"kana": "ニッキ",
+			"english": ["diary"],
+			"highlight": true
+		},
+		{
+			"kanji": "記入する",
+			"kana": "キニュウする",
+			"english": ["to fill in"],
+			"highlight": false
+		},
+		{
+			"kanji": "記事",
+			"kana": "キジ",
+			"english": ["an article", "news"],
+			"highlight": false
+		},
+		{
+			"kanji": "暗記する",
+			"kana": "アンキする",
+			"english": ["to memorize"],
+			"highlight": false
+		}
+	]
+},
+"288": {
+	"kanji":	"銀",
+	"kunyomi": 	null,
+	"onyomi": 	["ギン"],
+	"english": 	["silver"],
+	"words":
+	[
+		{
+			"kanji": "銀行",
+			"kana": "ギンコウ",
+			"english": ["bank"],
+			"highlight": true
+		},
+		{
+			"kanji": "銀メダル",
+			"kana": "ギンメダル",
+			"english": ["silver medal"],
+			"highlight": false
+		},
+		{
+			"kanji": "銀世界",
+			"kana": "ギンセカイ",
+			"english": ["land covered with snow"],
+			"highlight": false
+		}
+	]
+},
+"289": {
+	"kanji":	"回",
+	"kunyomi": 	["まわ"],
+	"onyomi": 	["カイ"],
+	"english": 	["... times", "to turn"],
+	"words":
+	[
+		{
+			"kanji": "一回",
+			"kana": "イッカイ",
+			"english": ["one time"],
+			"highlight": true
+		},
+		{
+			"kanji": "回送バス",
+			"kana": "カイソウバス",
+			"english": ["out-of-service bus"],
+			"highlight": false
+		},
+		{
+			"kanji": "最終回",
+			"kana": "サイシュウカイ",
+			"english": ["last inning", "last episode"],
+			"highlight": false
+		},
+		{
+			"kanji": "回す",
+			"kana": "まわす",
+			"english": ["to turn"],
+			"highlight": false
+		}
+	]
+},
+"290": {
+	"kanji":	"夕",
+	"kunyomi": 	["ゆう"],
+	"onyomi": 	null,
+	"english": 	["evening"],
+	"words":
+	[
+		{
+			"kanji": "夕方",
+			"kana": "ゆうがた",
+			"english": ["evening"],
+			"highlight": true
+		},
+		{
+			"kanji": "夕食",
+			"kana": "ゆうショク",
+			"english": ["dinner"],
+			"highlight": false
+		},
+		{
+			"kanji": "七夕",
+			"kana": "たなばた",
+			"english": ["Tanabata"],
+			"highlight": false
+		}
+	]
+},
+"291": {
+	"kanji":	"黒",
+	"kunyomi": 	["くろ"],
+	"onyomi": 	["コク"],
+	"english": 	["black"],
+	"words":
+	[
+		{
+			"kanji": "黒木さん",
+			"kana": "くろきさん",
+			"english": ["Mr./Ms. Kuroki"],
+			"highlight": true
+		},
+		{
+			"kanji": "黒い",
+			"kana": "くろい",
+			"english": ["black"],
+			"highlight": false
+		},
+		{
+			"kanji": "白黒写真",
+			"kana": "しろくろシャシン",
+			"english": ["black and white photograph"],
+			"highlight": false
+		},
+		{
+			"kanji": "黒板",
+			"kana": "コクバン",
+			"english": ["chalkboard"],
+			"highlight": false
+		}
+	]
+},
+"292": {
+	"kanji":	"用",
+	"kunyomi": 	null,
+	"onyomi": 	["ヨウ"],
+	"english": 	["task", "to use"],
+	"words":
+	[
+		{
+			"kanji": "用事",
+			"kana": "ヨウジ",
+			"english": ["a thing to take care of"],
+			"highlight": true
+		},
+		{
+			"kanji": "用意する",
+			"kana": "ヨウイする",
+			"english": ["to prepare"],
+			"highlight": false
+		},
+		{
+			"kanji": "子供用",
+			"kana": "こどもヨウ",
+			"english": ["for children"],
+			"highlight": false
+		}
+	]
+},
+"293": {
+	"kanji":	"守",
+	"kunyomi": 	["まも"],
+	"onyomi": 	["ス", "シュ"],
+	"english": 	["to keep", "to protect"],
+	"words":
+	[
+		{
+			"kanji": "留守",
+			"kana": "ルス",
+			"english": ["absence", "not at home"],
+			"highlight": true
+		},
+		{
+			"kanji": "留守番電話",
+			"kana": "ルスバンデンワ",
+			"english": ["answering machine"],
+			"highlight": true
+		},
+		{
+			"kanji": "お守り",
+			"kana": "おまもり",
+			"english": ["charm"],
+			"highlight": true
+		},
+		{
+			"kanji": "守衛",
+			"kana": "シュエイ",
+			"english": ["security guard"],
+			"highlight": false
+		}
+	]
+},
+"294": {
+	"kanji":	"末",
+	"kunyomi": 	["すえ"],
+	"onyomi": 	["マツ"],
+	"english": 	["the end of"],
+	"words":
+	[
+		{
+			"kanji": "週末",
+			"kana": "シュウマツ",
+			"english": ["weekend"],
+			"highlight": true
+		},
+		{
+			"kanji": "月末",
+			"kana": "ゲツマツ",
+			"english": ["end of the month"],
+			"highlight": false
+		},
+		{
+			"kanji": "期末試験",
+			"kana": "キマツシケン",
+			"english": ["final examination"],
+			"highlight": false
+		},
+		{
+			"kanji": "末",
+			"kana": "すえ",
+			"english": ["the end"],
+			"highlight": false
+		}
+	]
+},
+"295": {
+	"kanji":	"待",
+	"kunyomi": 	["ま", "まち"],
+	"onyomi": 	["タイ"],
+	"english": 	["to wait"],
+	"words":
+	[
+		{
+			"kanji": "待つ",
+			"kana": "まつ",
+			"english": ["to wait"],
+			"highlight": true
+		},
+		{
+			"kanji": "待合室",
+			"kana": "まちあいシツ",
+			"english": ["waiting room"],
+			"highlight": false
+		},
+		{
+			"kanji": "期待する",
+			"kana": "キタイする",
+			"english": ["to expect"],
+			"highlight": false
+		},
+		{
+			"kanji": "招待",
+			"kana": "ショウタイ",
+			"english": ["invitation"],
+			"highlight": false
+		}
+	]
+},
+"296": {
+	"kanji":	"残",
+	"kunyomi": 	["のこ"],
+	"onyomi": 	["ザン"],
+	"english": 	["to remain"],
+	"words":
+	[
+		{
+			"kanji": "残業",
+			"kana": "ザンギョウ",
+			"english": ["over-time work"],
+			"highlight": true
+		},
+		{
+			"kanji": "残す",
+			"kana": "のこす",
+			"english": ["to leave"],
+			"highlight": true
+		},
+		{
+			"kanji": "残念",
+			"kana": "ザンネン",
+			"english": ["regrettable"],
+			"highlight": false
+		},
+		{
+			"kanji": "心残り",
+			"kana": "こころのこり",
+			"english": ["regret"],
+			"highlight": false
+		}
+	]
+},
+"297": {
+	"kanji":	"番",
+	"kunyomi": 	null,
+	"onyomi": 	["バン"],
+	"english": 	["order", "number"],
+	"words":
+	[
+		{
+			"kanji": "留守番電話",
+			"kana": "ルスバンデンワ",
+			"english": ["answering machine"],
+			"highlight": true
+		},
+		{
+			"kanji": "一番",
+			"kana": "イチバン",
+			"english": ["the first"],
+			"highlight": true
+		},
+		{
+			"kanji": "番号",
+			"kana": "バンゴウ",
+			"english": ["number"],
+			"highlight": false
+		},
+		{
+			"kanji": "番組",
+			"kana": "バンぐみ",
+			"english": ["TV program"],
+			"highlight": false
+		}
+	]
+},
+"298": {
+	"kanji":	"駅",
+	"kunyomi": 	null,
+	"onyomi": 	["エキ"],
+	"english": 	["station"],
+	"words":
+	[
+		{
+			"kanji": "駅",
+			"kana": "エキ",
+			"english": ["station"],
+			"highlight": true
+		},
+		{
+			"kanji": "東京駅",
+			"kana": "トウキョウエキ",
+			"english": ["Tokyo Station"],
+			"highlight": true
+		},
+		{
+			"kanji": "駅員",
+			"kana": "エキイン",
+			"english": ["station attendant"],
+			"highlight": true
+		},
+		{
+			"kanji": "駅前",
+			"kana": "エキまえ",
+			"english": ["vicinity/in front of the station"],
+			"highlight": false
+		}
+	]
+},
+"299": {
+	"kanji":	"説",
+	"kunyomi": 	null,
+	"onyomi": 	["セツ", "セッ"],
+	"english": 	["theory", "to explain"],
+	"words":
+	[
+		{
+			"kanji": "説明する",
+			"kana": "セツメイする",
+			"english": ["to explain"],
+			"highlight": true
+		},
+		{
+			"kanji": "小説",
+			"kana": "ショウセツ",
+			"english": ["novel"],
+			"highlight": true
+		},
+		{
+			"kanji": "小説家",
+			"kana": "ショウセツカ",
+			"english": ["novelist"],
+			"highlight": false
+		},
+		{
+			"kanji": "説教する",
+			"kana": "セッキョウする",
+			"english": ["to preach"],
+			"highlight": false
+		}
+	]
+},
+"300": {
+	"kanji":	"案",
+	"kunyomi": 	null,
+	"onyomi": 	["アン"],
+	"english": 	["idea", "proposal"],
+	"words":
+	[
+		{
+			"kanji": "案内する",
+			"kana": "アンナイする",
+			"english": ["to guide"],
+			"highlight": true
+		},
+		{
+			"kanji": "案内所",
+			"kana": "アンナイジョ",
+			"english": ["information desk"],
+			"highlight": false
+		},
+		{
+			"kanji": "案",
+			"kana": "アン",
+			"english": ["idea", "proposal"],
+			"highlight": false
+		}
+	]
+},
+"301": {
+	"kanji":	"内",
+	"kunyomi": 	null,
+	"onyomi": 	["ナイ"],
+	"english": 	["inside", "inner"],
+	"words":
+	[
+		{
+			"kanji": "案内する",
+			"kana": "アンナイする",
+			"english": ["to guide"],
+			"highlight": true
+		},
+		{
+			"kanji": "家内",
+			"kana": "カナイ",
+			"english": ["my wife"],
+			"highlight": false
+		},
+		{
+			"kanji": "国内旅行",
+			"kana": "コクナイリョコウ",
+			"english": ["domestic travel"],
+			"highlight": false
+		}
+	]
+},
+"302": {
+	"kanji":	"忘",
+	"kunyomi": 	["わす"],
+	"onyomi": 	["ボウ"],
+	"english": 	["to forget"],
+	"words":
+	[
+		{
+			"kanji": "忘れる",
+			"kana": "わすれる",
+			"english": ["to forget"],
+			"highlight": true
+		},
+		{
+			"kanji": "忘れ物",
+			"kana": "わすれもの",
+			"english": ["lost article"],
+			"highlight": false
+		},
+		{
+			"kanji": "忘年会",
+			"kana": "ボウネンカイ",
+			"english": ["year-end party"],
+			"highlight": false
+		}
+	]
+},
+
+
+
+
+
+"303": {
+	"kanji":	"顔",
+	"kunyomi": 	["かお", "がお"],
+	"onyomi": 	["ガン"],
+	"english": 	["face"],
+	"words":
+	[
+		{
+			"kanji": "顔",
+			"kana": "かお",
+			"english": ["face"],
+			"highlight": true
+		},
+		{
+			"kanji": "顔色",
+			"kana": "かおいろ",
+			"english": ["complexion"],
+			"highlight": false
+		},
+		{
+			"kanji": "笑顔",
+			"kana": "えがお",
+			"english": ["smiling face"],
+			"highlight": false
+		},
+		{
+			"kanji": "洗顔",
+			"kana": "センガン",
+			"english": ["washing one's face"],
+			"highlight": false
+		}
+	]
+},
+"304": {
+	"kanji":	"情",
+	"kunyomi": 	["なさ"],
+	"onyomi": 	["ジョウ"],
+	"english": 	["emotion", "condition"],
+	"words":
+	[
+		{
+			"kanji": "表情",
+			"kana": "ヒョウジョウ",
+			"english": ["expression"],
+			"highlight": true
+		},
+		{
+			"kanji": "友情",
+			"kana": "ユウジョウ",
+			"english": ["friendship"],
+			"highlight": false
+		},
+		{
+			"kanji": "情報",
+			"kana": "ジョウホウ",
+			"english": ["information"],
+			"highlight": false
+		},
+		{
+			"kanji": "情け",
+			"kana": "なさけ",
+			"english": ["mercy"],
+			"highlight": false
+		}
+	]
+},
+"305": {
+	"kanji":	"怒",
+	"kunyomi": 	["おこ", "いか"],
+	"onyomi": 	["ド"],
+	"english": 	["to get angry"],
+	"words":
+	[
+		{
+			"kanji": "怒る",
+			"kana": "おこる",
+			"english": ["to get angry"],
+			"highlight": true
+		},
+		{
+			"kanji": "怒り",
+			"kana": "いかり",
+			"english": ["anger", "rage"],
+			"highlight": false
+		},
+		{
+			"kanji": "喜怒哀楽",
+			"kana": "キドアイラク",
+			"english": ["human emotion"],
+			"highlight": false
+		}
+	]
+},
+"306": {
+	"kanji":	"変",
+	"kunyomi": 	["か"],
+	"onyomi": 	["へん"],
+	"english": 	["change", "abnormal"],
+	"words":
+	[
+		{
+			"kanji": "変な",
+			"kana": "へんな",
+			"english": ["strange"],
+			"highlight": true
+		},
+		{
+			"kanji": "大変な",
+			"kana": "タイへんな",
+			"english": ["tough", "hectic"],
+			"highlight": true
+		},
+		{
+			"kanji": "変化",
+			"kana": "ヘンカ",
+			"english": ["change"],
+			"highlight": false
+		},
+		{
+			"kanji": "変人",
+			"kana": "ヘンジン",
+			"english": ["eccentric person"],
+			"highlight": false
+		},
+		{
+			"kanji": "変える",
+			"kana": "かえる",
+			"english": ["to change (something)"],
+			"highlight": false
+		}
+	]
+},
+"307": {
+	"kanji":	"相",
+	"kunyomi": 	["あい"],
+	"onyomi": 	["ショウ", "ソウ"],
+	"english": 	["mutual"],
+	"words":
+	[
+		{
+			"kanji": "相手",
+			"kana": "あいて",
+			"english": ["partner"],
+			"highlight": true
+		},
+		{
+			"kanji": "首相",
+			"kana": "シュショウ",
+			"english": ["prime minister"],
+			"highlight": false
+		},
+		{
+			"kanji": "相談",
+			"kana": "ソウダン",
+			"english": ["consultation"],
+			"highlight": false
+		},
+		{
+			"kanji": "相互の",
+			"kana": "そうごの",
+			"english": ["mutual"],
+			"highlight": false
+		}
+	]
+},
+"308": {
+	"kanji":	"横",
+	"kunyomi": 	["よこ"],
+	"onyomi": 	["オウ"],
+	"english": 	["sideways"],
+	"words":
+	[
+		{
+			"kanji": "横",
+			"kana": "よこ",
+			"english": ["side"],
+			"highlight": true
+		},
+		{
+			"kanji": "横書き",
+			"kana": "よこがき",
+			"english": ["horizontal writing"],
+			"highlight": false
+		},
+		{
+			"kanji": "横綱",
+			"kana": "よこづな",
+			"english": ["grand champion of sumo"],
+			"highlight": false
+		},
+		{
+			"kanji": "横断する",
+			"kana": "オウダンする",
+			"english": ["to traverse"],
+			"highlight": false
+		}
+	]
+},
+"309": {
+	"kanji":	"比",
+	"kunyomi": 	["くら"],
+	"onyomi": 	["ヒ"],
+	"english": 	["to compare"],
+	"words":
+	[
+		{
+			"kanji": "比べる",
+			"kana": "くらべる",
+			"english": ["to compare"],
+			"highlight": true
+		},
+		{
+			"kanji": "比較",
+			"kana": "ヒカク",
+			"english": ["comparison"],
+			"highlight": false
+		},
+		{
+			"kanji": "比喩",
+			"kana": "ヒユ",
+			"english": ["figure of speech"],
+			"highlight": false
+		}
+	]
+},
+"310": {
+	"kanji":	"化",
+	"kunyomi": 	["ば"],
+	"onyomi": 	["カ", "ケ"],
+	"english": 	["to change into"],
+	"words":
+	[
+		{
+			"kanji": "文化",
+			"kana": "ブンカ",
+			"english": ["culture"],
+			"highlight": true
+		},
+		{
+			"kanji": "化学",
+			"kana": "カガク",
+			"english": ["chemistry"],
+			"highlight": false
+		},
+		{
+			"kanji": "同化",
+			"kana": "ドウカ",
+			"english": ["assimilation"],
+			"highlight": false
+		},
+		{
+			"kanji": "お化け",
+			"kana": "おばけ",
+			"english": ["goblin", "ghost"],
+			"highlight": false
+		},
+		{
+			"kanji": "化粧",
+			"kana": "ケショウ",
+			"english": ["makeup"],
+			"highlight": false
+		}
+	]
+},
+"311": {
+	"kanji":	"違",
+	"kunyomi": 	["ちが"],
+	"onyomi": 	["イ"],
+	"english": 	["to differ"],
+	"words":
+	[
+		{
+			"kanji": "違う",
+			"kana": "ちがう",
+			"english": ["different"],
+			"highlight": true
+		},
+		{
+			"kanji": "間違える",
+			"kana": "まちがえる",
+			"english": ["to make a mistake"],
+			"highlight": true
+		},
+		{
+			"kanji": "違法",
+			"kana": "イホウ",
+			"english": ["illegal"],
+			"highlight": false
+		}
+	]
+},
+"312": {
+	"kanji":	"悲",
+	"kunyomi": 	["かな"],
+	"onyomi": 	["ヒ"],
+	"english": 	["sad"],
+	"words":
+	[
+		{
+			"kanji": "悲しい",
+			"kana": "かなしい",
+			"english": ["sad"],
+			"highlight": true
+		},
+		{
+			"kanji": "悲劇",
+			"kana": "ヒゲキ",
+			"english": ["tragedy"],
+			"highlight": false
+		},
+		{
+			"kanji": "悲惨な",
+			"kana": "ヒサンな",
+			"english": ["miserable"],
+			"highlight": false
+		}
+	]
+},
+"313": {
+	"kanji":	"調",
+	"kunyomi": 	["しら"],
+	"onyomi": 	["チョウ"],
+	"english": 	["to investigate"],
+	"words":
+	[
+		{
+			"kanji": "調査",
+			"kana": "チョウサ",
+			"english": ["survey", "research"],
+			"highlight": true
+		},
+		{
+			"kanji": "調べる",
+			"kana": "しらべる",
+			"english": ["to look into"],
+			"highlight": true
+		},
+		{
+			"kanji": "調子",
+			"kana": "ちょうし",
+			"english": ["condition"],
+			"highlight": false
+		}
+	]
+},
+"314": {
+	"kanji":	"査",
+	"kunyomi": 	null,
+	"onyomi": 	["サ"],
+	"english": 	["to inspect"],
+	"words":
+	[
+		{
+			"kanji": "調査",
+			"kana": "チョウサ",
+			"english": ["survey", "research"],
+			"highlight": true
+		},
+		{
+			"kanji": "検査",
+			"kana": "ケンサ",
+			"english": ["inspection"],
+			"highlight": false
+		},
+		{
+			"kanji": "捜査",
+			"kana": "ソウサ",
+			"english": ["criminal investigation"],
+			"highlight": false
+		}
+	]
+},
+"315": {
+	"kanji":	"果",
+	"kunyomi": 	["は"],
+	"onyomi": 	["カ"],
+	"english": 	["fruit", "result"],
+	"words":
+	[
+		{
+			"kanji": "結果",
+			"kana": "ケッカ",
+			"english": ["result"],
+			"highlight": true
+		},
+		{
+			"kanji": "果汁",
+			"kana": "カジュウ",
+			"english": ["fruit juice"],
+			"highlight": false
+		},
+		{
+			"kanji": "使い果たす",
+			"kana": "つかいはたす",
+			"english": ["to use up"],
+			"highlight": false
+		},
+		{
+			"kanji": "果物",
+			"kana": "くだもの",
+			"english": ["fruit"],
+			"highlight": false
+		}
+	]
+},
+"316": {
+	"kanji":	"感",
+	"kunyomi": 	null,
+	"onyomi": 	["カン"],
+	"english": 	["to sense", "to feel"],
+	"words":
+	[
+		{
+			"kanji": "感情",
+			"kana": "カンジョウ",
+			"english": ["emotion"],
+			"highlight": true
+		},
+		{
+			"kanji": "感動する",
+			"kana": "カンドウする",
+			"english": ["to be moved"],
+			"highlight": true
+		},
+		{
+			"kanji": "感じる",
+			"kana": "カンじる",
+			"english": ["to feel"],
+			"highlight": false
+		}
+	]
+},
+"317": {
+	"kanji":	"答",
+	"kunyomi": 	["こた", "こたえ"],
+	"onyomi": 	["トウ"],
+	"english": 	["answer"],
+	"words":
+	[
+		{
+			"kanji": "答える",
+			"kana": "こたえる",
+			"english": ["to answer"],
+			"highlight": true
+		},
+		{
+			"kanji": "答え/答",
+			"kana": "こたえ",
+			"english": ["answer"],
+			"highlight": true
+		},
+		{
+			"kanji": "回答",
+			"kana": "カイトウ",
+			"english": ["reply", "answer"],
+			"highlight": false
+		},
+		{
+			"kanji": "答案",
+			"kana": "トウアン",
+			"english": ["examination paper"],
+			"highlight": false
+		}
+	]
 }
+
 
 
 
