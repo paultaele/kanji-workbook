@@ -2797,354 +2797,354 @@
 
 
 "102": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"住",
+	"kunyomi": 	["す"],
+	"onyomi": 	["ジュウ"],
 	"english": 	["to live"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "住む",
+			"kana": "すむ",
 			"english": ["to live"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "住所",
+			"kana": "ジュウショ",
 			"english": ["address"],
 			"highlight": false
 		}
 	]
 },
 "103": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"正",
+	"kunyomi": 	["ただ"],
+	"onyomi": 	["ショウ"],
 	"english": 	["right"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "お正月",
+			"kana": "おショウガツ",
 			"english": ["New Year"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "正しい",
+			"kana": "ただしい",
 			"english": ["right"],
 			"highlight": false
 		}
 	]
 },
 "104": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"年",
+	"kunyomi": 	["とし"],
+	"onyomi": 	["ネン"],
 	"english": 	["year"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三年生",
+			"kana": "サンネンセイ",
 			"english": ["third-year student"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "来年",
+			"kana": "ライネン",
 			"english": ["next year"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "今年",
+			"kana": "ことし",
 			"english": ["this year"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "年",
+			"kana": "とし",
 			"english": ["year"],
 			"highlight": true
 		}
 	]
 },
 "105": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"売",
+	"kunyomi": 	["う"],
+	"onyomi": 	["バイ"],
 	"english": 	["to sell"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "売る",
+			"kana": "うる",
 			"english": ["to sell"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "売店",
+			"kana": "バイテン",
 			"english": ["stand; stall"],
 			"highlight": false
 		}
 	]
 },
 "106": {
-	"kanji":	"",
-	"kunyomi": 	[""],
+	"kanji":	"買",
+	"kunyomi": 	["か"],
 	"onyomi": 	null,
 	"english": 	["to buy"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "買う",
+			"kana": "かう",
 			"english": ["to buy"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "買い物",
+			"kana": "かいもの",
 			"english": ["shopping"],
 			"highlight": false
 		}
 	]
 },
 "107": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"町",
+	"kunyomi": 	["まち"],
+	"onyomi": 	["チョウ"],
 	"english": 	["town"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "町",
+			"kana": "まち",
 			"english": ["town"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "北山町",
+			"kana": "きたやまチョウ",
 			"english": ["Kitayama town"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "町長",
+			"kana": "チョウチョウ",
 			"english": ["mayor of a town"],
 			"highlight": false
 		}
 	]
 },
 "108": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"長",
+	"kunyomi": 	["なが"],
+	"onyomi": 	["チョウ"],
 	"english": 	["long"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "長い",
+			"kana": "ながい",
 			"english": ["long"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "長男",
+			"kana": "チョウナン",
 			"english": ["one's first son"],
 			"highlight": false
 		}
 	]
 },
 "109": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"道",
+	"kunyomi": 	["みち"],
+	"onyomi": 	["ドウ"],
 	"english": 	["way"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "道",
+			"kana": "みち",
 			"english": ["way", "road"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "書道",
+			"kana": "ショドウ",
 			"english": ["calligraphy"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "柔道",
+			"kana": "ジュウドウ",
 			"english": ["judo"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "北海道",
+			"kana": "ホッカイドウ",
 			"english": ["Hokkaido"],
 			"highlight": false
 		}
 	]
 },
 "110": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"雪",
+	"kunyomi": 	["ゆき"],
+	"onyomi": 	["セツ"],
 	"english": 	["snow"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "雪",
+			"kana": "ゆき",
 			"english": ["snow"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "新雪",
+			"kana": "シンセツ",
 			"english": ["new snow"],
 			"highlight": false
 		}
 	]
 },
 "111": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"立",
+	"kunyomi": 	["た"],
+	"onyomi": 	["リツ"],
 	"english": 	["to stand"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "立つ",
+			"kana": "たつ",
 			"english": ["to stand"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "国立大学",
+			"kana": "コクリツダイガク",
 			"english": ["national university"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "私立高校",
+			"kana": "シリツコウコウ",
 			"english": ["private high school"],
 			"highlight": false
 		}
 	]
 },
 "112": {
-	"kanji":	"",
+	"kanji":	"自",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["ジ"],
 	"english": 	["self"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "自分",
+			"kana": "ジブン",
 			"english": ["oneself"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "自動車",
+			"kana": "ジドウシャ",
 			"english": ["automobile"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "自転車",
+			"kana": "ジテンシャ",
 			"english": ["bicycle"],
 			"highlight": false
 		}
 	]
 },
 "113": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"夜",
+	"kunyomi": 	["よる", "よ"],
+	"onyomi": 	["や"],
 	"english": 	["night"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "夜",
+			"kana": "よる",
 			"english": ["night"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "夜中",
+			"kana": "よなか",
 			"english": ["midnight"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "今夜",
+			"kana": "こんや",
 			"english": ["tonight"],
 			"highlight": false
 		}
 	]
 },
 "114": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"朝",
+	"kunyomi": 	["あさ"],
+	"onyomi": 	["チョウ"],
 	"english": 	["morning"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "朝",
+			"kana": "あさ",
 			"english": ["morning"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "今朝",
+			"kana": "けさ",
 			"english": ["this morning"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "朝食",
+			"kana": "チョウショク",
 			"english": ["breakfast"],
 			"highlight": false
 		}
 	]
 },
 "115": {
-	"kanji":	"",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kanji":	"持",
+	"kunyomi": 	["も"],
+	"onyomi": 	["ジ"],
 	"english": 	["to hold"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "持つ",
+			"kana": "もつ",
 			"english": ["to hold"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "持ってくる",
+			"kana": "もってくる",
 			"english": ["to bring"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "所持品",
+			"kana": "ショジヒン",
 			"english": ["belongings"],
 			"highlight": false
 		}
