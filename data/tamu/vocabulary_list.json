@@ -2042,19 +2042,19 @@
 "073": {
 	"kanji":	"員",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["イン"],
 	"english": 	["member"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "会社員",
+			"kana": "カイシャイン",
 			"english": ["office worker"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "店員",
+			"kana": "テンイン",
 			"english": ["store clerk"],
 			"highlight": false
 		}
@@ -2062,26 +2062,26 @@
 },
 "074": {
 	"kanji":	"新",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["あたら"],
+	"onyomi": 	["シン"],
 	"english": 	["new"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "新しい",
+			"kana": "あたらしい",
 			"english": ["new"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "新聞",
+			"kana": "シンブン",
 			"english": ["newspaper"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "新幹線",
+			"kana": "シンカンセン",
 			"english": ["Bullet Train"],
 			"highlight": false
 		}
@@ -2095,14 +2095,14 @@
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "聞く",
+			"kana": "きく",
 			"english": ["to listen"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "新聞",
+			"kana": "シンブン",
 			"english": ["newspaper"],
 			"highlight": true
 		}
@@ -2110,26 +2110,26 @@
 },
 "076": {
 	"kanji":	"作",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["つく"],
+	"onyomi": 	["サク"],
 	"english": 	["to make"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "作る",
+			"kana": "つくる",
 			"english": ["to make"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "作文",
+			"kana": "サクブン",
 			"english": ["composition"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "作品",
+			"kana": "サクヒン",
 			"english": ["artistic piece"],
 			"highlight": false
 		}
@@ -2138,13 +2138,13 @@
 "077": {
 	"kanji":	"仕",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["シ"],
 	"english": 	["to serve"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "仕事",
+			"kana": "シごと",
 			"english": ["job"],
 			"highlight": true
 		}
@@ -2152,32 +2152,32 @@
 },
 "078": {
 	"kanji":	"事",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ごと", "こと"],
+	"onyomi": 	["ジ"],
 	"english": 	["thing"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "仕事",
+			"kana": "シごと",
 			"english": ["job"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "事",
+			"kana": "こと",
 			"english": ["thing"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "火事",
+			"kana": "カジ",
 			"english": ["fire"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "食事",
+			"kana": "ショクジ",
 			"english": ["meal"],
 			"highlight": false
 		}
@@ -2186,25 +2186,25 @@
 "079": {
 	"kanji":	"電",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["デン"],
 	"english": 	["electricity"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "電車",
+			"kana": "デンシャ",
 			"english": ["train"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "電気",
+			"kana": "デンキ",
 			"english": ["electricity"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "電話",
+			"kana": "デンワ",
 			"english": ["telephone"],
 			"highlight": false
 		}
@@ -2212,53 +2212,53 @@
 },
 "080": {
 	"kanji":	"車",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["くるま"],
+	"onyomi": 	["シャ"],
 	"english": 	["car"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "車",
+			"kana": "くるま",
 			"english": ["car"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "電車",
+			"kana": "デンシャ",
 			"english": ["train"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
-			"english": ["bicycle"],
+			"kanji": "電話",
+			"kana": "デンワ",
+			"english": ["telephone"],
 			"highlight": false
 		}
 	]
 },
 "081": {
 	"kanji":	"休",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["やす"],
+	"onyomi": 	["キュウ"],
 	"english": 	["to rest"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "休む",
+			"kana": "やすむ",
 			"english": ["to be absent", "to rest"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "休み",
+			"kana": "やすみ",
 			"english": ["holiday", "absence"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "休日",
+			"kana": "キュウジツ",
 			"english": ["holiday"],
 			"highlight": false
 		}
@@ -2266,20 +2266,20 @@
 },
 "082": {
 	"kanji":	"言",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["い"],
+	"onyomi": 	["ゲン"],
 	"english": 	["to say"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "言う",
+			"kana": "いう",
 			"english": ["to say"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "言語学",
+			"kana": "ゲンゴガク",
 			"english": ["linguistics"],
 			"highlight": false
 		}
@@ -2287,20 +2287,20 @@
 },
 "083": {
 	"kanji":	"読",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["よ"],
+	"onyomi": 	["ドク"],
 	"english": 	["to read"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "読む",
+			"kana": "よむ",
 			"english": ["to read"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "読書",
+			"kana": "ドクショ",
 			"english": ["reading books"],
 			"highlight": false
 		}
@@ -2314,14 +2314,14 @@
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "思う",
+			"kana": "おもう",
 			"english": ["to think"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "不思議な",
+			"kana": "フシギナ",
 			"english": [" mysterious"],
 			"highlight": false
 		}
@@ -2329,20 +2329,20 @@
 },
 "085": {
 	"kanji":	"次",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["つぎ"],
+	"onyomi": 	["ジ"],
 	"english": 	["next"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "次",
+			"kana": "つぎ",
 			"english": ["next"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "次女",
+			"kana": "ジジョ",
 			"english": ["one's second daughter"],
 			"highlight": false
 		}
@@ -2350,26 +2350,26 @@
 },
 "086": {
 	"kanji":	"何",
-	"kunyomi": 	[""],
+	"kunyomi": 	["なに", "なん"],
 	"onyomi": 	null,
 	"english": 	["what"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "何",
+			"kana": "なに",
 			"english": ["what"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "何時",
+			"kana": "なんじ",
 			"english": ["what time"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "何人",
+			"kana": "なんニン",
 			"english": ["how many people"],
 			"highlight": true
 		}
