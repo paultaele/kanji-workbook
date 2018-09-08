@@ -3157,38 +3157,38 @@
 
 "116": {
 	"kanji":	"手",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["て"],
+	"onyomi": 	["シュ"],
 	"english": 	["hand"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "手紙",
+			"kana": "てがみ",
 			"english": ["letter"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "歌手",
+			"kana": "カシュ",
 			"english": ["singer"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "手",
+			"kana": "て",
 			"english": ["hand"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "手話",
+			"kana": "シュワ",
 			"english": ["sign language"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "上手な",
+			"kana": "ジョウズな",
 			"english": ["good at"],
 			"highlight": false
 		}
@@ -3196,26 +3196,26 @@
 },
 "117": {
 	"kanji":	"紙",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["がみ", "かみ"],
+	"onyomi": 	["シ"],
 	"english": 	["paper"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "手紙",
+			"kana": "てがみ",
 			"english": ["letter"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "紙",
+			"kana": "かみ",
 			"english": ["paper"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "和紙",
+			"kana": "ワシ",
 			"english": ["Japanese paper"],
 			"highlight": false
 		}
@@ -3223,26 +3223,26 @@
 },
 "118": {
 	"kanji":	"好",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["す", "この"],
+	"onyomi": 	["コウ"],
 	"english": 	["favorite", "to like"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "好きな",
+			"kana": "すきな",
 			"english": ["to like"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "好意",
+			"kana": "コウイ",
 			"english": ["good will"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "好み",
+			"kana": "このみ",
 			"english": ["liking", "taste"],
 			"highlight": false
 		}
@@ -3250,32 +3250,32 @@
 },
 "119": {
 	"kanji":	"近",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ちか"],
+	"onyomi": 	["キン"],
 	"english": 	["near"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "近く",
+			"kana": "ちかく",
 			"english": ["nearby"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "近所",
+			"kana": "キンジョ",
 			"english": ["neighborhood"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "最近",
+			"kana": "サイキン",
 			"english": ["recently"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "中近東",
+			"kana": "チュウキントウ",
 			"english": ["the Middle and Near East"],
 			"highlight": false
 		}
@@ -3283,26 +3283,26 @@
 },
 "120": {
 	"kanji":	"明",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["あか"],
+	"onyomi": 	["メイ"],
 	"english": 	["bright"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "明るい",
+			"kana": "あかるい",
 			"english": ["cheerful", "bright"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "明日",
+			"kana": "あした",
 			"english": ["tomorrow"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "説明",
+			"kana": "セツメイ",
 			"english": ["explanation"],
 			"highlight": false
 		}
@@ -3311,31 +3311,31 @@
 "121": {
 	"kanji":	"病",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["ビョウ"],
 	"english": 	["ill", "sick"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "病院",
+			"kana": "ビョウイン",
 			"english": ["hospital"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "病気",
+			"kana": "ビョウキ",
 			"english": ["illness"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "重病",
+			"kana": "ジュウビョウ",
 			"english": ["serious illness"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "急病",
+			"kana": "キュウビョウ",
 			"english": ["sudden illness"],
 			"highlight": false
 		}
@@ -3344,25 +3344,25 @@
 "122": {
 	"kanji":	"院",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["イン"],
 	"english": 	["institution"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "病院",
+			"kana": "ビョウイン",
 			"english": ["hospital"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "大学院",
+			"kana": "ダイガクイン",
 			"english": ["graduate school"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "美容院",
+			"kana": "ビヨウイン",
 			"english": ["beauty parlor"],
 			"highlight": false
 		}
@@ -3370,26 +3370,26 @@
 },
 "123": {
 	"kanji":	"映",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["うつ"],
+	"onyomi": 	["エイ"],
 	"english": 	["to reflect"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "映画",
+			"kana": "エイガ",
 			"english": ["movie"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "映画館",
+			"kana": "エイガカン",
 			"english": ["movie theater"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "映る",
+			"kana": "うつる",
 			"english": ["to be reflected"],
 			"highlight": false
 		}
@@ -3398,25 +3398,25 @@
 "124": {
 	"kanji":	"画",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["ガ", "カク"],
 	"english": 	["picture"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "映画",
+			"kana": "エイガ",
 			"english": ["movie"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "画家",
+			"kana": "ガカ",
 			"english": ["painter"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "計画",
+			"kana": "ケイカク",
 			"english": ["plan"],
 			"highlight": false
 		}
@@ -3424,32 +3424,32 @@
 },
 "125": {
 	"kanji":	"歌",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["うた"],
+	"onyomi": 	["カ"],
 	"english": 	["to sing"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "歌う",
+			"kana": "うたう",
 			"english": ["to sing"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "歌",
+			"kana": "うた",
 			"english": ["song"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "歌手",
+			"kana": "カシュ",
 			"english": ["singer"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "国歌",
+			"kana": "コッカ",
 			"english": ["national anthem"],
 			"highlight": false
 		}
@@ -3457,32 +3457,32 @@
 },
 "126": {
 	"kanji":	"市",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["いち"],
+	"onyomi": 	["シ"],
 	"english": 	["city"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "川口市",
+			"kana": "かわぐちシ",
 			"english": ["Kawaguchi city"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "市役所",
+			"kana": "シヤクショ",
 			"english": ["city hall"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "市長",
+			"kana": "シチョウ",
 			"english": ["mayor"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "市場",
+			"kana": "いちば",
 			"english": ["market"],
 			"highlight": false
 		}
@@ -3490,32 +3490,32 @@
 },
 "127": {
 	"kanji":	"所",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ところ", "どころ"],
+	"onyomi": 	["ジョ", "ショ"],
 	"english": 	["place"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "いろいろな所",
+			"kana": "いろいろなところ",
 			"english": ["various places"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "近所",
+			"kana": "キンジョ",
 			"english": ["neighborhood"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "台所",
+			"kana": "ダイどころ",
 			"english": ["kitchen"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "住所",
+			"kana": "ジュウショ",
 			"english": ["address"],
 			"highlight": false
 		}
@@ -3523,26 +3523,26 @@
 },
 "128": {
 	"kanji":	"勉",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["つと"],
+	"onyomi": 	["ベン"],
 	"english": 	["to make efforts"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "勉強する",
+			"kana": "ベンキョウする",
 			"english": ["to study"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "勉める",
+			"kana": "つとめる",
 			"english": ["to try hard"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "勤勉な",
+			"kana": "キンベンな",
 			"english": ["diligent"],
 			"highlight": false
 		}
@@ -3550,26 +3550,26 @@
 },
 "129": {
 	"kanji":	"強",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["つよ"],
+	"onyomi": 	["キョウ", "ゴウ"],
 	"english": 	["strong"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "勉強する",
+			"kana": "ベンキョウする",
 			"english": ["to study"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "強い",
+			"kana": "つよい",
 			"english": ["strong"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "強情な",
+			"kana": "ゴウジョウな",
 			"english": ["obstinate"],
 			"highlight": false
 		}
@@ -3577,26 +3577,26 @@
 },
 "130": {
 	"kanji":	"有",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ユウ"],
+	"onyomi": 	["あ"],
 	"english": 	["to exist"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "有名な",
+			"kana": "ユウメイな",
 			"english": ["famous"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "有料",
+			"kana": "ユウリョウ",
 			"english": ["toll", "fee"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "有る",
+			"kana": "ある",
 			"english": ["to exist"],
 			"highlight": false
 		}
@@ -3604,26 +3604,26 @@
 },
 "131": {
 	"kanji":	"旅",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["たび"],
+	"onyomi": 	["リョ"],
 	"english": 	["travel"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "旅行",
+			"kana": "リョコウ",
 			"english": ["travel"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "旅館",
+			"kana": "リョカン",
 			"english": ["inn"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一人旅",
+			"kana": "ひとりたび",
 			"english": ["traveling alone"],
 			"highlight": false
 		}
