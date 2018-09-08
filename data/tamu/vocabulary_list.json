@@ -6,38 +6,38 @@
 
 "001": {
 	"kanji":	"一",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ひと"],
+	"onyomi": 	["イチ", "イッ"],
 	"english": 	["one"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一",
+			"kana": "イチ",
 			"english": ["one"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一時",
+			"kana": "イチジ",
 			"english": ["one o'clock"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一年生",
+			"kana": "イチネンセイ",
 			"english": ["first-year student"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一分",
+			"kana": "イップン",
 			"english": ["one minute"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一つ",
+			"kana": "ひとつ",
 			"english": ["one"],
 			"highlight": false
 		}
@@ -45,38 +45,38 @@
 },
 "002": {
 	"kanji":	"二",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ふた"],
+	"onyomi": 	["ニ"],
 	"english": 	["two"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "二",
+			"kana": "ニ",
 			"english": ["two"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "二時",
+			"kana": "ニジ",
 			"english": ["two o'clock"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "二年生",
+			"kana": "ニネンセイ",
 			"english": ["second-year student"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "二つ",
+			"kana": "ふたつ",
 			"english": ["two"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "二日間",
+			"kana": "ふつかカン",
 			"english": ["two days"],
 			"highlight": false
 		}
@@ -84,32 +84,32 @@
 },
 "003": {
 	"kanji":	"三",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["みっつ"],
+	"onyomi": 	["サン"],
 	"english": 	["three"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三",
+			"kana": "サン",
 			"english": ["three"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三時",
+			"kana": "サンジ",
 			"english": ["three o'clock"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三年生",
+			"kana": "サンネンセイ",
 			"english": ["three-year student"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三つ",
+			"kana": "みっつ",
 			"english": ["three"],
 			"highlight": false
 		}
@@ -117,38 +117,38 @@
 },
 "004": {
 	"kanji":	"四",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["よん", "よ", "よっ"],
+	"onyomi": 	["シ"],
 	"english": 	["four"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "四",
+			"kana": "よん",
 			"english": ["four"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "四時",
+			"kana": "よジ",
 			"english": ["four o'clock"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "四年生",
+			"kana": "よネンセイ",
 			"english": ["fourth-year student"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "四つ",
+			"kana": "よっつ",
 			"english": ["four"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "四月",
+			"kana": "シガツ",
 			"english": ["April"],
 			"highlight": false
 		}
@@ -156,26 +156,26 @@
 },
 "005": {
 	"kanji":	"五",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["いつ"],
+	"onyomi": 	["ゴ"],
 	"english": 	["five"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "五",
+			"kana": "ゴ",
 			"english": ["five"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "五時",
+			"kana": "ゴジ",
 			"english": ["five o'clock"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "五つ",
+			"kana": "いつつ",
 			"english": ["five"],
 			"highlight": false
 		}
@@ -183,38 +183,38 @@
 },
 "006": {
 	"kanji":	"六",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["むっ"],
+	"onyomi": 	["ロク", "ロッ"],
 	"english": 	["six"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "六",
+			"kana": "ロク",
 			"english": ["six"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "六時",
+			"kana": "ロクジ",
 			"english": ["six o'clock"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "六百",
+			"kana": "ロッピャク",
 			"english": ["six hundred"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "六分",
+			"kana": "ロップン",
 			"english": ["six minutes"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "六つ",
+			"kana": "むっつ",
 			"english": ["six"],
 			"highlight": false
 		}
@@ -222,26 +222,26 @@
 },
 "007": {
 	"kanji":	"七",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["なな"],
+	"onyomi": 	["シチ"],
 	"english": 	["seven"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "七",
+			"kana": "シチ/なな",
 			"english": ["seven"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "七時",
+			"kana": "シチジ",
 			"english": ["seven o'clock"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "七つ",
+			"kana": "ななつ",
 			"english": ["seven"],
 			"highlight": false
 		}
@@ -249,38 +249,38 @@
 },
 "008": {
 	"kanji":	"八",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["やっ"],
+	"onyomi": 	["ハチ", "ハッ"],
 	"english": 	["eight"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "八",
+			"kana": "ハチ",
 			"english": ["eight"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "八時",
+			"kana": "ハチジ",
 			"english": ["eight o'clock"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "八百",
+			"kana": "ハッピャク",
 			"english": ["eight hundred"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "八歳",
+			"kana": "ハッサイ",
 			"english": ["eight years old"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "八つ",
+			"kana": "やっつ",
 			"english": ["eight"],
 			"highlight": false
 		}
@@ -288,32 +288,32 @@
 },
 "009": {
 	"kanji":	"九",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ここの"],
+	"onyomi": 	["キュウ", "ク"],
 	"english": 	["nine"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "九",
+			"kana": "キュウ",
 			"english": ["nine"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "九時",
+			"kana": "クジ",
 			"english": ["nine o'clock"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "九歳",
+			"kana": "キュウサイ",
 			"english": ["nine years old"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "九つ",
+			"kana": "ここのつ",
 			"english": ["nine"],
 			"highlight": false
 		}
@@ -321,32 +321,32 @@
 },
 "010": {
 	"kanji":	"十",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["とお"],
+	"onyomi": 	["ジュウ", "ジュウ"],
 	"english": 	["ten"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "十",
+			"kana": "ジュウ",
 			"english": ["ten"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "十時",
+			"kana": "ジュウジ",
 			"english": ["ten o'clock"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "十歳",
+			"kana": "ジュッサイ",
 			"english": ["ten years old"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "十",
+			"kana": "とお",
 			"english": ["ten"],
 			"highlight": false
 		}
@@ -354,32 +354,32 @@
 },
 "011": {
 	"kanji":	"百",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["ヒャク", "ピャク", "ビャク"],
 	"english": 	["hundred"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "百",
+			"kana": "ヒャク",
 			"english": ["hundred"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三百",
+			"kana": "サンビャク",
 			"english": ["three hundred"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "六百",
+			"kana": "ロッピャク",
 			"english": ["six hundred"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "八百",
+			"kana": "ハッピャク",
 			"english": ["eight hundred"],
 			"highlight": true
 		}
@@ -387,26 +387,26 @@
 },
 "012": {
 	"kanji":	"千",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["セン", "ゼン"],
 	"english": 	["thousand"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "千",
+			"kana": "セン",
 			"english": ["thousand"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三千",
+			"kana": "サンゼン",
 			"english": ["three thousand"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "八千",
+			"kana": "ハッセン",
 			"english": ["eight thousand"],
 			"highlight": false
 		}
@@ -414,26 +414,26 @@
 },
 "013": {
 	"kanji":	"万",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["マン"],
 	"english": 	["ten thousand"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一万",
+			"kana": "イチマン",
 			"english": ["ten thousand"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "十万",
+			"kana": "ジュウマン",
 			"english": ["one hundred thousand"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "百万",
+			"kana": "ヒャクマン",
 			"english": ["one million"],
 			"highlight": false
 		}
@@ -441,20 +441,20 @@
 },
 "014": {
 	"kanji":	"円",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["エン"],
 	"english": 	["yen", "circle"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "百円",
+			"kana": "ヒャクエン",
 			"english": ["one hundred yen"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "円",
+			"kana": "エン",
 			"english": ["circle"],
 			"highlight": false
 		}
@@ -462,32 +462,32 @@
 },
 "015": {
 	"kanji":	"時",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["とき"],
+	"onyomi": 	["ジ"],
 	"english": 	["time"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一時",
+			"kana": "イチジ",
 			"english": ["one o'clock"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "子供の時",
+			"kana": "こどものとき",
 			"english": ["in one's childhood"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "時々",
+			"kana": "ときどき",
 			"english": ["sometimes"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "時計",
+			"kana": "トケイ",
 			"english": ["watch"],
 			"highlight": false
 		}
