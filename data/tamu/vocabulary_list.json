@@ -667,8 +667,14 @@
 		{
 			"kanji": "",
 			"kana": "",
-			"english": [""],
+			"english": ["Wednesday"],
 			"highlight": true
+		},
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["water"],
+			"highlight": false
 		}
 	]
 },
@@ -682,13 +688,13 @@
 		{
 			"kanji": "",
 			"kana": "",
-			"english": ["Wednesday"],
+			"english": ["Thursday"],
 			"highlight": true
 		},
 		{
 			"kanji": "",
 			"kana": "",
-			"english": ["water"],
+			"english": ["tree"],
 			"highlight": true
 		}
 	]
@@ -698,27 +704,6 @@
 	"kunyomi": 	[""],
 	"onyomi": 	[""],
 	"english": 	["gold", "money"],
-	"words":
-	[
-		{
-			"kanji": "",
-			"kana": "",
-			"english": ["Thursday"],
-			"highlight": true
-		},
-		{
-			"kanji": "",
-			"kana": "",
-			"english": ["tree"],
-			"highlight": false
-		}
-	]
-},
-"024": {
-	"kanji":	"土",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
-	"english": 	["soil"],
 	"words":
 	[
 		{
@@ -735,11 +720,11 @@
 		}
 	]
 },
-"025": {
-	"kanji":	"曜",
+"024": {
+	"kanji":	"土",
 	"kunyomi": 	[""],
 	"onyomi": 	[""],
-	"english": 	["weekday"],
+	"english": 	["soil"],
 	"words":
 	[
 		{
@@ -753,6 +738,21 @@
 			"kana": "",
 			"english": ["soil"],
 			"highlight": false
+		}
+	]
+},
+"025": {
+	"kanji":	"曜",
+	"kunyomi": 	[""],
+	"onyomi": 	[""],
+	"english": 	["weekday"],
+	"words":
+	[
+		{
+			"kanji": "",
+			"kana": "",
+			"english": ["Sunday"],
+			"highlight": true
 		}
 	]
 },
