@@ -1435,31 +1435,31 @@
 "052": {
 	"kanji":	"分",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["フン", "プン", "ブン"],
 	"english": 	["minute", "divide"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "五分",
+			"kana": "ゴフン",
 			"english": ["five minutes"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "十分",
+			"kana": "ジュップン",
 			"english": ["ten minutes"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "自分",
+			"kana": "ジブン",
 			"english": ["oneself"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "半分",
+			"kana": "ハンブン",
 			"english": ["half"],
 			"highlight": false
 		}
@@ -1467,26 +1467,26 @@
 },
 "053": {
 	"kanji":	"先",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["さき"],
+	"onyomi": 	["セン"],
 	"english": 	["ahead"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "先生",
+			"kana": "センセイ",
 			"english": ["teacher"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "先週",
+			"kana": "センシュウ",
 			"english": ["last week"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "先に",
+			"kana": "さきに",
 			"english": ["ahead"],
 			"highlight": false
 		}
@@ -1494,32 +1494,32 @@
 },
 "054": {
 	"kanji":	"生",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["う"],
+	"onyomi": 	["セイ", "ショウ"],
 	"english": 	["birth"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "学生",
+			"kana": "ガクセイ",
 			"english": ["student"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "先生",
+			"kana": "センセイ",
 			"english": ["teacher"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "生まれる",
+			"kana": "うまれる",
 			"english": ["to be born"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一生に一度",
+			"kana": "イッショウニイチド",
 			"english": ["once in a lifetime"],
 			"highlight": false
 		}
@@ -1527,32 +1527,32 @@
 },
 "055": {
 	"kanji":	"大",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["おお"],
+	"onyomi": 	["ダイ", "タイ"],
 	"english": 	["big"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "大学生",
+			"kana": "ダイガクセイ",
 			"english": ["college student"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "大きい",
+			"kana": "おおきい",
 			"english": ["big"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "大変な",
+			"kana": "タイヘンな",
 			"english": ["tough"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "大人",
+			"kana": "おとな",
 			"english": ["adult"],
 			"highlight": false
 		}
@@ -1560,32 +1560,32 @@
 },
 "056": {
 	"kanji":	"学",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["まな"],
+	"onyomi": 	["ガク", "ガッ"],
 	"english": 	["learning"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "大学",
+			"kana": "ダイガク",
 			"english": ["university"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "学生",
+			"kana": "ガクセイ",
 			"english": ["student"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "学校",
+			"kana": "ガッコウ",
 			"english": ["school"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "学ぶ",
+			"kana": "まなぶ",
 			"english": ["to study"],
 			"highlight": false
 		}
@@ -1593,26 +1593,26 @@
 },
 "057": {
 	"kanji":	"外",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["そと"],
+	"onyomi": 	["ガイ"],
 	"english": 	["outside"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "外国",
+			"kana": "ガイコク",
 			"english": ["foreign country"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "外国人",
+			"kana": "ガイコクジン",
 			"english": ["foreigner"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "外",
+			"kana": "そと",
 			"english": ["outside"],
 			"highlight": false
 		}
@@ -1620,26 +1620,26 @@
 },
 "058": {
 	"kanji":	"国",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["くに"],
+	"onyomi": 	["コク", "ゴク"],
 	"english": 	["country"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "外国",
+			"kana": "ガイコク",
 			"english": ["foreign country"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "中国",
+			"kana": "チュウゴク",
 			"english": ["China"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "国",
+			"kana": "くに",
 			"english": ["country"],
 			"highlight": false
 		}
@@ -1652,26 +1652,26 @@
 
 "059": {
 	"kanji":	"京",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["キョウ"],
 	"english": 	["capital"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "東京",
+			"kana": "トウキョウ",
 			"english": ["Tokyo"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "京子",
+			"kana": "キョウこ",
 			"english": ["Kyoko"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "京都",
+			"kana": "キョウト",
 			"english": ["Kyoto"],
 			"highlight": false
 		}
@@ -1685,32 +1685,32 @@
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "子ども",
+			"kana": "こども",
 			"english": ["child"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "京子",
+			"kana": "キョウこ",
 			"english": ["Kyoko"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "女の子",
+			"kana": "おんなのこ",
 			"english": ["girl"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "男の子",
+			"kana": "おとこのこ",
 			"english": ["boy"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "電子メール",
+			"kana": "デンシメール",
 			"english": ["e-mail"],
 			"highlight": false
 		}
@@ -1718,26 +1718,26 @@
 },
 "061": {
 	"kanji":	"小",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ちい"],
+	"onyomi": 	["ショウ"],
 	"english": 	["small"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "小さい",
+			"kana": "ちいさい",
 			"english": ["small"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "小学校",
+			"kana": "ショウガッコウ",
 			"english": ["elementary school"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "小学生",
+			"kana": "ショウガクセイ",
 			"english": ["elementary school student"],
 			"highlight": false
 		}
@@ -1745,26 +1745,26 @@
 },
 "062": {
 	"kanji":	"会",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["あ"],
+	"onyomi": 	["カイ"],
 	"english": 	["to meet"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "会う",
+			"kana": "あう",
 			"english": ["to meet"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "会社",
+			"kana": "カイシャ",
 			"english": ["company"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "会社員",
+			"kana": "カイシャイン",
 			"english": ["office worker"],
 			"highlight": false
 		}
@@ -1772,20 +1772,20 @@
 },
 "063": {
 	"kanji":	"社",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["シャ"],
+	"onyomi": 	["ジャ"],
 	"english": 	["company"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "会社",
+			"kana": "カイシャ",
 			"english": ["company"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "神社",
+			"kana": "ジンジャ",
 			"english": ["shrine"],
 			"highlight": false
 		}
@@ -1793,26 +1793,26 @@
 },
 "064": {
 	"kanji":	"父",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ちち", "とう"],
+	"onyomi": 	["フ"],
 	"english": 	["father"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "父",
+			"kana": "ちち",
 			"english": ["father"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "お父さん",
+			"kana": "おとうさん",
 			"english": ["father"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "父母",
+			"kana": "フボ",
 			"english": ["father and mother"],
 			"highlight": false
 		}
@@ -1820,26 +1820,26 @@
 },
 "065": {
 	"kanji":	"母",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["はは", "かあ"],
+	"onyomi": 	["ボ"],
 	"english": 	["mother"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "母",
+			"kana": "はは",
 			"english": ["mother"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "お母さん",
+			"kana": "おかあさん",
 			"english": ["mother"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "母語",
+			"kana": "ボゴ",
 			"english": ["mother tongue"],
 			"highlight": false
 		}
@@ -1847,26 +1847,26 @@
 },
 "066": {
 	"kanji":	"高",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["たか"],
+	"onyomi": 	["コウ"],
 	"english": 	["high"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "高い",
+			"kana": "たかい",
 			"english": ["expensive", "high"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "高校",
+			"kana": "コウコウ",
 			"english": ["high school"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "高校生",
+			"kana": "コウコウセイ",
 			"english": ["high school student"],
 			"highlight": true
 		}
@@ -1874,32 +1874,32 @@
 },
 "067": {
 	"kanji":	"校",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["コウ"],
 	"english": 	["school"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "学校",
+			"kana": "ガッコウ",
 			"english": ["school"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "高校",
+			"kana": "コウコウ",
 			"english": ["high school"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "高校生",
+			"kana": "コウコウセイ",
 			"english": ["high school student"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "中学校",
+			"kana": "チュウガッコウ",
 			"english": ["junior high school"],
 			"highlight": false
 		}
@@ -1907,26 +1907,26 @@
 },
 "068": {
 	"kanji":	"毎",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["マイ"],
 	"english": 	["every"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "毎日",
+			"kana": "マイニチ",
 			"english": ["every day"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "毎週",
+			"kana": "マイシュウ",
 			"english": ["every week"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "毎晩",
+			"kana": "マイバン",
 			"english": ["every night"],
 			"highlight": false
 		}
@@ -1934,20 +1934,20 @@
 },
 "069": {
 	"kanji":	"語",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["ゴ"],
 	"english": 	["word"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "日本語",
+			"kana": "ニホンゴ",
 			"english": ["Japanese (language)"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "英語",
+			"kana": "エイゴ",
 			"english": ["English (language)"],
 			"highlight": false
 		}
@@ -1955,26 +1955,26 @@
 },
 "070": {
 	"kanji":	"文",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["ブン"],
 	"english": 	["sentence"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "文学",
+			"kana": "ブンガク",
 			"english": ["literature"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "作文",
+			"kana": "サクブン",
 			"english": ["composition"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "文字",
+			"kana": "モジ",
 			"english": ["letter", "character"],
 			"highlight": false
 		}
@@ -1982,20 +1982,20 @@
 },
 "071": {
 	"kanji":	"帰",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["かえ"],
+	"onyomi": 	["キ"],
 	"english": 	["to return"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "帰る",
+			"kana": "かえる",
 			"english": ["to return"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "帰国",
+			"kana": "キコク",
 			"english": ["going home"],
 			"highlight": false
 		}
@@ -2003,32 +2003,32 @@
 },
 "072": {
 	"kanji":	"入",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["はい", "いり", "い"],
+	"onyomi": 	["ニュウ"],
 	"english": 	["to enter"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "入る",
+			"kana": "はいる",
 			"english": ["to enter"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "入口",
+			"kana": "いりぐち",
 			"english": ["entrance"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "入れる",
+			"kana": "いれる",
 			"english": ["to put something in"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "輸入",
+			"kana": "ユニュウ",
 			"english": ["import"],
 			"highlight": false
 		}
