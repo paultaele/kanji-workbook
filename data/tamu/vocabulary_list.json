@@ -871,20 +871,20 @@
 
 "030": {
 	"kanji":	"山",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["やま"],
+	"onyomi": 	["サン"],
 	"english": 	["mountain"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "山",
+			"kana": "やま",
 			"english": ["mountain"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "富士山",
+			"kana": "フジサン",
 			"english": ["Mt. Fuji"],
 			"highlight": false
 		}
@@ -892,20 +892,20 @@
 },
 "031": {
 	"kanji":	"川",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["かわ", "がわ"],
+	"onyomi": 	null,
 	"english": 	["river"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "川",
+			"kana": "かわ",
 			"english": ["river"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "小川さん",
+			"kana": "おがわさん",
 			"english": ["Mr./Ms. Ogawa"],
 			"highlight": false
 		}
@@ -914,13 +914,13 @@
 "032": {
 	"kanji":	"元",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["ゲン"],
 	"english": 	["origin"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "元気な",
+			"kana": "ゲンキな",
 			"english": ["fine"],
 			"highlight": true
 		}
@@ -929,25 +929,25 @@
 "033": {
 	"kanji":	"気",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["キ"],
 	"english": 	["spirit"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "元気な",
+			"kana": "ゲンキな",
 			"english": ["fine"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "天気",
+			"kana": "テンキ",
 			"english": ["weather"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "電気",
+			"kana": "デンキ",
 			"english": ["electricity"],
 			"highlight": false
 		}
@@ -956,19 +956,19 @@
 "034": {
 	"kanji":	"天",
 	"kunyomi": 	null,
-	"onyomi": 	[""],
+	"onyomi": 	["テン"],
 	"english": 	["heaven"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "天気",
+			"kana": "テンキ",
 			"english": ["weather"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "天国",
+			"kana": "テンゴク",
 			"english": ["heaven"],
 			"highlight": false
 		}
@@ -976,20 +976,20 @@
 },
 "035": {
 	"kanji":	"私",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["わたし"],
+	"onyomi": 	["シ"],
 	"english": 	["I", "private"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "私",
+			"kana": "わたし",
 			"english": ["I"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "私立大学",
+			"kana": "シリツダイガク",
 			"english": ["private university"],
 			"highlight": false
 		}
@@ -997,26 +997,26 @@
 },
 "036": {
 	"kanji":	"今",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["いま"],
+	"onyomi": 	["コン"],
 	"english": 	["now"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "今",
+			"kana": "いま",
 			"english": ["now"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "今日",
+			"kana": "きょう",
 			"english": ["today"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "今晩",
+			"kana": "コンバン",
 			"english": ["tonight"],
 			"highlight": false
 		}
@@ -1024,26 +1024,26 @@
 },
 "037": {
 	"kanji":	"田",
-	"kunyomi": 	[""],
+	"kunyomi": 	["た", "だ"],
 	"onyomi": 	null,
 	"english": 	["rice field"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "田中さん",
+			"kana": "たなかさん",
 			"english": ["Mr./Ms. Tanaka"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "山田さん",
+			"kana": "やまださん",
 			"english": ["Mr./Ms. Yamada"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "田んぼ",
+			"kana": "たんぼ",
 			"english": ["rice field"],
 			"highlight": false
 		}
@@ -1051,20 +1051,20 @@
 },
 "038": {
 	"kanji":	"女",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["おんな"],
+	"onyomi": 	["ジョ"],
 	"english": 	["woman"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "女の人",
+			"kana": "おんなのひと",
 			"english": ["woman"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "女性",
+			"kana": "ジョセイ",
 			"english": ["woman"],
 			"highlight": false
 		}
@@ -1072,20 +1072,20 @@
 },
 "039": {
 	"kanji":	"男",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["おとこ"],
+	"onyomi": 	["ダン"],
 	"english": 	["man"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "男の人",
+			"kana": "おとこのひと",
 			"english": ["man"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "男性",
+			"kana": "ダンセイ",
 			"english": ["man"],
 			"highlight": false
 		}
@@ -1093,20 +1093,20 @@
 },
 "040": {
 	"kanji":	"見",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["み"],
+	"onyomi": 	["ケン"],
 	"english": 	["to see"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "見る",
+			"kana": "みる",
 			"english": ["to see"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "見物",
+			"kana": "ケンブツ",
 			"english": ["sightseeing"],
 			"highlight": false
 		}
@@ -1114,26 +1114,26 @@
 },
 "041": {
 	"kanji":	"行",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["い"],
+	"onyomi": 	["コウ", "ギョウ"],
 	"english": 	["to go"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "行く",
+			"kana": "いく",
 			"english": ["to go"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "銀行",
+			"kana": "ギンコウ",
 			"english": ["bank"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一行目",
+			"kana": "イチギョウめ",
 			"english": ["first line"],
 			"highlight": false
 		}
@@ -1141,26 +1141,26 @@
 },
 "042": {
 	"kanji":	"食",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["た"],
+	"onyomi": 	["ショク"],
 	"english": 	["to eat"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "食べる",
+			"kana": "たべる",
 			"english": ["to eat"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "食べ物",
+			"kana": "たべもの",
 			"english": ["food"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "食堂",
+			"kana": "ショクドウ",
 			"english": ["cafeteria"],
 			"highlight": false
 		}
@@ -1168,26 +1168,26 @@
 },
 "043": {
 	"kanji":	"飲",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["の"],
+	"onyomi": 	["イン"],
 	"english": 	["to drink"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "飲む",
+			"kana": "のむ",
 			"english": ["to drink"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "飲み物",
+			"kana": "のみもの",
 			"english": ["drink"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "飲酒運転",
+			"kana": "インシュウンテン",
 			"english": ["drunk driving"],
 			"highlight": false
 		}
