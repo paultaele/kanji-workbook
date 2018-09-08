@@ -500,44 +500,44 @@
 
 "016": {
 	"kanji":	"日",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["び", "び"],
+	"onyomi": 	["ニ", "ニチ", "ニッ"],
 	"english": 	["day", "sun"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "日本",
+			"kana": "ニホン",
 			"english": ["Japan"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "日曜日",
+			"kana": "ニチヨウび",
 			"english": ["Sunday"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "毎日",
+			"kana": "マイニチ",
 			"english": ["every day"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "母の日",
+			"kana": "ははのひ",
 			"english": ["Mother's Day"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "日記",
+			"kana": "ニッキ",
 			"english": ["diary"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三日",
+			"kana": "ミッカ",
 			"english": ["three days"],
 			"highlight": false
 		}
@@ -545,32 +545,32 @@
 },
 "017": {
 	"kanji":	"本",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ホン"],
+	"onyomi": 	["もと"],
 	"english": 	["book", "basis"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "本",
+			"kana": "ホン",
 			"english": ["book"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "日本",
+			"kana": "ニホン",
 			"english": ["Japan"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "日本語",
+			"kana": "ニホンゴ",
 			"english": ["Japanese language"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "山本さん",
+			"kana": "やまもとさん",
 			"english": ["Mr./Ms. Yamamoto"],
 			"highlight": false
 		}
@@ -578,32 +578,32 @@
 },
 "018": {
 	"kanji":	"人",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ひと"],
+	"onyomi": 	["ジン", "ニン"],
 	"english": 	["person"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "日本人",
+			"kana": "ニホンジン",
 			"english": ["Japanese people"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一人で",
+			"kana": "ひとりで",
 			"english": ["alone"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "この人",
+			"kana": "このひと",
 			"english": ["this person"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三人",
+			"kana": "サンニン",
 			"english": ["three people"],
 			"highlight": false
 		}
@@ -611,26 +611,26 @@
 },
 "019": {
 	"kanji":	"月",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["つき"],
+	"onyomi": 	["ゲツ", "ガツ"],
 	"english": 	["moon", "month"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "月曜日",
+			"kana": "ゲツヨウび",
 			"english": ["Monday"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一月",
+			"kana": "イチガツ",
 			"english": ["January"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "月",
+			"kana": "つき",
 			"english": ["moon"],
 			"highlight": false
 		}
@@ -638,20 +638,20 @@
 },
 "020": {
 	"kanji":	"火",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ひ"],
+	"onyomi": 	["カ"],
 	"english": 	["020"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "火曜日",
+			"kana": "カヨウび",
 			"english": ["Tuesday"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "火",
+			"kana": "ひ",
 			"english": ["fire"],
 			"highlight": false
 		}
@@ -659,20 +659,20 @@
 },
 "021": {
 	"kanji":	"水",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["みず"],
+	"onyomi": 	["スイ"],
 	"english": 	["water"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "水曜日",
+			"kana": "スイヨウび",
 			"english": ["Wednesday"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "水",
+			"kana": "みず",
 			"english": ["water"],
 			"highlight": false
 		}
@@ -680,20 +680,20 @@
 },
 "022": {
 	"kanji":	"木",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["き"],
+	"onyomi": 	["モク"],
 	"english": 	["tree"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "木曜日",
+			"kana": "モクヨウび",
 			"english": ["Thursday"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "木",
+			"kana": "き",
 			"english": ["tree"],
 			"highlight": true
 		}
@@ -701,20 +701,20 @@
 },
 "023": {
 	"kanji":	"金",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["かね"],
+	"onyomi": 	["キン"],
 	"english": 	["gold", "money"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "金曜日",
+			"kana": "キンヨウび",
 			"english": ["Friday"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "お金",
+			"kana": "おかね",
 			"english": ["money"],
 			"highlight": false
 		}
@@ -722,20 +722,20 @@
 },
 "024": {
 	"kanji":	"土",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["つち"],
+	"onyomi": 	["ド"],
 	"english": 	["soil"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "土曜日",
+			"kana": "ドヨウび",
 			"english": ["Saturday"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "土",
+			"kana": "つち",
 			"english": ["soil"],
 			"highlight": false
 		}
@@ -743,14 +743,14 @@
 },
 "025": {
 	"kanji":	"曜",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["ヨウ"],
 	"english": 	["weekday"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "日曜日",
+			"kana": "ニチヨウび",
 			"english": ["Sunday"],
 			"highlight": true
 		}
@@ -758,26 +758,26 @@
 },
 "026": {
 	"kanji":	"上",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["うえ"],
+	"onyomi": 	["ジョウ"],
 	"english": 	["up"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "上",
+			"kana": "うえ",
 			"english": ["top", "above"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "上手な",
+			"kana": "ジョウズな",
 			"english": ["good at"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "屋上",
+			"kana": "オクジョウ",
 			"english": ["rooftop"],
 			"highlight": false
 		}
@@ -785,26 +785,26 @@
 },
 "027": {
 	"kanji":	"下",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["した"],
+	"onyomi": 	["カ"],
 	"english": 	["down"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "下",
+			"kana": "した",
 			"english": ["under"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "地下鉄",
+			"kana": "チカテツ",
 			"english": ["subway"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "下手な",
+			"kana": "へたな",
 			"english": ["poor at"],
 			"highlight": false
 		}
@@ -812,32 +812,32 @@
 },
 "028": {
 	"kanji":	"中",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["なか"],
+	"onyomi": 	["チュウ", "ジュウ"],
 	"english": 	["middle"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "中",
+			"kana": "なか",
 			"english": ["inside"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "中国",
+			"kana": "チュウゴク",
 			"english": ["China"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "中学",
+			"kana": "チュウガク",
 			"english": ["junior high school"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "一年中",
+			"kana": "イチネンジュウ",
 			"english": ["all year around"],
 			"highlight": false
 		}
@@ -845,20 +845,20 @@
 },
 "029": {
 	"kanji":	"半",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["ハン"],
 	"english": 	["half"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三時半",
+			"kana": "サンジハン",
 			"english": ["half past three"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "半分",
+			"kana": "ハンブン",
 			"english": ["half"],
 			"highlight": false
 		}
