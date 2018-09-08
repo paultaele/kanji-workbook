@@ -1200,26 +1200,26 @@
 
 "044": {
 	"kanji":	"東",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ひがし"],
+	"onyomi": 	["トウ"],
 	"english": 	["east"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "東",
+			"kana": "ひがし",
 			"english": ["east"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "東口",
+			"kana": "ひがしぐち",
 			"english": ["east exit"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "東京",
+			"kana": "トウキョウ",
 			"english": ["Tokyo"],
 			"highlight": false
 		}
@@ -1227,32 +1227,32 @@
 },
 "045": {
 	"kanji":	"西",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["にし"],
+	"onyomi": 	["セイ", "サイ"],
 	"english": 	["west"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "西",
+			"kana": "にし",
 			"english": ["west"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "西口",
+			"kana": "にしぐち",
 			"english": ["west exit"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "北西",
+			"kana": "ホクセイ",
 			"english": ["northwest"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "関西",
+			"kana": "カンサイ",
 			"english": ["Kansai region"],
 			"highlight": false
 		}
@@ -1260,26 +1260,26 @@
 },
 "046": {
 	"kanji":	"南",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["みなみ"],
+	"onyomi": 	["ナン"],
 	"english": 	["south"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "南",
+			"kana": "みなみ",
 			"english": ["south"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "南口",
+			"kana": "みなみぐち",
 			"english": ["south exit"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "南東",
+			"kana": "ナントウ",
 			"english": ["southeast"],
 			"highlight": false
 		}
@@ -1287,32 +1287,32 @@
 },
 "047": {
 	"kanji":	"北",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["きた"],
+	"onyomi": 	["ホク", "ホッ"],
 	"english": 	["north"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "北",
+			"kana": "きた",
 			"english": ["north"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "北口",
+			"kana": "きたぐち",
 			"english": ["north exit"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "東北",
+			"kana": "トウホク",
 			"english": ["Tohoku region"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "北海道",
+			"kana": "ホッカイドウ",
 			"english": ["Hokkaido"],
 			"highlight": false
 		}
@@ -1320,26 +1320,26 @@
 },
 "048": {
 	"kanji":	"口",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ぐち", "くち"],
+	"onyomi": 	["コウ"],
 	"english": 	["mouth"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "北口",
+			"kana": "きたぐち",
 			"english": ["north exit"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "口",
+			"kana": "くち",
 			"english": ["mouth"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "人口",
+			"kana": "ジンコウ",
 			"english": ["population"],
 			"highlight": false
 		}
@@ -1347,38 +1347,38 @@
 },
 "049": {
 	"kanji":	"出",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["で", "だ"],
+	"onyomi": 	["シュッ", "シュツ"],
 	"english": 	["to exit"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "出る",
+			"kana": "でる",
 			"english": ["to exit"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "出口",
+			"kana": "でぐち",
 			"english": ["exit"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "出す",
+			"kana": "だす",
 			"english": ["to take something out"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "出席",
+			"kana": "シュッセキ",
 			"english": ["attendance"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "輸出",
+			"kana": "ユシュツ",
 			"english": ["export"],
 			"highlight": false
 		}
@@ -1386,26 +1386,26 @@
 },
 "050": {
 	"kanji":	"右",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["みぎ"],
+	"onyomi": 	["ウ", "ユウ"],
 	"english": 	["right"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "右",
+			"kana": "みぎ",
 			"english": ["right"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "右折",
+			"kana": "ウセツ",
 			"english": ["right turn"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "左右",
+			"kana": "サユウ",
 			"english": ["right and left"],
 			"highlight": false
 		}
@@ -1413,20 +1413,20 @@
 },
 "051": {
 	"kanji":	"左",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["ひだり"],
+	"onyomi": 	["サ"],
 	"english": 	["left"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "左",
+			"kana": "ひだり",
 			"english": ["left"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "左折",
+			"kana": "サセツ",
 			"english": ["left turn"],
 			"highlight": false
 		}
