@@ -3,6 +3,76 @@
 
 
 
+"+001": {
+	"kanji":	"耳",
+	"kunyomi": 	["みみ"],
+	"onyomi": 	null,
+	"english": 	["ear"],
+	"words":
+	[
+		{
+			"kanji": "耳",
+			"kana": "みみ",
+			"english": ["ear"],
+			"highlight": true
+		}
+	]
+},
+"+002": {
+	"kanji":	"州",
+	"kunyomi": 	["シュウ"],
+	"onyomi": 	null,
+	"english": 	["state"],
+	"words":
+	[
+		{
+			"kanji": "州",
+			"kana": "シュウ",
+			"english": ["state"],
+			"highlight": true
+		},
+		{
+			"kanji": "テキサス州",
+			"kana": "テキサスシュウ",
+			"english": ["Texas"],
+			"highlight": false
+		}
+	]
+},
+"+003": {
+	"kanji":	"昨",
+	"kunyomi": 	["きのう"],
+	"onyomi": 	null,
+	"english": 	["yesterday"],
+	"words":
+	[
+		{
+			"kanji": "昨日",
+			"kana": "きのう",
+			"english": ["yesterday"],
+			"highlight": true
+		}
+	]
+},
+"+004": {
+	"kanji":	"晩",
+	"kunyomi": 	null,
+	"onyomi": 	["バン"],
+	"english": 	["evening", "late"],
+	"words":
+	[
+		{
+			"kanji": "今晩",
+			"kana": "コンバン",
+			"english": ["tonight"],
+			"highlight": true
+		}
+	]
+},
+
+
+
+
 
 "001": {
 	"kanji":	"一",
@@ -3636,20 +3706,20 @@
 
 "132": {
 	"kanji":	"昔",
-	"kunyomi": 	[""],
+	"kunyomi": 	["むかし"],
 	"onyomi": 	null,
 	"english": 	["ancient times"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "昔",
+			"kana": "むかし",
 			"english": ["old times"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "昔話",
+			"kana": "むかしばなし",
 			"english": ["old tale"],
 			"highlight": false
 		}
@@ -3663,26 +3733,26 @@
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "昔々",
+			"kana": "むかしむかし",
 			"english": ["once upon a time"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "人々",
+			"kana": "ひとびと",
 			"english": ["people"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "時々",
+			"kana": "ときどき",
 			"english": ["sometimes"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "色々な",
+			"kana": "いろいろな",
 			"english": ["various"],
 			"highlight": false
 		}
@@ -3690,26 +3760,26 @@
 },
 "134": {
 	"kanji":	"神",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["かみ"],
+	"onyomi": 	["ジン", "シン"],
 	"english": 	["God"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "神さま",
+			"kana": "かみさま",
 			"english": ["God"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "神社",
+			"kana": "ジンジャ",
 			"english": ["shrine"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "神道",
+			"kana": "シントウ",
 			"english": ["Shinto religion"],
 			"highlight": false
 		}
@@ -3717,26 +3787,26 @@
 },
 "135": {
 	"kanji":	"早",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["はや"],
+	"onyomi": 	["ソウ"],
 	"english": 	["early"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "早い",
+			"kana": "はやい",
 			"english": ["early"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "早起きする",
+			"kana": "はやおきする",
 			"english": ["to get up early"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "早朝",
+			"kana": "ソウチョウ",
 			"english": ["early morning"],
 			"highlight": false
 		}
@@ -3744,26 +3814,26 @@
 },
 "136": {
 	"kanji":	"起",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["お"],
+	"onyomi": 	["き"],
 	"english": 	["to get up"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "起きる",
+			"kana": "おきる",
 			"english": ["to get up"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "起こす",
+			"kana": "おこす",
 			"english": ["to wake someone up"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "起立する",
+			"kana": "キリツする",
 			"english": ["to stand up"],
 			"highlight": false
 		}
@@ -3771,26 +3841,26 @@
 },
 "137": {
 	"kanji":	"牛",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["うし"],
+	"onyomi": 	["ギュウ"],
 	"english": 	["cow"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "牛",
+			"kana": "うし",
 			"english": ["cow"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "牛乳",
+			"kana": "ギュウニュウ",
 			"english": ["milk"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "牛肉",
+			"kana": "ギュウにく",
 			"english": ["beef"],
 			"highlight": false
 		}
@@ -3798,26 +3868,26 @@
 },
 "138": {
 	"kanji":	"使",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["つか"],
+	"onyomi": 	["シ"],
 	"english": 	["to use"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "使う",
+			"kana": "つかう",
 			"english": ["to use"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "大使",
+			"kana": "タイシ",
 			"english": ["ambassador"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "使用中",
+			"kana": "シヨウチュウ",
 			"english": ["'Occupied'"],
 			"highlight": false
 		}
@@ -3825,26 +3895,26 @@
 },
 "139": {
 	"kanji":	"働",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["はたら", "ばたら"],
+	"onyomi": 	["ドウ"],
 	"english": 	["to work"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "働く",
+			"kana": "はたらく",
 			"english": ["to work"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "共働き",
+			"kana": "ともばたらき",
 			"english": ["both husband and wife working for a living"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "労働",
+			"kana": "ロウドウ",
 			"english": ["labor"],
 			"highlight": false
 		}
@@ -3852,26 +3922,26 @@
 },
 "140": {
 	"kanji":	"連",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["つ"],
+	"onyomi": 	["レン"],
 	"english": 	["to link"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "連れて帰る",
+			"kana": "つれてかえる",
 			"english": ["to take home"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "国連",
+			"kana": "コクレン",
 			"english": ["United Nations"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "連休",
+			"kana": "レンキュウ",
 			"english": ["consecutive holidays"],
 			"highlight": false
 		}
@@ -3879,38 +3949,38 @@
 },
 "141": {
 	"kanji":	"別",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["わか"],
+	"onyomi": 	["ベツ"],
 	"english": 	["to separate"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "別れる",
+			"kana": "わかれる",
 			"english": ["to separate"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "別に",
+			"kana": "ベツに",
 			"english": ["not in particular"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "特別な",
+			"kana": "トクベツな",
 			"english": ["special"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "差別",
+			"kana": "サベツ",
 			"english": ["discrimination"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "別々に",
+			"kana": "ベツベツに",
 			"english": ["separately"],
 			"highlight": false
 		}
@@ -3918,32 +3988,32 @@
 },
 "142": {
 	"kanji":	"度",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	null,
+	"onyomi": 	["ド"],
 	"english": 	["time", "degrees"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": null,
+			"kanji": "一度",
+			"kana": "イチド",
 			"english": ["once"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "今度",
+			"kana": "コンド",
 			"english": ["near future"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "温度",
+			"kana": "オンド",
 			"english": ["temperature"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "三十度",
+			"kana": "サンジュウド",
 			"english": ["30 degrees"],
 			"highlight": false
 		}
@@ -3951,65 +4021,65 @@
 },
 "143": {
 	"kanji":	"赤",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["あか"],
+	"onyomi": 	["セキ"],
 	"english": 	["red"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "赤",
+			"kana": "あか",
 			"english": ["red color"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "赤い",
+			"kana": "あかい",
 			"english": ["red"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "赤ちゃん",
+			"kana": "あかちゃん",
+			"english": ["baby"],
+			"highlight": false
+		},
+		{
+			"kanji": "赤道",
+			"kana": "セキドウ",
 			"english": ["the equator"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "赤十字",
+			"kana": "セキジュウジ",
 			"english": ["the Red Cross"],
-			"highlight": false
-		},
-		{
-			"kanji": "",
-			"kana": "",
-			"english": [""],
 			"highlight": false
 		}
 	]
 },
 "144": {
 	"kanji":	"青",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["あお"],
+	"onyomi": 	["セイ"],
 	"english": 	["blue"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "青",
+			"kana": "あお",
 			"english": ["blue color"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "青い",
+			"kana": "あおい",
 			"english": ["blue"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "青年",
+			"kana": "セイネン",
 			"english": ["youth"],
 			"highlight": false
 		}
@@ -4017,32 +4087,32 @@
 },
 "145": {
 	"kanji":	"色",
-	"kunyomi": 	[""],
-	"onyomi": 	[""],
+	"kunyomi": 	["いろ"],
+	"onyomi": 	["シキ", "ショク"],
 	"english": 	["color"],
 	"words":
 	[
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "色",
+			"kana": "いろ",
 			"english": ["color"],
 			"highlight": true
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "色々な",
+			"kana": "いろいろな",
 			"english": ["various"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "景色",
+			"kana": "ケシキ",
 			"english": ["scenary"],
 			"highlight": false
 		},
 		{
-			"kanji": "",
-			"kana": "",
+			"kanji": "特色",
+			"kana": "トクショク",
 			"english": ["characteristic"],
 			"highlight": false
 		}
