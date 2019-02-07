@@ -32,14 +32,10 @@ include "nocache.php";
     $signup_lastname = trim($_REQUEST['lastname_input']);
     $signup_code = trim($_REQUEST['code_input']);
     $signup_challenge = trim($_REQUEST['challenge_input']);
+    $signup_usertype = "student";
 
     // password is empty => redirect to signup page
     if ($signup_password === "") { header('Location:signup.php'); }
-
-    // code is correct => usertype is student
-    $signup_usertype = "guest";
-    if (strtolower($signup_code) === "maroon") { $signup_usertype = "student"; }
-    else { header('Location:signup.php'); } // disable guest signup for now
 
     // challenge is incorrect => redirect to signup page
     if (strtolower($signup_challenge) !== "tokyo") { header('Location:signup.php'); }

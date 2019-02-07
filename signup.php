@@ -51,10 +51,10 @@
         <br>
 
         <!-- invite code input -->
-        <label for="code_input">Enter Invite Code:</label>
+        <!-- <label for="code_input">Enter Invite Code:</label>
         <input type="password" id="code_input" name="code_input">
 
-        <br><br>
+        <br><br> -->
 
         <!-- challenge input -->
         <label id="challenge_label" for="challenge_input">Challenge:
