@@ -25,6 +25,7 @@ function outputGradebook(entries) {
   var th     = "<th>";
   var th_    = "</th>"; 
   var td     = "<td>";
+  var tdName = "<td style='text-align: left'>";
   var td_    = "</td>";
   var br     = "<br>";
 
@@ -40,7 +41,7 @@ function outputGradebook(entries) {
   // var usernameClick = "username";
   var lastnameClick = "<a href='#' onclick='displaySorted(\"lastname\");'>lastname</a>";
   var firstnameClick = "<a href='#' onclick='displaySorted(\"firstname\");'>firstname</a>"
-  var usernameClick = "<a href='#' onclick='displaySorted(\"username\");'>username</a>"
+  // var usernameClick = "<a href='#' onclick='displaySorted(\"username\");'>username</a>"
   
   // start table row
   output += tr;
@@ -48,7 +49,7 @@ function outputGradebook(entries) {
   // display headers for lastname, firstname, and username
   output += th + lastnameClick + th_;
   output += th + firstnameClick + th_;
-  output += th + usernameClick + th_;
+  // output += th + usernameClick + th_;
 
   // display headers for scores
   for (var i = 0; i < firstEntry.scores.length; ++i) {
@@ -70,9 +71,9 @@ function outputGradebook(entries) {
     output += tr;
 
     // display lastname, firstname, and username
-    output += td + entry.lastname + td_;
-    output += td + entry.firstname + td_;
-    output += td + entry.username + td_;
+    output += tdName + entry.lastname + td_;
+    output += tdName + entry.firstname + td_;
+    // output += td + entry.username + td_;
 
     // display scores
     for (var j = 0; j < entry.scores.length; ++j) {
