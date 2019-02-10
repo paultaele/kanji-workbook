@@ -9,6 +9,9 @@ function init() {
   // get the gradebook entries
   entries = getEntries();
 
+  // sort entries by last name
+  entries = sortEntries(entries, "lastname");
+
   // output gradebook
   outputGradebook(entries);
 }
@@ -99,37 +102,52 @@ function displaySorted(target) {
   // copy entries
   var es = JSON.parse(JSON.stringify(entries));
 
-  // sort
+  // sort entries
+  es = sortEntries(es, target);
+  // es.sort(function(a, b) {
+  //   // get values
+  //   var first = a[target];
+  //   var second = b[target]; 
+
+  //   // handle null cases
+  //   if (first === null) { return -1; }
+  //   if (second === null) { return 1; }
+
+  //   // make values into lowercase
+  //   first = first.toLowerCase();
+  //   second = second.toLowerCase();
+
+  //   // local sort
+  //   if (first < second) { return -1; }
+  //   if (first > second) { return  1; }
+  //   return 0;
+  // });
+
+  outputGradebook(es);
+}
+
+function sortEntries(es, target) {
+  // sort entries
   es.sort(function(a, b) {
-    if (a[target] < b[target]) { return -1; }
-    if (a[target] > b[target]) { return  1; }
+    // get values
+    var first = a[target];
+    var second = b[target]; 
+
+    // handle null cases
+    if (first === null) { return -1; }
+    if (second === null) { return 1; }
+
+    // make values into lowercase
+    first = first.toLowerCase();
+    second = second.toLowerCase();
+
+    // local sort
+    if (first < second) { return -1; }
+    if (first > second) { return  1; }
     return 0;
   });
 
-  // if (target === "lastname") {
-  //   es.sort(function(a, b) {
-  //     if (a.lastname < b.lastname) { return -1; }
-  //     if (a.username > b.username) { return  1; }
-  //     return 0;
-  //   });
-  // }
-  // else if (target === "firstname") {
-  //   es.sort(function(a, b) {
-  //     if (a.firstname < b.firstname) { return -1; }
-  //     if (a.firstname > b.firstname) { return  1; }
-  //     return 0;
-  //   });
-  // }
-
-  // else if (target === "firstname") {
-  //   es.sort(function(a, b) {
-  //     if (a.firstname < b.firstname) { return -1; }
-  //     if (a.firstname > b.firstname) { return  1; }
-  //     return 0;
-  //   });
-  // }
-
-  outputGradebook(es);
+  return es;
 }
 
 function getEntries(gradebook) {
