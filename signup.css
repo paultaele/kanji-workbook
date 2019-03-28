@@ -59,3 +59,9 @@ label {
   width: 650px;
   text-align: center;
 }
+
+select.options_style {
+  font-size: 1.25em;
+  /* height: 1.5em; */
+  /* -webkit-appearance: none; */
+}

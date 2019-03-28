@@ -30,15 +30,28 @@ include "nocache.php";
     $signup_password = trim($_REQUEST['password_input']);
     $signup_firstname = trim($_REQUEST['firstname_input']);
     $signup_lastname = trim($_REQUEST['lastname_input']);
-    $signup_code = trim($_REQUEST['code_input']);
+    // $signup_section = $_GET['section_input'];
+    // $signup_code = trim($_REQUEST['code_input']);
     $signup_challenge = trim($_REQUEST['challenge_input']);
     $signup_usertype = "student";
 
+    // username is empty => redirect to signup page
+    if ($signup_username === "") {
+      header('Location:signup.php');
+      exit;
+    }
+
     // password is empty => redirect to signup page
-    if ($signup_password === "") { header('Location:signup.php'); }
+    if ($signup_password === "") {
+      header('Location:signup.php');
+      exit;
+    }
 
     // challenge is incorrect => redirect to signup page
-    if (strtolower($signup_challenge) !== "tokyo") { header('Location:signup.php'); }
+    if (strtolower($signup_challenge) !== "tokyo") {
+      header('Location:signup.php');
+      exit;
+    }
 
     // create connection
     include 'db.php';
