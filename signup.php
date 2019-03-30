@@ -47,15 +47,16 @@
         <br><br>
 
         <!-- Enter Last Name -->
+        <!-- first name input -->
         <label for="lastname_input">Enter Last Name:<sup>*</sup></label>
         <input type="text" id="lastname_input" name="lastname_input" required>
 
         <br><br>
 
-        <!-- Select Section: -->
-        <!-- last name input -->
-        <label for="section_input">Select Section:<sup>*</sup></label>
-        <select id="section_input" class="options_style" required>
+        <!-- Select Class: -->
+        <!-- class input -->
+        <label for="classname_input">Select Class:<sup>*</sup></label>
+        <select id="classname_input" name="classname_input" class="options_style" required>
           <option value=""></option>
           <option value="JAPN 101">JAPN 101</option>
           <option value="JAPN 102">JAPN 102</option>
