@@ -76,9 +76,9 @@
         <label for="semester_input">Select Semester:<sup>*</sup></label>
         <select id="semester_input" name="semester_input" class="options_style" required>
           <option value=""></option>
-          <option value="A">Fall</option>
-          <option value="B">Spring</option>
-          <option value="C">Summer</option>
+          <option value="A">Spring</option>
+          <option value="B">Summer</option>
+          <option value="C">Fall</option>
         </select>
 
         <br><br>
