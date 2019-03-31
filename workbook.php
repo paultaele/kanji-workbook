@@ -117,7 +117,7 @@
     <!-- writing area -->
     <div id="writingarea">
 
-      <!-- transition buttons -->
+      <!-- transition buttons: back, next -->
       <div id="transitionbuttons">
         <input type="submit" id="backButton" class="elementlook" value="Back" onclick="backButton(canvas, context);">
         <input type="submit" id="nextButton" class="elementlook" value="Next" onclick="nextButton(canvas, context);">
@@ -129,14 +129,14 @@
       <!-- legend area-->
       <div id="legend_area" hidden></div>
 
-      <!-- editing buttons -->
+      <!-- editing buttons: clear, undo, assess -->
       <div id="editingbuttons">
         <input type="submit" id="clearButton" class="elementlook" value="Clear" onclick="clearButton(canvas, context);">
         <input type="submit" id="undoButton" class="elementlook" value="Undo" onclick="undoButton(canvas, context);">
         <input type="submit" id="assessButton" class="elementlook" value="Assess" onclick="assessButton(canvas, context);">
       </div>
 
-      <!-- demonstration buttons -->
+      <!-- demonstration buttons: demo, steps -->
       <div>
         <input type="submit" id="demoButton" class="elementlook" value="Demo" onclick="demoButton(canvas, context);">
         <input type="submit" id="stepsButton" class="elementlook" value="Steps" onclick="stepsButton(canvas, context);">
