@@ -53,15 +53,32 @@
 
         <br><br>
 
-        <!-- Select Class: -->
-        <!-- class input -->
-        <label for="course_input">Select Class:<sup>*</sup></label>
+        <!-- Select Course: -->
+        <!-- course input -->
+        <label for="course_input">Select Course:<sup>*</sup></label>
         <select id="course_input" name="course_input" class="options_style" required>
           <option value=""></option>
           <option value="101">JAPN 101</option>
           <option value="102">JAPN 102</option>
           <option value="201">JAPN 201</option>
           <option value="202">JAPN 202</option>
+        </select>
+
+        <br><br>
+
+        <!-- Select Year: -->
+        <!-- year input -->
+        <label id="year_label" for="year_input">Enter Year:<sup>*</sup></label>
+        <input type="text" id="year_input" name="year_input" maxlength="4" size="4" required pattern="20[1-9][0-9]">
+
+        <!-- Select Semester: -->
+        <!-- semester input -->
+        <label for="semester_input">Select Semester:<sup>*</sup></label>
+        <select id="semester_input" name="semester_input" class="options_style" required>
+          <option value=""></option>
+          <option value="A">Fall</option>
+          <option value="B">Spring</option>
+          <option value="C">Summer</option>
         </select>
 
         <br><br>

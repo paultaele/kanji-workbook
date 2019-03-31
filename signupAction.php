@@ -31,6 +31,8 @@ include "nocache.php";
     $signup_firstname = trim($_REQUEST['firstname_input']);
     $signup_lastname = trim($_REQUEST['lastname_input']);
     $signup_course = $_GET['course_input'];
+    $signup_semester = trim($_REQUEST['year_input']) . $_GET['semester_input'];
+    // $signup_semester = $_GET['semester_input'];
     // $signup_code = trim($_REQUEST['code_input']);
     $signup_challenge = trim($_REQUEST['challenge_input']);
     $signup_usertype = "student";
@@ -77,10 +79,11 @@ include "nocache.php";
     }
 
     // add new account to database table
+    // username | password | usertype | firstname | lastname | course | semester
     $query = "INSERT INTO $database_table
-      (username, password, usertype, firstname, lastname, course)
+      (username, password, usertype, firstname, lastname, course, semester)
       VALUES
-      ('$signup_username', '$signup_password', '$signup_usertype', '$signup_firstname', '$signup_lastname', '$signup_course')
+      ('$signup_username', '$signup_password', '$signup_usertype', '$signup_firstname', '$signup_lastname', '$signup_course', '$signup_semester')
     ";
     $result = $mysqli->query($query);
     if (!$result) { echo "<p>Error getting $database_table from the database: " . mysql_error() . "</p>"; }

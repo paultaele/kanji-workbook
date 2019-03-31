@@ -44,15 +44,17 @@ function outputGradebook(entries) {
   // var usernameClick = "username";
   var lastnameClick = "<a href='#' onclick='displaySorted(\"lastname\");'>lastname</a>";
   var firstnameClick = "<a href='#' onclick='displaySorted(\"firstname\");'>firstname</a>";
-  var courseClick = "<a href='#' onclick='displaySorted(\"course\");'>course</a>"
+  var courseClick = "<a href='#' onclick='displaySorted(\"course\");'>course</a>";
+  var semesterClick = "<a href='#' onclick='displaySorted(\"semester\");'>semester</a>";
   
   // start table row
   output += tr;
 
-  // display headers for lastname, firstname, and course
+  // display headers
   output += th + lastnameClick + th_;
   output += th + firstnameClick + th_;
   output += th + courseClick + th_;
+  output += th + semesterClick + th_;
 
   // display headers for scores
   for (var i = 0; i < firstEntry.scores.length; ++i) {
@@ -73,10 +75,11 @@ function outputGradebook(entries) {
     // start table row
     output += tr;
 
-    // display lastname, firstname, and course
+    // display contents
     output += tdName + entry.lastname + td_;
     output += tdName + entry.firstname + td_;
     output += tdName + entry.course + td_;
+    output += tdName + entry.semester + td_;
     // output += td + entry.username + td_;
 
     // display scores
@@ -170,13 +173,14 @@ function getEntries(gradebook) {
     var firstname = row.firstname;
     var lastname = row.lastname;
     var course = row.course;
+    var semester = row.semester;
 
     // get the entry's scores
     var scores = [];
     for (var key in row) {
 
       // skip indirect keys and non-score keys
-      if (!row.hasOwnProperty(key) || key === "username" || key === "usertype" || key === "firstname" || key === "lastname" || key === "course") { continue; }
+      if (!row.hasOwnProperty(key) || key === "username" || key === "usertype" || key === "firstname" || key === "lastname" || key === "course" || key === "semester") { continue; }
       
       // add the score to the collection
       var value = row[key];
@@ -198,6 +202,7 @@ function getEntries(gradebook) {
       firstname: firstname,
       lastname: lastname,
       course: course,
+      semester: semester,
       scores: scores
     };
     entries.push(entry);

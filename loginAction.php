@@ -27,6 +27,7 @@ while ($entry = mysqli_fetch_assoc($result)) {
   $entry_firstname = trim($entry['firstname']);
   $entry_lastname = trim($entry['lastname']);
   $entry_course = trim($entry['course']);
+  $entry_semester = trim($entry['semester']);
 
   // get login success
   $login_success = $entry_username === $login_username && $entry_password === $login_password;
@@ -37,6 +38,7 @@ while ($entry = mysqli_fetch_assoc($result)) {
     $login_firstname = $entry_firstname;
     $login_lastname = $entry_lastname;
     $login_course = $entry_course;
+    $login_semester = $entry_semester;
     break; 
   }
 }
@@ -95,9 +97,9 @@ if ($login_usertype !== "guest") {
   $database_table = "scores";
   if (!$found_flag) {
     $query = "INSERT INTO $database_table
-      (username, usertype, firstname, lastname, course)
+      (username, usertype, firstname, lastname, course, semester)
       VALUES
-      ('$login_username', '$login_usertype', '$login_firstname', '$login_lastname', '$login_course')
+      ('$login_username', '$login_usertype', '$login_firstname', '$login_lastname', '$login_course', '$login_semester')
     ";
     $result = $mysqli->query($query);
     if (!$result) { echo "<p>Error getting scores from the database: " . mysql_error() . "</p>"; }
