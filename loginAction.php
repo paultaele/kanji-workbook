@@ -26,7 +26,7 @@ while ($entry = mysqli_fetch_assoc($result)) {
   $entry_usertype = trim($entry['usertype']);
   $entry_firstname = trim($entry['firstname']);
   $entry_lastname = trim($entry['lastname']);
-  $entry_classname = trim($entry['classname']);
+  $entry_course = trim($entry['course']);
 
   // get login success
   $login_success = $entry_username === $login_username && $entry_password === $login_password;
@@ -36,7 +36,7 @@ while ($entry = mysqli_fetch_assoc($result)) {
     $login_usertype = $entry_usertype;
     $login_firstname = $entry_firstname;
     $login_lastname = $entry_lastname;
-    $login_classname = $entry_classname;
+    $login_course = $entry_course;
     break; 
   }
 }
@@ -69,7 +69,6 @@ if (!$login_success) {
 setcookie("username", $login_username, time() + 3600, "/"); // 86400 = 1 day
 setcookie("usertype", $login_usertype, time() + 3600, "/"); // 86400 = 1 day
 setcookie("firstname", $login_firstname, time() + 3600, "/"); // 86400 = 1 day
-// setcookie("classname", $login_classname, time() + 3600, "/"); // 86400 = 1 day
 
 // add scores row for new non-guest usertypes
 if ($login_usertype !== "guest") {
@@ -96,9 +95,9 @@ if ($login_usertype !== "guest") {
   $database_table = "scores";
   if (!$found_flag) {
     $query = "INSERT INTO $database_table
-      (username, usertype, firstname, lastname, classname)
+      (username, usertype, firstname, lastname, course)
       VALUES
-      ('$login_username', '$login_usertype', '$login_firstname', '$login_lastname', '$login_classname')
+      ('$login_username', '$login_usertype', '$login_firstname', '$login_lastname', '$login_course')
     ";
     $result = $mysqli->query($query);
     if (!$result) { echo "<p>Error getting scores from the database: " . mysql_error() . "</p>"; }

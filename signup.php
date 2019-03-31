@@ -55,13 +55,13 @@
 
         <!-- Select Class: -->
         <!-- class input -->
-        <label for="classname_input">Select Class:<sup>*</sup></label>
-        <select id="classname_input" name="classname_input" class="options_style" required>
+        <label for="course_input">Select Class:<sup>*</sup></label>
+        <select id="course_input" name="course_input" class="options_style" required>
           <option value=""></option>
-          <option value="JAPN 101">JAPN 101</option>
-          <option value="JAPN 102">JAPN 102</option>
-          <option value="JAPN 201">JAPN 201</option>
-          <option value="JAPN 202">JAPN 202</option>
+          <option value="101">JAPN 101</option>
+          <option value="102">JAPN 102</option>
+          <option value="201">JAPN 201</option>
+          <option value="202">JAPN 202</option>
         </select>
 
         <br><br>
