@@ -74,9 +74,21 @@
   <div id="scoresarea" hidden>
 
     <form>
+      <!-- scores state area -->
       <div id="scores_state_area" hidden>
-        <!-- scores state area -->
         <textarea id="scores_state_input" name="scores_state_input" cols="50" rows="10"></textarea>
+        <br><br>
+      </div>
+
+      <!-- file name area -->
+      <div id="file_name_area" hidden>
+        <textarea id="file_name_input" name="file_name_input"></textarea>
+        <br><br>
+      </div>
+
+      <!-- sketch data area -->
+      <div id="sketch_data_area" hidden>
+        <textarea id="sketch_data_input" name="sketch_data_input"></textarea>
         <br><br>
       </div>
 

@@ -14,6 +14,24 @@ $username_value = $_COOKIE[$username_key];
 $scores_state_input = trim($_REQUEST['scores_state_input']);
 $scores_state = json_decode($scores_state_input);
 
+// retrieve the file and path name
+$file_name = trim($_REQUEST['file_name_input']);
+$sketch_file_name = "sketch" . $file_name;
+$sketch_path_name = __DIR__ . "/sketches/" . $sketch_file_name;
+
+// retrieve the sketch data
+$sketch_data = trim($_REQUEST['sketch_data_input']);
+
+// !!! write contents to file
+// source: https://www.w3schools.com/php/php_file_create.asp
+$myfile = fopen($sketch_path_name, "w") or die("Unable to open file!");
+$txt = $sketch_data;
+fwrite($myfile, $txt);
+// $txt = "Minnie Mouse\n";
+// fwrite($myfile, $txt);
+fclose($myfile);
+// END TEMP
+
 // set database table
 $database_table = "scores";
 

@@ -1351,7 +1351,7 @@ function assessButton() {
   var originalInputStrokes = CanvasData.strokes;
   var theIndex = interactionMode === InteractionEnum.quiz ? Quiz.imageIndices[imageIndex] : imageIndex;
   var originalModelStrokes = modelsData[theIndex].strokes;
-  
+
   // no drawn strokes ==> quit function
   if (originalInputStrokes.length === 0) { return; }
 
@@ -2203,6 +2203,20 @@ function nextButton(canvas, context) {
   // #region Quiz Interaction Mode
   if (interactionMode === InteractionEnum.quiz) {
 
+    // get the input and model sketch's strokes
+    var originalInputStrokes = CanvasData.strokes;
+    var theIndex = interactionMode === InteractionEnum.quiz ? Quiz.imageIndices[imageIndex] : imageIndex;
+    var originalModelStrokes = modelsData[theIndex].strokes;
+
+
+
+    // update sketch data collection to hidden field
+    sketchDataCollection.push(originalInputStrokes);
+    var sketchDataInput = document.getElementById("sketch_data_input");
+    sketchDataInput.value = JSON.stringify(sketchDataCollection, null, 2); // JSON-pretty format
+
+
+
     // disable next button
     document.getElementById("nextButton").disabled = true;
 
@@ -2895,7 +2909,8 @@ function goButton(canvas, context) {
   var selected = setSelect.value;
 
   // ignore non-set selections
-  if (selected === "XX") { return; }
+  var nonSetText = "--- Select Set ---";
+  if (selected === nonSetText) { return; }
 
   // set the new set
   set = selected;
@@ -2909,11 +2924,36 @@ function goButton(canvas, context) {
   reset();
   clearAction(canvas, context);
 
-  // get and set interaction mode
+  // get interaction modes
   var practiceInput = document.getElementById("practiceInput");
   var quizInput = document.getElementById("quizInput");
-  if (practiceInput.checked) { interactionMode = InteractionEnum.practice; }
-  else if (quizInput.checked) { interactionMode = InteractionEnum.quiz; }
+  
+  // case: practice mode
+  if (practiceInput.checked) {
+    interactionMode = InteractionEnum.practice;
+  }
+
+  // case: quiz mode
+  else if (quizInput.checked) {
+
+    // set interaction mode
+    interactionMode = InteractionEnum.quiz;
+
+    // create the filename postfix
+    var username = getCookieValue("username");
+    var setname = "set" + selected;
+    var datetime = Date.now();
+    var filename = "_" + setname + "_" +  username + "_" + datetime + ".json";
+
+    // clear sketch data collection
+    sketchDataCollection = [];
+
+    // set contents of file name and sketch data hidden fields
+    var fileNameInput = document.getElementById("file_name_input");
+    var sketchDataInput = document.getElementById("sketch_data_input");
+    fileNameInput.value = filename; // add file name postfix
+    sketchDataInput.value = "";     // clear sketch data
+  }
 
   // set interface mode
   setInteractionMode(interactionMode);
@@ -3056,7 +3096,6 @@ function setInteractionMode(mode) {
 
 }
 
-// TODO
 function outputVocabulary(interpretation) {
 
   // get vocabulary area and clear
@@ -3204,6 +3243,19 @@ function readFileSync(fileName) {
   request.open("GET", fileName, false);
   request.send();
   return content;
+}
+
+// #endregion
+
+// #region Helper Functions
+
+function getCookieValue(input) {
+
+  var cookie = document.cookie;
+  var tokens = cookie.split(/[\s;=]+/);
+  var index = tokens.findIndex(function(element) { return element === input; });
+  var value = tokens[index + 1];
+  return value;
 }
 
 // #endregion
@@ -3376,6 +3428,9 @@ var Backgrounds = {
   quizImage: "url(assets/bg_lightgrey.jpg)",
   quizColor: "#E5E5E5"
 };
+
+// The lesson results.
+var sketchDataCollection;
 
 // #endregion
 
