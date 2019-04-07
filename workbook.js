@@ -2208,10 +2208,34 @@ function nextButton(canvas, context) {
     var theIndex = interactionMode === InteractionEnum.quiz ? Quiz.imageIndices[imageIndex] : imageIndex;
     var originalModelStrokes = modelsData[theIndex].strokes;
 
+    // !!! TODO: put 'originalInputStrokes' into a sketch object
 
+    var modelData = modelsData[theIndex];
+
+    var sketch = {};
+    sketch.id = generateUuidv4();
+    sketch.time = originalInputStrokes[0].time;
+    sketch.domain = [modelData.domain];
+    sketch.canvasWidth = modelData.canvasWidth;
+    sketch.canvasHeight = modelData.canvasHeight;
+    sketch.strokes = originalInputStrokes;
+    sketch.shapes = [];
+
+    var shape = {};
+    shape.time = originalInputStrokes[0].time;
+    shape.interpretation = modelData.shapes[0].interpretation;
+    shape.confidence = "1.0";
+    shape.subElements = [];
+    for (var i = 0; i < sketch.strokes.length; ++i) {
+      var stroke = sketch.strokes[i];
+      shape.subElements.push(stroke.id);
+    }
+    sketch.shapes.push(shape);
+    // !!!
 
     // update sketch data collection to hidden field
-    sketchDataCollection.push(originalInputStrokes);
+    // sketchDataCollection.push(originalInputStrokes);
+    sketchDataCollection.push(sketch);
     var sketchDataInput = document.getElementById("sketch_data_input");
     sketchDataInput.value = JSON.stringify(sketchDataCollection, null, 2); // JSON-pretty format
 
