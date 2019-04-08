@@ -108,24 +108,6 @@ function displaySorted(target) {
 
   // sort entries
   es = sortEntries(es, target);
-  // es.sort(function(a, b) {
-  //   // get values
-  //   var first = a[target];
-  //   var second = b[target]; 
-
-  //   // handle null cases
-  //   if (first === null) { return -1; }
-  //   if (second === null) { return 1; }
-
-  //   // make values into lowercase
-  //   first = first.toLowerCase();
-  //   second = second.toLowerCase();
-
-  //   // local sort
-  //   if (first < second) { return -1; }
-  //   if (first > second) { return  1; }
-  //   return 0;
-  // });
 
   outputGradebook(es);
 }
@@ -174,6 +156,9 @@ function getEntries(gradebook) {
     var lastname = row.lastname;
     var course = row.course;
     var semester = row.semester;
+
+    // skip non-Spring 2019 semester students
+    console.log("semester: " + semester);
 
     // get the entry's scores
     var scores = [];

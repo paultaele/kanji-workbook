@@ -70,16 +70,16 @@
         <!-- Select Year: -->
         <!-- year input -->
         <label id="year_label" for="year_input">Enter Year:<sup>*</sup></label>
-        <input value="2019" type="text" id="year_input" name="year_input" maxlength="4" size="4" required pattern="20[1-9][0-9]" disabled>
+        <input value="2019" type="text" id="year_input" name="year_input" maxlength="4" size="4" required pattern="20[1-9][0-9]" readonly>
 
         <!-- Select Semester: -->
         <!-- semester input -->
         <label for="semester_input">Select Semester:<sup>*</sup></label>
-        <select id="semester_input" name="semester_input" class="options_style" required disabled>
-          <option value=""></option>
+        <select id="semester_input" name="semester_input" class="options_style" required readonly>
+          <option disabled value=""></option>
           <option value="A" selected>Spring</option>
-          <option value="B">Summer</option>
-          <option value="C">Fall</option>
+          <option disabled value="B">Summer</option>
+          <option disabled value="C">Fall</option>
         </select>
 
         <br><br>
