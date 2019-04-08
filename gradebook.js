@@ -158,7 +158,7 @@ function getEntries(gradebook) {
     var semester = row.semester;
 
     // skip non-Spring 2019 semester students
-    console.log("semester: " + semester);
+    if (semester !== "2019A") { continue; }
 
     // get the entry's scores
     var scores = [];
