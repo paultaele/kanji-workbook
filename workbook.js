@@ -1410,6 +1410,7 @@ function assessButton() {
   Results.strokeClosenessResults = strokeClosenessResults;
   Results.symbolSpeedResults = symbolSpeedResults;
 
+  //
   var feedbackButton = document.getElementById("feedbackButton");
   if (feedbackButton.value === "Details") {
     outputSummary(Results);
@@ -1420,6 +1421,22 @@ function assessButton() {
 
   // case: quiz mode
   if (interactionMode === InteractionEnum.quiz) {
+
+    // get model
+    var modelData = modelsData[theIndex];
+
+    // create assessment
+    var assessment = {};
+    assessment.interpretation = modelData.shapes[0].interpretation;
+    for (const key of Object.keys(Results.stars)) {
+      var value = Results.stars[key];
+      assessment[key] = value;
+    }
+
+    // store updated assessments to hidden field
+    assessmentDataCollection.push(assessment);
+    var assessmentDataInput = document.getElementById("assessment_data_input");
+    assessmentDataInput.value = JSON.stringify(assessmentDataCollection, null, 2); // JSON-pretty format
 
     // disable assess, undo, and clear button
     document.getElementById("assessButton").disabled = true;
@@ -2966,8 +2983,9 @@ function goButton(canvas, context) {
     var datetime = Date.now();
     var filename = "_" + setname + "_" +  username + "_" + datetime + ".json";
 
-    // clear sketch data collection
+    // clear sketch and assessment data collections
     sketchDataCollection = [];
+    assessmentDataCollection = [];
 
     // set contents of file name and sketch data hidden fields
     var fileNameInput = document.getElementById("file_name_input");
@@ -3450,8 +3468,9 @@ var Backgrounds = {
   quizColor: "#E5E5E5"
 };
 
-// The lesson results.
+// The lesson and assessment results.
 var sketchDataCollection;
+var assessmentDataCollection;
 
 // #endregion
 

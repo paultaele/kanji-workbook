@@ -92,6 +92,12 @@
         <br><br>
       </div>
 
+      <!-- assessment data area -->
+      <div id="assessment_data_area" hidden>
+        <textarea id="assessment_data_input" name="assessment_data_input"></textarea>
+        <br><br>
+      </div>
+
       <!-- continue button -->
       <input type="submit" id="continue_button" class="elementlook" value="Continue" 
         formaction="scoresSubmit.php" formmethod="POST"

@@ -17,20 +17,23 @@ $scores_state = json_decode($scores_state_input);
 // retrieve the file and path name
 $file_name = trim($_REQUEST['file_name_input']);
 $sketch_file_name = "sketch" . $file_name;
+$assessments_file_name = "assessment" . $file_name;
 $sketch_path_name = __DIR__ . "/sketches/" . $sketch_file_name;
+$assessments_path_name = __DIR__ . "/assessments/" . $assessments_file_name;
 
-// retrieve the sketch data
+// retrieve the sketch and assessment data
 $sketch_data = trim($_REQUEST['sketch_data_input']);
+$assessment_data = trim($_REQUEST['assessment_data_input']);
 
-// !!! write contents to file
+// write contents to file
 // source: https://www.w3schools.com/php/php_file_create.asp
 $myfile = fopen($sketch_path_name, "w") or die("Unable to open file!");
 $txt = $sketch_data;
 fwrite($myfile, $txt);
-// $txt = "Minnie Mouse\n";
-// fwrite($myfile, $txt);
+$myfile = fopen($assessments_path_name, "w") or die("Unable to open file!");
+$txt = $assessment_data;
+fwrite($myfile, $txt);
 fclose($myfile);
-// END TEMP
 
 // set database table
 $database_table = "scores";
