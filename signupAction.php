@@ -102,7 +102,7 @@ include "nocache.php";
     echo "<br>";
     echo "<span class='large_text_look'><strong>password:</strong> " . $signup_password . "</span>";
     echo "<br><br>";
-    echo "<span class='small_text_look'>Click <a href='index.php'>here</a> to login.</span>";
+    echo "<span class='small_text_look'>Click <a href='index.php'>here</a> to log in.</span>";
     echo "</fieldset>";
 
     // close connection
