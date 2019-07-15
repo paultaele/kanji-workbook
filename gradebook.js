@@ -157,8 +157,8 @@ function getEntries(gradebook) {
     var course = row.course;
     var semester = row.semester;
 
-    // skip non-Spring 2019 semester students
-    if (semester !== "2019A") { continue; }
+    // skip non-Spring 2019 semester students and self-study students
+    if (semester !== "2019A" || course === "Self") { continue; }
 
     // get the entry's scores
     var scores = [];

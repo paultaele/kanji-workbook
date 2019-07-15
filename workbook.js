@@ -1975,9 +1975,14 @@ function calculateStars(inputStrokes, modelStrokes, matches, strokeValidResults,
     var numResults = strokeOrderResults.length;
     for (var i = 0; i < numResults; ++i) {
       var result = strokeOrderResults[i];
-      if (result === 0) { ++corrects; }
+      if (result === 0) {
+        ++corrects; 
+      }
       else {
-        if (Math.abs(result) > diff); { diff = Math.abs(result) ;}
+        // if (Math.abs(result) > diff); { diff = Math.abs(result) ;}
+        if (Math.abs(result) > diff) {
+          diff = Math.abs(result);
+        }
       }
     }
 
