@@ -2067,7 +2067,7 @@ function calculateStars(inputStrokes, modelStrokes, matches, strokeValidResults,
       if (0.75 <= result) { ++tier3; }
       else if (0.50 <= result && result < 0.75) { ++tier2; }
       else if (0.25 <= result && result < 0.50) { ++tier1; }
-      else if (result < 0.0) { ++tier0; }
+      else if (result < 0.25) { ++tier0; }
     }
 
     if (tier3 === numResults) {
